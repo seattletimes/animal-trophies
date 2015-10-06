@@ -8,7 +8,7 @@
 @import "seattletimes";
 
 body {
-  max-width: 630px;
+  max-width: 960px;
   font-size: 16px;
   font-family: @df-sans;
 }
@@ -35,12 +35,16 @@ body {
   cursor: pointer;
 
   &.selected, &:hover {
-    background: @df-blue;
+    background: @df-dark-gray;
+  }
+
+  &.selected {
+    font-weight: bold;
   }
 }
 
 .month-group {
-  width: 50%;
+  width: 33%;
   padding: 10px;
   display: inline-block;
 }
@@ -51,12 +55,24 @@ body {
 
 .box {
   background: @df-light-gray;
-  height: 8px;
+  height: 12px;
   float: left;
   width: 16px;
   margin: 1px;
+}
 
-  &.trophy {
-    background: @st-dark-red;
+.trophies {
+  .selected, .tro {
+    background: @st-dark-orange;
+  }
+}
+
+.protected {
+  .selected, .elephant, .rhinoceros, .tiger, .lion, .leopard, .cheetah, .marine-turtle, .shark, .ray, .pangolin {
+    background: @st-dark-purple;
+  }
+
+  .pangolin {
+    background: red;
   }
 }

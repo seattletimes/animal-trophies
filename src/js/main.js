@@ -13,7 +13,7 @@ app.controller("animalController", ["$scope", "$http", function($scope, $http) {
     url: './assets/groupedData.json'
   }).then(function successCallback(response) {
     $scope.monthGroups = response.data;
-    console.log(response.data)
   });
 
+  $scope.filter = "trophies";
 }]);

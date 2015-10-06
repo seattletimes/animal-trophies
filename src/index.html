@@ -14,11 +14,22 @@
 
       <div ng-controller="animalController" ng-cloak>
 
+        <div class="title">Title goes here</div>
+
         <div class="loading" ng-if="!monthGroups">Loading...</div>
+
+        <div class="toggle-box">
+          Viewing:
+          <div class="toggle selected">Trophies</div>
+          <div class="toggle">Protected</div>
+          <div class="toggle">All</div>
+        </div>
 
         <div class="month-group" ng-repeat="group in monthGroups">
           <div class="month">{{group.monthName}}</div>
-          <div class="box" ng-repeat="shipment in group.shipments" ng-class="{trophy: shipment.category == 'TRO'}"></div>
+          <div class="box" ng-repeat="shipment in group.shipments" ng-class="{
+              trophy: shipment.category == 'TRO'
+            }"></div>
         </div>
 
       </div>

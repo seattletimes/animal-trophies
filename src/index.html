@@ -8,8 +8,12 @@
         };
       groupedData[row["control_number"]].components.push(row);
     });
+    var array = [];
+    for (var group in groupedData) {
+      array.push(groupedData[group]);
+    }
   %>
-  var groupedData = <%= JSON.stringify(groupedData) %>
+  var arrayedData = <%= JSON.stringify(array) %>
 </script>
 
 <!doctype html>
@@ -21,12 +25,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <%= t.include("partials/_head.html") %>
   </head>
-  <body>
+  <body ng-app="animal-shipments">
 
     <responsive-child>
-      <% for (var shipment in groupedData) { %>
-        <div class="box"></div>
-      <% }; %>
+
+      <div ng-controller="animalController">
+        <div class="box" ng-repeat="shipment in shipments"></div>
+      </div>
+
     </responsive-child>
 
     <script src="app.js" async></script>

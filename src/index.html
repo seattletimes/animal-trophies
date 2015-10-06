@@ -1,27 +1,10 @@
-<script>
-  <% 
-    var groupedData = {};
-    csv.animalData.forEach(function(row) {
-      if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
-          shipDate: row["ship_date"],
-          components: []
-        };
-      groupedData[row["control_number"]].components.push(row);
-    });
-    var array = [];
-    for (var group in groupedData) {
-      array.push(groupedData[group]);
-    }
-  %>
-  var arrayedData = <%= JSON.stringify(array) %>
-</script>
-
 <!doctype html>
 <html>
   <head>
     <title><%= json.project.title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>[ng-cloak] {display: none;}</style>
     <link rel="stylesheet" type="text/css" href="style.css">
     <%= t.include("partials/_head.html") %>
   </head>
@@ -29,8 +12,15 @@
 
     <responsive-child>
 
-      <div ng-controller="animalController">
-        <div class="box" ng-repeat="shipment in shipments"></div>
+      <div ng-controller="animalController" ng-cloak>
+        <div class="loading" ng-if="!monthGroups">Loading...</div>
+        <div ng-repeat="group in monthGroups">
+          <div>
+            <div class="month">{{group.month}}</div>
+            <div class="box" ng-repeat="shipment in group.shipments"></div>
+          </div>
+        </div>
+
       </div>
 
     </responsive-child>

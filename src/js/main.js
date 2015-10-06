@@ -7,6 +7,13 @@ require("angular");
 
 var app = angular.module("animal-shipments", []);
 
-app.controller("animalController", ["$scope", function($scope) {
-  $scope.shipments = arrayedData;
+app.controller("animalController", ["$scope", "$http", function($scope, $http) {
+  $http({
+    method: 'GET',
+    url: './assets/groupedData.json'
+  }).then(function successCallback(response) {
+    $scope.monthGroups = response.data;
+    console.log(response.data)
+  });
+
 }]);

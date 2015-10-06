@@ -1,0 +1,38 @@
+<script>
+  <% 
+    var groupedData = {};
+    csv.animalData.forEach(function(row) {
+      if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
+          shipDate: row["ship_date"],
+          components: []
+        };
+      groupedData[row["control_number"]].components.push(row);
+    });
+  %>
+  var groupedData = <%= JSON.stringify(groupedData) %>
+</script>
+
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+      <% for (var shipment in groupedData) { %>
+        <div class="box"></div>
+      <% }; %>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

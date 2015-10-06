@@ -21,25 +21,33 @@ module.exports = function(grunt) {
     grunt.task.requires("csv");
 
     var groupedData = {};
+
     grunt.data.csv.animalData.forEach(function(row) {
+
+      // create new shipment group
       if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
           month: row["ship_date"].split("-")[1],
-          day: row["ship_date"].split("-")[2],
+          category: row.category,
           components: [] 
         };
+
+      // add sub-shipment to shipment group
       groupedData[row["control_number"]].components.push(row);
     });
-    var byMonth = {};
-    for (var group in groupedData) {
 
+    var byMonth = {};
+
+    for (var group in groupedData) {
       var month = Number(groupedData[group].month);
 
+      // create new month group
       if (!byMonth[month]) { 
         byMonth[month] = {
-          monthName: monthNames[month],
+          monthName: monthNames[month]
           shipments: [] 
         };
       }
+      // add shipment to month group
       byMonth[month].shipments.push(groupedData[group]);  
     }
 

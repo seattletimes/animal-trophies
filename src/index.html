@@ -13,10 +13,12 @@
     <responsive-child>
 
       <div ng-controller="animalController" ng-cloak>
+
         <div class="loading" ng-if="!monthGroups">Loading...</div>
+
         <div class="month-group" ng-repeat="group in monthGroups">
           <div class="month">{{group.monthName}}</div>
-          <div class="box" ng-repeat="shipment in group.shipments"></div>
+          <div class="box" ng-repeat="shipment in group.shipments" ng-class="{trophy: shipment.category == 'TRO'}"></div>
         </div>
 
       </div>

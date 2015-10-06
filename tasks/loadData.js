@@ -1,3 +1,19 @@
+var monthNames = [
+  "",
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+]
+
 module.exports = function(grunt) {
 
   grunt.registerTask("data", "Load data", function() {
@@ -15,13 +31,27 @@ module.exports = function(grunt) {
     });
     var byMonth = {};
     for (var group in groupedData) {
-      if (!byMonth[groupedData[group].month]) byMonth[groupedData[group].month] = {
-          month: groupedData[group].month,
+
+      var month = Number(groupedData[group].month);
+
+      if (!byMonth[month]) { 
+        byMonth[month] = {
+          monthName: monthNames[month],
           shipments: [] 
         };
-      byMonth[groupedData[group].month].shipments.push(groupedData[group]);
+      }
+      byMonth[month].shipments.push(groupedData[group]);  
     }
-    grunt.file.write("src/assets/groupedData.json", JSON.stringify(byMonth));
+
+    var keys = Object.keys(byMonth).map(Number);
+
+      keys.sort();
+      var sorted = {};
+      keys.forEach(function(key) {
+        sorted[key] = byMonth[key];
+      });
+
+    grunt.file.write("src/assets/groupedData.json", JSON.stringify(sorted));
   });
 
 };

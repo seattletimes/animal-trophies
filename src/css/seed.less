@@ -55,7 +55,7 @@ body {
 
 .box {
   background: @df-light-gray;
-  height: 12px;
+  height: 8px;
   float: left;
   width: 16px;
   margin: 1px;
@@ -72,18 +72,25 @@ body {
 }
 
 .tooltip {
+  min-width: 300px;
   background: white;
   display: none;
   position: absolute;
   left: 25px;
   top: 6px;
   z-index: 99;
-  padding: 10px;
-  font-size: 14px;
+  font-size: 12px;
   border: 1px solid @df-border-gray;
 
   .component {
     border-bottom: 1px solid @df-light-gray;
+    padding: 10px 15px;
+
+    .name {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
   }
 }
 

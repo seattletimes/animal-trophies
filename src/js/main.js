@@ -16,7 +16,4 @@ app.controller("animalController", ["$scope", "$http", function($scope, $http) {
   });
 
   $scope.filter = "trophies";
-  // $scope.showTooltip = function(shipment) {
-  //   $scope.tooltip = shipment;
-  // };
 }]);

@@ -46,6 +46,8 @@ module.exports = function(grunt) {
       };
 
       // add sub-shipment to shipment group
+      row["specific_name"] = row["specific_name"].capitalize();
+      row["generic_name"] = row["generic_name"].capitalize();
       groupedData[row["control_number"]].components.push(row);
 
     });

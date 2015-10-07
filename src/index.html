@@ -29,9 +29,9 @@
           <div class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments">
             <div class="tooltip">
               <div class="component" ng-repeat="s in shipment.components">
-                <div>{{s["generic_name"]}} ({{s.species}} {{s.genus}})</div>
-                <div>{{s.category}}</div>
-                <div>{{s.qty}} ({{s.unit}})</div>
+                <span class="name">{{s["specific_name"]}} {{s["generic_name"]}} ({{s.category}})</span>
+                <div>Quantity: {{s.qty}} <span ng-if="s.unit !== 'NO'">({{s.unit}})</span></div>
+                <div></div>
                 <div>From {{s.origin}} to {{s.dest}}</div>
                 <div>{{s["ship_date"]}}</div>
               </div>

@@ -27,6 +27,7 @@ module.exports = function(grunt) {
       // create new shipment group
       if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
         month: row["ship_date"].split("-")[1],
+        day: row["ship_date"].split("-")[2],
         animals: [],
         categories: [],
         components: [] 
@@ -68,13 +69,19 @@ module.exports = function(grunt) {
       byMonth[month].shipments.push(groupedData[group]);  
     }
 
-    var keys = Object.keys(byMonth).map(Number);
-
-      keys.sort();
-      var sorted = {};
-      keys.forEach(function(key) {
-        sorted[key] = byMonth[key];
+    for (var month in byMonth) {
+      byMonth[month].shipments.sort(function(a,b) {
+        return a.day - b.day;
       });
+    }
+
+    // sort months
+    var keys = Object.keys(byMonth).map(Number);
+    keys.sort();
+    var sorted = {};
+    keys.forEach(function(key) {
+      sorted[key] = byMonth[key];
+    });
 
     grunt.file.write("src/assets/groupedData.json", JSON.stringify(sorted));
   });

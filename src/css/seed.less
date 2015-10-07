@@ -59,17 +59,58 @@ body {
   float: left;
   width: 16px;
   margin: 1px;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    background: darken(@df-light-gray, 30%);
+
+    .tooltip {
+      display: block;
+    }
+  }
+}
+
+.tooltip {
+  background: white;
+  display: none;
+  position: absolute;
+  left: 25px;
+  top: 6px;
+  z-index: 99;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid @df-border-gray;
+
+  .component {
+    border-bottom: 1px solid @df-light-gray;
+  }
 }
 
 .trophies {
-  .selected, .tro {
+  .selected {
     background: @st-dark-orange;
+  }
+
+  .tro {
+    background: @st-dark-orange;
+
+    &:hover {
+      background: darken(@st-dark-orange, 30%);
+    }
   }
 }
 
 .protected {
-  .selected, .elephant, .rhinoceros, .tiger, .lion, .leopard, .cheetah, .marine-turtle, .shark, .ray, .pangolin {
+  .selected {
     background: @st-dark-purple;
+  }
+  .elephant, .rhinoceros, .tiger, .lion, .leopard, .cheetah, .marine-turtle, .shark, .ray, .pangolin {
+    background: @st-dark-purple;
+
+    &:hover {
+      background: darken(@st-dark-purple, 30%);
+    }
   }
 
   .pangolin {

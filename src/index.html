@@ -26,7 +26,16 @@
 
         <div class="month-group" ng-repeat="group in monthGroups">
           <div class="month">{{group.monthName}}</div>
-          <div class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments"></div>
+          <div class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments">
+            <div class="tooltip">
+              <div class="component" ng-repeat="s in shipment.components">
+                <div>{{s["generic_name"]}} ({{s.species}} {{s.genus}})</div>
+                <div>{{s.category}}</div>
+                <div>{{s.qty}} ({{s.unit}})</div>
+                <div>From {{s.origin}} to {{s.dest}}</div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>

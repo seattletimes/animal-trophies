@@ -12,7 +12,7 @@ var monthNames = [
   "October",
   "November",
   "December"
-]
+];
 
 var categoryLookup = {
   "BAL": "baleen",
@@ -109,7 +109,7 @@ var categoryLookup = {
   "WAX": "wax, ambergris",
   "WNG": "wing",
   "WPR": "wood product"
-}
+};
 
 module.exports = function(grunt) {
 
@@ -123,8 +123,8 @@ module.exports = function(grunt) {
 
       // create new shipment group
       if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
-        month: row["ship_date"].split("-")[1],
-        day: row["ship_date"].split("-")[2],
+        month: row["ship_date"].split("/")[0],
+        day: row["ship_date"].split("/")[1],
         animals: [],
         categories: [],
         components: [] 
@@ -151,6 +151,7 @@ module.exports = function(grunt) {
     var byMonth = {};
 
     for (var group in groupedData) {
+
       groupedData[group].animals = groupedData[group].animals.join(" ");
       groupedData[group].categories = groupedData[group].categories.join(" ");
 

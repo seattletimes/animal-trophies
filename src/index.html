@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>[ng-cloak] {display: none;}</style>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <%= t.include("partials/_head.html") %>
   </head>
   <body ng-app="animal-shipments">
@@ -16,16 +17,17 @@
 
         <div class="title">Title goes here</div>
 
-        <div class="loading" ng-if="!monthGroups">Loading...</div>
-
         <div class="toggle-box">
           Viewing:
-          <div ng-click="filter = 'trophies'" class="toggle" ng-class="{selected: filter == 'trophies'}">Trophies</div>
-          <div ng-click="filter = 'protected'" class="toggle" ng-class="{selected: filter == 'protected'}">Protected</div>
+          <div ng-click="filter = 'trophies'" class="toggle" ng-class="{selected: filter == 'trophies'}">All Trophies</div>
+          <div ng-click="filter = 'bigfive'" class="toggle" ng-class="{selected: filter == 'bigfive'}">"Big Five"</div>
+          <div ng-click="filter = 'pai'" class="toggle" ng-class="{selected: filter == 'pai'}">Proposed</div>
         </div>
 
+        <div class="loading" ng-if="!monthGroups"><i class="fa fa-spinner fa-spin"></i> Loading...</div>
+
         <div class="month-group" ng-repeat="group in monthGroups">
-          <div class="month">{{group.monthName}}</div>
+          <div class="month">{{group.monthName}} ({{group.shipments.length}} shipments)</div>
           <div class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments">
             <div class="tooltip">
               <div class="component" ng-repeat="s in shipment.components">

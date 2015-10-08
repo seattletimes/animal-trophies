@@ -138,8 +138,10 @@ module.exports = function(grunt) {
 
       // add animal to shipment group
       var animal = row["generic_name"].toLowerCase().replace(" ", "-");
+      if (animal == "buffalo" && row["specific_name"].toLowerCase() == "african") animal = "african-buffalo";
       if (groupedData[row["control_number"]].animals.indexOf(animal) == -1) {
         groupedData[row["control_number"]].animals.push(animal);
+
       };
 
       // add sub-shipment to shipment group

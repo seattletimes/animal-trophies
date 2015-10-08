@@ -20,6 +20,12 @@ body {
   padding-bottom: 1px;
 }
 
+.loading {
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+}
+
 .toggle-box {
   text-align: center;
 }
@@ -114,7 +120,20 @@ body {
   }
 }
 
-.protected {
+.bigfive {
+  .selected {
+    background: @st-dark-red;
+  }
+  .tro.elephant, .tro.rhinoceros, .tro.african-buffalo, .tro.lion, .tro.leopard {
+    background: @st-dark-red;
+
+    &:hover {
+      background: darken(@st-dark-red, 30%);
+    }
+  }
+}
+
+.pai {
   .selected {
     background: @st-dark-purple;
   }
@@ -124,9 +143,5 @@ body {
     &:hover {
       background: darken(@st-dark-purple, 30%);
     }
-  }
-
-  .pangolin {
-    background: red;
   }
 }

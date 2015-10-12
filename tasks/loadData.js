@@ -14,74 +14,76 @@ var monthNames = [
   "December"
 ];
 
+var countryLookup = require("../src/assets/countryLookup.json");
+
 var categoryLookup = {
   "BAL": "baleen",
   "BAR": "bark",
   "BOC": "bone product or carving",
   "BOD": "whole dead animal",
-  "BON": "bones",
-  "BOP": "bone pieces",
-  "BUL": "bulbs, corms or tubers",
-  "CAL": "calipees, turtle cartilage",
-  "CAP": "carapaces",
-  "CAR": "carvings",
+  "BON": "bone",
+  "BOP": "bone piece",
+  "BUL": "bulb, corm or tuber",
+  "CAL": "calipee, turtle cartilage",
+  "CAP": "carapace",
+  "CAR": "carving",
   "CAV": "caviar",
-  "CHP": "timber chips",
-  "CLA": "claws, talons",
+  "CHP": "timber chip",
+  "CLA": "claw, talon",
   "CLO": "cloth",
   "COR": "coral",
-  "CPR": "coral products",
-  "CUL": "cultures of artificially propagated plants",
-  "CUT": "plant cuttings",
+  "CPR": "coral product",
+  "CUL": "culture of artificially propagated plants",
+  "CUT": "plant cutting",
   "DEA": "live specimen that died during shipment",
   "DER": "derivative",
-  "DPL": "dried plants",
+  "DPL": "dried plant",
   "EAR": "ear",
   "EGG": "egg",
-  "EGL": "live eggs",
+  "EGL": "live egg",
   "ESH": "eggshell",
-  "EXT": "extracts",
-  "FEA": "feathers",
+  "EXT": "extract",
+  "FEA": "feather",
   "FIB": "plant fiber",
-  "FIG": "fingerlings, juvenile fish",
+  "FIG": "fingerling, juvenile fish",
   "FIN": "fin",
-  "FLO": "flowers",
+  "FLO": "flower",
   "FOO": "foot",
   "FPT": "flower pot",
   "FRU": "fruit",
-  "GAB": "gall bladders",
+  "GAB": "gall bladder",
   "GAL": "gall, bile",
   "GAR": "garment",
   "GEN": "genitalia",
-  "GRS": "graft rootstocks",
+  "GRS": "graft rootstock",
   "HAI": "hair",
   "HAP": "hair product",
   "HOC": "horn carving",
-  "HOP": "horn pieces",
+  "HOP": "horn piece",
   "HOR": "whole horn",
   "IJW": "ivory jewelry",
-  "IVC": "ivory carvings",
-  "IVP": "ivory pieces",
+  "IVC": "ivory carving",
+  "IVP": "ivory piece",
   "JWL": "jewelry",
   "KEY": "ivory piano key",
-  "LEG": "frog legs",
-  "LIV": "live specimens",
-  "LOG": "wood logs",
+  "LEG": "frog leg",
+  "LIV": "live specimen",
+  "LOG": "wood log",
   "LPL": "large leather product",
   "LPS": "small leather product",
-  "LVS": "leaves",
+  "LVS": "leaf",
   "MEA": "meat",
   "MED": "medicinal part or product",
   "MUS": "musk",
   "NES": "nest",
   "OIL": "oil",
   "PIV": "piano with ivory keys",
-  "PLA": "plates of fur skins",
+  "PLA": "plate of fur skins",
   "PLY": "plywood",
   "POW": "powder",
-  "ROC": "live rock, live coral",
+  "ROC": "live rock/coral",
   "ROO": "dead root",
-  "RUG": "rugs",
+  "RUG": "rug",
   "SAW": "sawn wood",
   "SCA": "scale",
   "SDL": "seedling",
@@ -96,20 +98,29 @@ var categoryLookup = {
   "SOU": "soup",
   "SPE": "scientific or museum specimen",
   "SPR": "shell product",
-  "STE": "plant stems",
+  "STE": "plant stem",
   "SWI": "swim bladder",
-  "TAI": "tails",
-  "TEE": "teeth",
+  "TAI": "tail",
+  "TEE": "tooth",
   "TIM": "timber",
   "TRI": "trim",
   "TRO": "trophy",
-  "TUS": "tusks",
+  "TUS": "tusk",
   "UNS": "unspecified",
   "VEN": "wood veneer",
   "WAX": "wax, ambergris",
   "WNG": "wing",
   "WPR": "wood product"
 };
+
+function commafy( num ) {
+  num = num.toString();
+  if (num.length >= 4) {
+    num = num.replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+  }
+  return num;
+}
+
 
 module.exports = function(grunt) {
 
@@ -125,6 +136,7 @@ module.exports = function(grunt) {
       if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
         month: row["ship_date"].split("/")[0],
         day: row["ship_date"].split("/")[1],
+        date: row["ship_date"],
         animals: [],
         categories: [],
         components: [] 
@@ -146,6 +158,9 @@ module.exports = function(grunt) {
 
       // add sub-shipment to shipment group
       row.categoryName = categoryLookup[row.category];
+      row.countryName = countryLookup[row.origin];
+      row.qty = commafy(row.qty);
+      row.unit = row.unit.toLowerCase();
       groupedData[row["control_number"]].components.push(row);
 
     });

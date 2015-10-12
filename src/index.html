@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>[ng-cloak] {display: none;}</style>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <%= t.include("partials/_head.html") %>
   </head>
   <body ng-app="animal-shipments">
 
-    <responsive-child>
+    <responsive-child class="outmost">
 
       <div class="{{filter}}" ng-controller="animalController" ng-cloak>
 
@@ -24,28 +23,36 @@
           <div ng-click="filter = 'pai'" class="toggle" ng-class="{selected: filter == 'pai'}">Proposed</div>
         </div>
 
-        <div class="loading" ng-if="!monthGroups"><i class="fa fa-spinner fa-spin"></i> Loading...</div>
+        <div class="loading" ng-if="!monthGroups"> Loading...</div>
 
         <div class="month-group" ng-repeat="group in monthGroups">
-          <div class="month">{{group.monthName}} ({{group.shipments.length}} shipments)</div>
+          <div class="month"><strong>{{group.monthName}}</strong> ({{group.shipments.length}} shipments):</div>
           <div class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments">
+
             <div class="tooltip">
+              <div class="header">
+                <div class="date">{{shipment.date}}</div>
+              </div>
+
               <div class="component" ng-repeat="s in shipment.components">
                 <div class="name">
                   <span ng-if="s['generic_name']">{{s["specific_name"]}} {{s["generic_name"]}} </span>
-                  <span ng-if="!s['generic_name']">-- </span>
+                  <span ng-if="!s['generic_name']">Unknown </span>
                   <span class="category">({{s.categoryName}})</span>
                 </div>
-                <div>Quantity: {{s.qty}} <span ng-if="s.unit !== 'NO'">({{s.unit}})</span></div>
-                <div></div>
-                <div>Origin: {{s.origin}}</div>
-                <div>{{s["ship_date"]}}</div>
+                <div>Origin: {{s.countryName}}</div>
+                <div>Quantity: {{s.qty}} <span ng-if="s.unit !== 'no'">({{s.unit}})</span></div>
+             
               </div>
             </div>
+
           </div>
         </div>
 
       </div>
+
+      <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
+      <div class="credit">AUDREY CARLSEN / THE SEATTLE TIMES</div>
 
     </responsive-child>
 

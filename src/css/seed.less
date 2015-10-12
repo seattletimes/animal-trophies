@@ -26,7 +26,12 @@ body {
   font-weight: bold;
   font-size: 28px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.chatter {
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .loading {
@@ -57,16 +62,40 @@ body {
   &.selected {
     font-weight: bold;
   }
+
+  @media @mobile {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 8px 10px 6px 10px;
+    width: 100px;
+  }
 }
 
 .month-group {
   width: 33%;
   padding: 10px;
   display: inline-block;
+  font-size: 13px;
+
+  @media @tablet {
+    width: 50%;
+  }
+
+  @media @mobile {
+    width: 100%;
+  }
 }
 
 .month {
   clear: both;
+  padding-bottom: 3px;
+}
+
+.month-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .box {
@@ -79,7 +108,7 @@ body {
   position: relative;
 
   &:hover {
-    background: darekn(@gray, 10%);
+    background: darken(@gray, 10%);
 
     .tooltip {
       display: block;
@@ -88,7 +117,7 @@ body {
 }
 
 .tooltip {
-  min-width: 300px;
+  min-width: 200px;
   border-radius: 3px;
   background: white;
   display: none;
@@ -99,15 +128,27 @@ body {
   font-size: 12px;
   border: 1px solid @df-border-gray;
 
+  &.flipped {
+    left: auto;
+    right: 25px;
+  }
+
   .header {
     background: darken(@gray, 40%);
     color: white;
     padding: 5px 15px;
   }
 
-  .component {
+  .components {
     padding: 10px 15px;
-    border-bottom: 1px solid @df-light-gray;
+  }
+
+  .component {
+    padding-bottom: 8px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
 
     .name {
       font-weight: bold;

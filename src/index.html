@@ -15,9 +15,10 @@
       <div class="{{filter}}" ng-controller="animalController" ng-cloak>
 
         <div class="title">Title goes here</div>
+        <div class="chatter">Every wildlife shipment through the port of Seattle in 2014:</div>
 
         <div class="toggle-box">
-          Viewing:
+          Highlighted:
           <div ng-click="filter = 'trophies'" class="toggle" ng-class="{selected: filter == 'trophies'}">All Trophies</div>
           <div ng-click="filter = 'bigfive'" class="toggle" ng-class="{selected: filter == 'bigfive'}">"Big Five"</div>
           <div ng-click="filter = 'pai'" class="toggle" ng-class="{selected: filter == 'pai'}">Proposed</div>
@@ -26,23 +27,23 @@
         <div class="loading" ng-if="!monthGroups"> Loading...</div>
 
         <div class="month-group" ng-repeat="group in monthGroups">
-          <div class="month"><strong>{{group.monthName}}</strong> ({{group.shipments.length}} shipments):</div>
-          <div class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments">
+          <div class="month"><span class="month-name">{{group.monthName}}</span> ({{group.shipments.length}} shipments):</div>
+          <div flip-tip class="box {{::shipment.categories}} {{::shipment.animals}}" ng-repeat="shipment in group.shipments">
 
             <div class="tooltip">
               <div class="header">
                 <div class="date">{{shipment.date}}</div>
               </div>
 
-              <div class="component" ng-repeat="s in shipment.components">
-                <div class="name">
-                  <span ng-if="s['generic_name']">{{s["specific_name"]}} {{s["generic_name"]}} </span>
-                  <span ng-if="!s['generic_name']">Unknown </span>
-                  <span class="category" ng-if="s.categoryName">({{s.categoryName}})</span>
+              <div class="components">
+                <div class="component" ng-repeat="s in shipment.components">
+                  <div class="name">
+                    <span ng-if="s['generic_name']">{{s["specific_name"]}} {{s["generic_name"]}} </span>
+                    <span ng-if="!s['generic_name']">Unknown </span>
+                    <span class="category" ng-if="s.categoryName">({{s.categoryName}})</span>
+                  </div>
+                  <div>{{s.qty}}<span ng-if="s.unit !== 'no'"> {{s.unit}}</span> from {{s.countryName}}</div>
                 </div>
-                <div>Origin: {{s.countryName}}</div>
-                <div>Quantity: {{s.qty}} <span ng-if="s.unit !== 'no'">({{s.unit}})</span></div>
-             
               </div>
             </div>
 

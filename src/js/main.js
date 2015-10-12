@@ -17,3 +17,22 @@ app.controller("animalController", ["$scope", "$http", function($scope, $http) {
 
   $scope.filter = "trophies";
 }]);
+
+app.directive("flipTip", function() {
+  return {
+    restrict: "A",
+    link: function(scope, element) {
+      var el = element[0];
+      element.on("mouseenter click", function() {
+        var bounds = el.getBoundingClientRect();
+        var flipped = bounds.left > window.innerWidth / 2;
+        var tooltip  = el.querySelector(".tooltip");
+        if (flipped) {
+          tooltip.classList.add("flipped");
+        } else {
+          tooltip.classList.remove("flipped");
+        }
+      })
+    }
+  }
+});

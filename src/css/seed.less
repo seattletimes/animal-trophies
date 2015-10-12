@@ -7,6 +7,8 @@
 
 @import "seattletimes";
 
+@gray: #b3a89e;
+
 body {
   max-width: 960px;
   font-size: 16px;
@@ -24,7 +26,7 @@ body {
   font-weight: bold;
   font-size: 28px;
   text-align: center;
-  padding-bottom: 1px;
+  padding-bottom: 10px;
 }
 
 .loading {
@@ -35,10 +37,11 @@ body {
 
 .toggle-box {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .toggle {
-  background: @df-middle-gray;
+  background: darken(@gray, 18%);
   display: inline-block;
   padding: 5px 10px 4px 10px;
   color: white;
@@ -48,7 +51,7 @@ body {
   cursor: pointer;
 
   &.selected, &:hover {
-    background: @df-dark-gray;
+    background: darken(@gray, 40%);
   }
 
   &.selected {
@@ -67,7 +70,7 @@ body {
 }
 
 .box {
-  background: lighten(@st-light-green, 15%);
+  background: lighten(@gray, 15%);
   height: 8px;
   float: left;
   width: 16px;
@@ -76,7 +79,7 @@ body {
   position: relative;
 
   &:hover {
-    background: @st-dark-green;
+    background: darekn(@gray, 10%);
 
     .tooltip {
       display: block;
@@ -97,7 +100,7 @@ body {
   border: 1px solid @df-border-gray;
 
   .header {
-    background: @df-dark-gray;
+    background: darken(@gray, 40%);
     color: white;
     padding: 5px 15px;
   }
@@ -122,40 +125,40 @@ body {
 
 .trophies {
   .selected {
-    background: @st-dark-orange;
+    background: #da2128;
   }
 
   .tro {
-    background: @st-dark-orange;
+    background: #da2128;
 
     &:hover {
-      background: darken(@st-dark-orange, 30%);
+      background: darken(#da2128, 30%);
     }
   }
 }
 
 .bigfive {
   .selected {
-    background: @st-dark-red;
+    background: #f36f21;
   }
   .tro.elephant, .tro.rhinoceros, .tro.african-buffalo, .tro.lion, .tro.leopard {
-    background: @st-dark-red;
+    background: #f36f21;
 
     &:hover {
-      background: darken(@st-dark-red, 30%);
+      background: darken(#f36f21, 30%);
     }
   }
 }
 
 .pai {
   .selected {
-    background: @st-dark-purple;
+    background: #524fa2;
   }
   .elephant, .rhinoceros, .tiger, .lion, .leopard, .cheetah, .marine-turtle, .shark, .ray, .pangolin {
-    background: @st-dark-purple;
+    background: #524fa2;
 
     &:hover {
-      background: darken(@st-dark-purple, 30%);
+      background: darken(#524fa2, 30%);
     }
   }
 }

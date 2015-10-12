@@ -38,7 +38,7 @@
                 <div class="name">
                   <span ng-if="s['generic_name']">{{s["specific_name"]}} {{s["generic_name"]}} </span>
                   <span ng-if="!s['generic_name']">Unknown </span>
-                  <span class="category">({{s.categoryName}})</span>
+                  <span class="category" ng-if="s.categoryName">({{s.categoryName}})</span>
                 </div>
                 <div>Origin: {{s.countryName}}</div>
                 <div>Quantity: {{s.qty}} <span ng-if="s.unit !== 'no'">({{s.unit}})</span></div>
@@ -52,7 +52,7 @@
       </div>
 
       <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
-      <div class="credit">AUDREY CARLSEN / THE SEATTLE TIMES</div>
+      <div class="credit">AUDREY CARLSEN AND THOMAS WILBURN / THE SEATTLE TIMES</div>
 
     </responsive-child>
 

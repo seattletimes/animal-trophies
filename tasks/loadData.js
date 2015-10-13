@@ -121,44 +121,40 @@ module.exports = function(grunt) {
 
     var groupedData = {};
 
-    grunt.data.csv.animalData.forEach(function(row) {
+    grunt.data.csv.shipmentDetails.forEach(function(row) {
 
       // create new shipment group
       if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
-        month: row["ship_date"].split("/")[0],
-        day: row["ship_date"].split("/")[1],
-        date: row["ship_date"],
-        animals: [],
-        categories: [],
+        month: row.disp_date.split("/")[0],
+        day: row.disp_date.split("/")[1],
+        date: row.disp_date,
+        combined: [],
         components: [] 
       };
 
-      // add category to shipment group
+      // add animal/category to shipment group
       var category = row.category.toLowerCase().replace(" ", "-");
-      if (groupedData[row.control_number].categories.indexOf(category) == -1) {
-        groupedData[row.control_number].categories.push(category);
-      };
-
-      // add animal to shipment group
-      var animal = row.generic_name.toLowerCase().replace(" ", "-");
-      if (animal == "buffalo" && row.specific_name.toLowerCase() == "african") animal = "african-buffalo";
-      if (groupedData[row.control_number].animals.indexOf(animal) == -1) {
-        groupedData[row.control_number].animals.push(animal);
-
+      var animal = row.generic.toLowerCase().replace(" ", "-");
+      if (animal == "buffalo" && row.specific.toLowerCase() == "african") animal = "african-buffalo";
+      var combined = category + "-" + animal;
+      if (groupedData[row.control_number].combined.indexOf(combined) == -1) {
+        groupedData[row.control_number].combined.push(combined);
       };
 
       // add sub-shipment to shipment group
       row.categoryName = categoryLookup[row.category];
       row.countryName = countryLookup[row.origin];
       row.unit = row.unit.toLowerCase();
+      delete row.species;
+      delete row.genus;
 
       var repeated = false;
       groupedData[row.control_number].components.forEach(function(component) {
         if (
-          component.categoryName == row.categoryName &&
-          component.countryName == row.countryName &&
-          component.generic_name == row.generic_name &&
-          component.specific_name == row.specific_name &&
+          component.category == row.category &&
+          component.country == row.country &&
+          component.generic == row.generic &&
+          component.specific == row.specific &&
           component.unit == row.unit
         ) {
           repeated = true;
@@ -174,8 +170,7 @@ module.exports = function(grunt) {
 
     for (var group in groupedData) {
 
-      groupedData[group].animals = groupedData[group].animals.join(" ");
-      groupedData[group].categories = groupedData[group].categories.join(" ");
+      groupedData[group].combined = groupedData[group].combined.join(" ");
 
       var month = Number(groupedData[group].month);
 
@@ -204,7 +199,7 @@ module.exports = function(grunt) {
       sorted[key] = byMonth[key];
     });
 
-    grunt.file.write("src/assets/groupedData.json", JSON.stringify(sorted));
+    grunt.file.write("src/assets/groupedData.json", JSON.stringify(sorted, null, 2));
   });
 
 };

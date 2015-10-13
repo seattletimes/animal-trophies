@@ -42,7 +42,7 @@
                     <span ng-if="!s['generic_name']">Unknown </span>
                     <span class="category" ng-if="s.categoryName">({{s.categoryName}})</span>
                   </div>
-                  <div>{{s.qty}}<span ng-if="s.unit !== 'no'"> {{s.unit}}</span> from {{s.countryName}}</div>
+                  <div>{{s.qty | number}}<span ng-if="s.unit !== 'no'"> {{s.unit}}</span> from {{s.countryName}}</div>
                 </div>
               </div>
             </div>

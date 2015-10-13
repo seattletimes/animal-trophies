@@ -113,15 +113,6 @@ var categoryLookup = {
   "WPR": "wood product"
 };
 
-function commafy( num ) {
-  num = num.toString();
-  if (num.length >= 4) {
-    num = num.replace(/(\d)(?=(\d{3})+$)/g, '$1,');
-  }
-  return num;
-}
-
-
 module.exports = function(grunt) {
 
   grunt.registerTask("data", "Load data", function() {
@@ -144,25 +135,39 @@ module.exports = function(grunt) {
 
       // add category to shipment group
       var category = row.category.toLowerCase().replace(" ", "-");
-      if (groupedData[row["control_number"]].categories.indexOf(category) == -1) {
-        groupedData[row["control_number"]].categories.push(category);
+      if (groupedData[row.control_number].categories.indexOf(category) == -1) {
+        groupedData[row.control_number].categories.push(category);
       };
 
       // add animal to shipment group
-      var animal = row["generic_name"].toLowerCase().replace(" ", "-");
-      if (animal == "buffalo" && row["specific_name"].toLowerCase() == "african") animal = "african-buffalo";
-      if (groupedData[row["control_number"]].animals.indexOf(animal) == -1) {
-        groupedData[row["control_number"]].animals.push(animal);
+      var animal = row.generic_name.toLowerCase().replace(" ", "-");
+      if (animal == "buffalo" && row.specific_name.toLowerCase() == "african") animal = "african-buffalo";
+      if (groupedData[row.control_number].animals.indexOf(animal) == -1) {
+        groupedData[row.control_number].animals.push(animal);
 
       };
 
       // add sub-shipment to shipment group
       row.categoryName = categoryLookup[row.category];
       row.countryName = countryLookup[row.origin];
-      row.qty = commafy(row.qty);
       row.unit = row.unit.toLowerCase();
-      groupedData[row["control_number"]].components.push(row);
 
+      var repeated = false;
+      groupedData[row.control_number].components.forEach(function(component) {
+        if (
+          component.categoryName == row.categoryName &&
+          component.countryName == row.countryName &&
+          component.generic_name == row.generic_name &&
+          component.specific_name == row.specific_name &&
+          component.unit == row.unit
+        ) {
+          repeated = true;
+          component.qty += row.qty;
+        }
+      });
+      if (!repeated) {
+        groupedData[row.control_number].components.push(row);
+      }
     });
 
     var byMonth = {};

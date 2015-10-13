@@ -19,9 +19,9 @@
 
         <div class="toggle-box">
           Highlighted:
-          <div ng-click="filter = 'trophies'" class="toggle" ng-class="{selected: filter == 'trophies'}">All Trophies</div>
-          <div ng-click="filter = 'bigfive'" class="toggle" ng-class="{selected: filter == 'bigfive'}">"Big Five"</div>
-          <div ng-click="filter = 'pai'" class="toggle" ng-class="{selected: filter == 'pai'}">Proposed</div>
+          <div ng-click="filter = 'trophies'" class="trophies toggle" ng-class="{selected: filter == 'trophies'}">All Trophies</div>
+          <div ng-click="filter = 'bigfive'" class="bigfive toggle" ng-class="{selected: filter == 'bigfive'}">"Big Five"</div>
+          <div ng-click="filter = 'pai'" class="pai toggle" ng-class="{selected: filter == 'pai'}">Proposed</div>
         </div>
 
         <div class="loading" ng-if="!monthGroups"> Loading...</div>

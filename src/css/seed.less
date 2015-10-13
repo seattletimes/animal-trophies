@@ -7,7 +7,7 @@
 
 @import "seattletimes";
 
-@gray: #b3a89e;
+@gray: lighten(#9cb5b6, 5%);
 
 body {
   max-width: 960px;
@@ -46,7 +46,7 @@ body {
 }
 
 .toggle {
-  background: darken(@gray, 18%);
+  background: @df-middle-gray;
   display: inline-block;
   padding: 5px 10px 4px 10px;
   color: white;
@@ -55,12 +55,30 @@ body {
   font-size: 11px;
   cursor: pointer;
 
-  &.selected, &:hover {
-    background: darken(@gray, 40%);
+  &.trophies {
+    background: lighten(#ed7162, 20%);
+    &.selected, &:hover {
+      background: darken(#ed7162, 5%);
+    }
   }
 
-  &.selected {
+  &.bigfive {
+    background: lighten(#fcbd7c, 5%);
+    &.selected, &:hover {
+      background: darken(#fcbd7c, 25%);
+    }
+  }
+
+  &.pai {
+    background: lighten(#57375c, 50%);
+    &.selected, &:hover {
+      background: lighten(#57375c, 15%);
+    }
+  }
+
+  &.selected, &:hover {
     font-weight: bold;
+    border: 1px solid @df-border-gray;
   }
 
   @media @mobile {
@@ -137,6 +155,10 @@ body {
     bottom: 6px;
   }
 
+  @media @mobile {
+    min-width: 150px;
+  }
+
   .header {
     background: darken(@gray, 40%);
     color: white;
@@ -145,10 +167,14 @@ body {
 
   .components {
     padding: 10px 15px;
+
+    @media @mobile {
+      padding: 6px 12px;
+    }
   }
 
   .component {
-    padding-bottom: 8px;
+    padding-bottom: 6px;
 
     &:last-child {
       padding-bottom: 0;
@@ -170,40 +196,40 @@ body {
 
 .trophies {
   .selected {
-    background: #da2128;
+    background: darken(#ed7162, 5%);
   }
 
   .tro {
-    background: #da2128;
+    background: darken(#ed7162, 5%);
 
     &:hover {
-      background: darken(#da2128, 30%);
+      background: darken(#ed7162, 30%);
     }
   }
 }
 
 .bigfive {
   .selected {
-    background: #f36f21;
+    background: darken(#fcbd7c, 25%);
   }
   .tro.elephant, .tro.rhinoceros, .tro.african-buffalo, .tro.lion, .tro.leopard {
-    background: #f36f21;
+    background: darken(#fcbd7c, 25%);
 
     &:hover {
-      background: darken(#f36f21, 30%);
+      background: darken(#fcbd7c, 50%);
     }
   }
 }
 
 .pai {
   .selected {
-    background: #524fa2;
+    background: lighten(#57375c, 15%);
   }
   .elephant, .rhinoceros, .tiger, .lion, .leopard, .cheetah, .marine-turtle, .shark, .ray, .pangolin {
-    background: #524fa2;
+    background: lighten(#57375c, 15%);
 
     &:hover {
-      background: darken(#524fa2, 30%);
+      background: darken(#57375c, 10%);
     }
   }
 }

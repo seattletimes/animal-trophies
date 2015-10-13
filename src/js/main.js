@@ -25,12 +25,19 @@ app.directive("flipTip", function() {
       var el = element[0];
       element.on("mouseenter click", function() {
         var bounds = el.getBoundingClientRect();
-        var flipped = bounds.left > window.innerWidth / 2;
+        var flippedHoriz = bounds.left > window.innerWidth / 2;
         var tooltip  = el.querySelector(".tooltip");
-        if (flipped) {
-          tooltip.classList.add("flipped");
+        if (flippedHoriz) {
+          tooltip.classList.add("flipped-horiz");
         } else {
-          tooltip.classList.remove("flipped");
+          tooltip.classList.remove("flipped-horiz");
+        }
+        var flippedVert = bounds.top > window.innerHeight / 2;
+        var tooltip  = el.querySelector(".tooltip");
+        if (flippedVert) {
+          tooltip.classList.add("flipped-vert");
+        } else {
+          tooltip.classList.remove("flipped-vert");
         }
       })
     }

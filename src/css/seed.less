@@ -117,7 +117,7 @@ body {
 }
 
 .tooltip {
-  min-width: 200px;
+  min-width: 225px;
   border-radius: 3px;
   background: white;
   display: none;
@@ -128,9 +128,13 @@ body {
   font-size: 12px;
   border: 1px solid @df-border-gray;
 
-  &.flipped {
+  &.flipped-horiz {
     left: auto;
     right: 25px;
+  }
+  &.flipped-vert {
+    top: auto;
+    bottom: 6px;
   }
 
   .header {

@@ -12,42 +12,23 @@
 
     <responsive-child class="outmost">
 
-      <div class="{{filter}}" ng-controller="animalController" ng-cloak>
+      <div class="interactive" data-filter="trophies">
 
         <div class="title">Title goes here</div>
         <div class="chatter">Every wildlife shipment through the port of Seattle in 2014:</div>
 
         <div class="toggle-box">
-          Highlighted:
-          <div ng-click="filter = 'trophies'" class="trophies toggle" ng-class="{selected: filter == 'trophies'}">All Trophies</div>
-          <div ng-click="filter = 'bigfive'" class="bigfive toggle" ng-class="{selected: filter == 'bigfive'}">"Big Five"</div>
-          <div ng-click="filter = 'pai'" class="pai toggle" ng-class="{selected: filter == 'pai'}">Proposed</div>
+          <label>Highlighted:</label>
+          <div class="trophies toggle selected" data-set-filter="trophies">All Trophies</div>
+          <div class="bigfive toggle" data-set-filter="bigfive">"Big Five"</div>
+          <div class="pai toggle" data-set-filter="pai">Proposed</div>
         </div>
 
-        <div class="loading" ng-if="!monthGroups"> Loading...</div>
+        <div class="calendar"></div>
 
-        <div class="month-group" ng-repeat="group in monthGroups">
-          <div class="month"><span class="month-name">{{::group.monthName}}</span> ({{::group.shipments.length}} shipments):</div>
-          <div flip-tip class="box {{::shipment.combined}}" ng-repeat="shipment in group.shipments">
-
-            <div class="tooltip">
-              <div class="header">
-                <div class="date">{{::shipment.date}}</div>
-              </div>
-
-              <div class="components">
-                <div class="component" ng-repeat="s in shipment.components">
-                  <div class="name">
-                    <span ng-if="s.generic">{{::s.specific}} {{::s.generic}} </span>
-                    <span ng-if="!s.generic">Unknown </span>
-                    <span class="category" ng-if="s.categoryName">({{::s.categoryName}})</span>
-                  </div>
-                  <div>{{::s.qty | number}}<span ng-if="s.unit !== 'no'"> {{::s.unit}}</span> from {{::s.countryName}}</div>
-                </div>
-              </div>
-            </div>
-
-          </div>
+        <div class="focus">
+          <div class="boxes"></div>
+          <div class="details"></div>
         </div>
 
       </div>

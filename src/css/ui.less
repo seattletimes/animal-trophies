@@ -1,0 +1,54 @@
+.toggle-box {
+  text-align: center;
+  padding-bottom: 10px;
+
+  @media @mobile {
+    label {
+      display: block;
+    }
+  }
+}
+
+.toggle {
+  background: @df-middle-gray;
+  display: inline-block;
+  padding: 5px 10px 4px 10px;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+
+  @media @mobile {
+    margin: auto;
+    margin-top: 5px;
+    padding: 8px 10px 6px 10px;
+    width: 100px;
+  }
+
+  &.trophies {
+    background: lighten(@trophy-color, 15%);
+    &.selected, &:hover {
+      background: darken(@trophy-color, 5%);
+    }
+  }
+
+  &.bigfive {
+    background: lighten(@big5-color, 5%);
+    &.selected, &:hover {
+      background: darken(@big5-color, 25%);
+    }
+  }
+
+  &.pai {
+    background: lighten(@pai-color, 50%);
+    &.selected, &:hover {
+      background: lighten(@pai-color, 15%);
+    }
+  }
+
+  &.selected, &:hover {
+    font-weight: bold;
+    border: 1px solid @df-border-gray;
+  }
+}

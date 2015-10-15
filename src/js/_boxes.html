@@ -1,0 +1,16 @@
+<% for (var m in data) { var month = data[m];%>
+<div class="month-group" data-month="<%= m %>">
+  <div class="month">
+    <span class="month-name"><%= month.monthName %></span> 
+    <span class="month-size">(<%= month.shipments.length %> shipments)</span>
+  </div>
+  <% month.shipments.forEach(function(shipment, i) { %>
+  <div class="box <%= shipment.combined %>" data-month="<%= m %>" data-index="<%= i %>">
+
+    <div class="tooltip">
+      <%= shipment.date %>
+    </div>
+  </div>
+  <% }); %>
+</div>
+<% } %>

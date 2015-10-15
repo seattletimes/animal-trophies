@@ -1,0 +1,29 @@
+<div class="header">
+  <div class="date"><%= data.date %> - <%= data.components.length %> listed items</div>
+</div>
+
+<div class="components">
+  <% data.components.forEach(function(s) { %>
+  <div class="component">
+    <div class="contents">
+      <div class="name">
+        <% if (s.generic) { %>
+        <span><%= s.specific %> <%= s.generic %> </span>
+        <% } else { %>
+        <span>Unknown </span>
+        <% } %>
+        <% if (s.categoryName) { %>
+        <span class="category">(<%= s.categoryName %>)</span>
+        <% } %>
+      </div>
+      <div class="manifest">
+        <%= commafy(s.qty) %>
+        <% if (s.unit != "no") { %>
+        <%= s.unit %>
+        <% } %>
+        from <%= s.countryName %>
+      </div>
+    </div>
+  </div>
+  <% }); %>
+</div>

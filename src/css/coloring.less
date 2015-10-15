@@ -1,0 +1,39 @@
+[data-filter=trophies] {
+  .selected {
+    background: darken(#ed7162, 5%);
+  }
+
+  [class*=tro-] {
+    background: darken(#ed7162, 5%);
+
+    &:hover {
+      background: darken(#ed7162, 30%);
+    }
+  }
+}
+
+[data-filter=bigfive] {
+  .selected {
+    background: darken(#fcbd7c, 25%);
+  }
+  .tro-elephant, .tro-rhinoceros, .tro-african-buffalo, .tro-lion, .tro-leopard {
+    background: darken(#fcbd7c, 25%);
+
+    &:hover {
+      background: darken(#fcbd7c, 50%);
+    }
+  }
+}
+
+[data-filter=pai] {
+  .selected {
+    background: lighten(#57375c, 15%);
+  }
+  [class*=-elephant], [class*=-rhinoceros], [class*=-tiger], [class*=-lion], [class*=-leopard], [class*=-cheetah], [class*=-marine-turtle], [class*=-shark], [class*=-ray], [class*=-pangolin] {
+    background: lighten(#57375c, 15%);
+
+    &:hover {
+      background: darken(#57375c, 10%);
+    }
+  }
+}

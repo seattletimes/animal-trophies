@@ -1,0 +1,57 @@
+@import "flexbox";
+
+.details {
+
+  .header {
+    background: @df-dark-gray;
+    color: white;
+    padding: 5px 15px;
+
+    .close {
+      float: right;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  .components {
+    // overflow-y: auto;
+    max-height: 400px;
+    .display-flex();
+    .flex-wrap(wrap);
+
+    @media @mobile {
+      padding: 6px 12px;
+    }
+  }
+
+  .component {
+    border-right: 1px solid @df-light-gray;
+    .flex(0 0 33%);
+
+    @media @mobile {
+      .flex(0 0 50%);
+    }
+
+    .contents {
+      padding: 10px;
+
+      @media @mobile {
+        padding: 4px;
+      }
+    }
+
+    .name {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+
+    .category {
+      font-weight: normal;
+      text-transform: lowercase;
+      font-style: italic;
+    }
+  }
+}

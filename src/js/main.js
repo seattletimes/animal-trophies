@@ -2,44 +2,65 @@
 // require("./lib/ads");
 // var track = require("./lib/tracking");
 
+var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
+
+var dot = require("./lib/dot");
 require("component-responsive-frame/child");
-require("angular");
 
-var app = angular.module("animal-shipments", []);
+var template = dot.compile(require("./_boxes.html"));
+var dialog = dot.compile(require("./_modal.html"));
 
-app.controller("animalController", ["$scope", "$http", function($scope, $http) {
-  $http({
-    method: 'GET',
-    url: './assets/groupedData.json'
-  }).then(function successCallback(response) {
-    $scope.monthGroups = response.data;
+window.commafy = function(s) {
+  return s.toLocaleString().replace(/\.0+/, "");
+};
+
+var init = function(e) {
+  var data = JSON.parse(e.target.responseText);
+
+  var calendar = document.querySelector(".calendar");
+  var focus = document.querySelector(".focus .boxes");
+  var details = document.querySelector(".focus .details");
+
+  calendar.innerHTML += template(data);;
+
+  //filtering
+  var interactive = document.querySelector(".interactive");
+  var onToggle = function() {
+    var filter = this.getAttribute("data-set-filter");
+    interactive.setAttribute("data-filter", filter);
+    document.querySelector(".toggle-box .toggle.selected").classList.remove("selected");
+    this.classList.add("selected");
+  };
+
+  qsa(".toggle-box .toggle").forEach(e => e.addEventListener("click", onToggle));
+
+  //select month
+  var setMonth = function(month) {
+    focus.innerHTML = template({ [month]: data[month] });
+    details.innerHTML = "Each square to the left represents a single shipment. Click or tap to see its contents.";
+  }
+  var onMonth = function() {
+    var month = this.getAttribute("data-month");
+    if (!month) return;
+    setMonth(month);
+  };
+
+  qsa(".calendar .month-group").forEach(el => el.addEventListener("click", onMonth));
+  setMonth(1);
+
+  //select shipment
+
+  focus.addEventListener("click", function(e) {
+    var month = e.target.getAttribute("data-month");
+    var index = e.target.getAttribute("data-index");
+    if (!month || !index) return;
+    var shipment = data[month].shipments[index];
+    details.innerHTML = dialog(shipment);
   });
 
-  $scope.filter = "trophies";
-}]);
+};
 
-app.directive("flipTip", function() {
-  return {
-    restrict: "A",
-    link: function(scope, element) {
-      var el = element[0];
-      element.on("mouseenter click", function() {
-        var bounds = el.getBoundingClientRect();
-        var flippedHoriz = bounds.left > window.innerWidth / 2;
-        var tooltip  = el.querySelector(".tooltip");
-        if (flippedHoriz) {
-          tooltip.classList.add("flipped-horiz");
-        } else {
-          tooltip.classList.remove("flipped-horiz");
-        }
-        var flippedVert = bounds.top > window.innerHeight / 2;
-        var tooltip  = el.querySelector(".tooltip");
-        if (flippedVert) {
-          tooltip.classList.add("flipped-vert");
-        } else {
-          tooltip.classList.remove("flipped-vert");
-        }
-      })
-    }
-  }
-});
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "./assets/groupedData.json");
+xhr.onload = init;
+xhr.send();

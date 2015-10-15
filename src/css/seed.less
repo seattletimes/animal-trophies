@@ -5,9 +5,17 @@
   box-sizing: border-box;
 }
 
-@import "seattletimes";
-
+@trophy-color: #ed7162;
+@big5-color: #fcbd7c;
+@pai-color: #57375c;
 @gray: lighten(#9cb5b6, 5%);
+
+@import "flexbox";
+@import "seattletimes";
+@import "ui";
+@import "calendar";
+@import "coloring";
+
 
 body {
   max-width: 960px;
@@ -32,206 +40,6 @@ body {
 .chatter {
   text-align: center;
   padding-bottom: 15px;
-}
-
-.loading {
-  text-align: center;
-  font-style: italic;
-  padding: 10px;
-}
-
-.toggle-box {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.toggle {
-  background: @df-middle-gray;
-  display: inline-block;
-  padding: 5px 10px 4px 10px;
-  color: white;
-  border-radius: 2px;
-  text-transform: uppercase;
-  font-size: 11px;
-  cursor: pointer;
-
-  &.trophies {
-    background: lighten(#ed7162, 15%);
-    &.selected, &:hover {
-      background: darken(#ed7162, 5%);
-    }
-  }
-
-  &.bigfive {
-    background: lighten(#fcbd7c, 5%);
-    &.selected, &:hover {
-      background: darken(#fcbd7c, 25%);
-    }
-  }
-
-  &.pai {
-    background: lighten(#57375c, 50%);
-    &.selected, &:hover {
-      background: lighten(#57375c, 15%);
-    }
-  }
-
-  &.selected, &:hover {
-    font-weight: bold;
-    border: 1px solid @df-border-gray;
-  }
-
-  @media @mobile {
-    display: block;
-    margin: auto;
-    margin-top: 5px;
-    padding: 8px 10px 6px 10px;
-    width: 100px;
-  }
-}
-
-.month-group {
-  width: 33%;
-  padding: 10px;
-  display: inline-block;
-  font-size: 13px;
-
-  @media @tablet {
-    width: 50%;
-  }
-
-  @media @mobile {
-    width: 100%;
-  }
-}
-
-.month {
-  clear: both;
-  padding-bottom: 3px;
-}
-
-.month-name {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 12px;
-}
-
-.box {
-  background: lighten(@gray, 15%);
-  height: 8px;
-  float: left;
-  width: 16px;
-  margin: 1px;
-  cursor: pointer;
-  position: relative;
-
-  &:hover {
-    background: darken(@gray, 10%);
-
-    .tooltip {
-      display: block;
-    }
-  }
-}
-
-.tooltip {
-  min-width: 225px;
-  border-radius: 3px;
-  background: white;
-  display: none;
-  position: absolute;
-  left: 25px;
-  top: 6px;
-  z-index: 99;
-  font-size: 12px;
-  border: 1px solid @df-border-gray;
-
-  &.flipped-horiz {
-    left: auto;
-    right: 25px;
-  }
-  &.flipped-vert {
-    top: auto;
-    bottom: 6px;
-  }
-
-  @media @mobile {
-    min-width: 150px;
-  }
-
-  .header {
-    background: @df-dark-gray;
-    color: white;
-    padding: 5px 15px;
-  }
-
-  .components {
-    padding: 10px 15px;
-
-    @media @mobile {
-      padding: 6px 12px;
-    }
-  }
-
-  .component {
-    padding-bottom: 6px;
-
-    &:last-child {
-      padding-bottom: 0;
-    }
-
-    .name {
-      font-weight: bold;
-      text-transform: uppercase;
-      font-size: 11px;
-    }
-
-    .category {
-      font-weight: normal;
-      text-transform: lowercase;
-      font-style: italic;
-    }
-  }
-}
-
-.trophies {
-  .selected {
-    background: darken(#ed7162, 5%);
-  }
-
-  [class*=tro-] {
-    background: darken(#ed7162, 5%);
-
-    &:hover {
-      background: darken(#ed7162, 30%);
-    }
-  }
-}
-
-.bigfive {
-  .selected {
-    background: darken(#fcbd7c, 25%);
-  }
-  .tro-elephant, .tro-rhinoceros, .tro-african-buffalo, .tro-lion, .tro-leopard {
-    background: darken(#fcbd7c, 25%);
-
-    &:hover {
-      background: darken(#fcbd7c, 50%);
-    }
-  }
-}
-
-.pai {
-  .selected {
-    background: lighten(#57375c, 15%);
-  }
-  [class*=-elephant], [class*=-rhinoceros], [class*=-tiger], [class*=-lion], [class*=-leopard], [class*=-cheetah], [class*=-marine-turtle], [class*=-shark], [class*=-ray], [class*=-pangolin] {
-    background: lighten(#57375c, 15%);
-
-    &:hover {
-      background: darken(#57375c, 10%);
-    }
-  }
 }
 
 .source {

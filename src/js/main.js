@@ -40,6 +40,9 @@ var init = function(e) {
     details.innerHTML = "Each square to the left represents a single shipment. Click or tap to see its contents.";
   }
   var onMonth = function() {
+    var focused = document.querySelector(".focused");
+    if (focused) focused.classList.remove("focused");
+    this.classList.add("focused");
     var month = this.getAttribute("data-month");
     if (!month) return;
     setMonth(month);

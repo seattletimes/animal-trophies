@@ -10,7 +10,7 @@
 }
 
 .toggle {
-  background: @df-middle-gray;
+  background: @df-border-gray;
   display: inline-block;
   padding: 5px 10px 4px 10px;
   color: white;
@@ -27,21 +27,18 @@
   }
 
   &.trophies {
-    background: lighten(@trophy-color, 15%);
     &.selected, &:hover {
       background: darken(@trophy-color, 5%);
     }
   }
 
   &.bigfive {
-    background: lighten(@big5-color, 5%);
     &.selected, &:hover {
       background: darken(@big5-color, 25%);
     }
   }
 
   &.pai {
-    background: lighten(@pai-color, 50%);
     &.selected, &:hover {
       background: lighten(@pai-color, 15%);
     }
@@ -49,6 +46,6 @@
 
   &.selected, &:hover {
     font-weight: bold;
-    border: 1px solid @df-border-gray;
+    // border: 1px solid @df-border-gray;
   }
 }

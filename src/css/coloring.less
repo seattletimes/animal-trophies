@@ -1,39 +1,52 @@
 [data-filter=trophies] {
-  .selected {
-    background: darken(#ed7162, 5%);
-  }
+  // .selected {
+  //   background: darken(#ed7162, 5%);
+  // }
 
   [class*=tro-] {
-    background: darken(#ed7162, 5%);
+    background: darken(#fcbd7c, 5%);
 
-    &:hover {
-      background: darken(#ed7162, 30%);
-    }
+    // &:hover, &.clicked {
+    //   background: darken(#fcbd7c, 45%);
+    //   border: 2px solid @df-middle-gray;
+    // }
   }
-}
 
-[data-filter=bigfive] {
-  .selected {
-    background: darken(#fcbd7c, 25%);
-  }
   .tro-elephant, .tro-rhinoceros, .tro-african-buffalo, .tro-lion, .tro-leopard {
-    background: darken(#fcbd7c, 25%);
+    background: darken(#ed7162, 0%);
 
-    &:hover {
-      background: darken(#fcbd7c, 50%);
-    }
+    // &:hover, &.clicked {
+    //   background: darken(#ed7162, 35%);
+    //   border: 2px solid @df-middle-gray;
+    // }
   }
 }
+
+// [data-filter=bigfive] {
+//   .selected {
+//     background: darken(#fcbd7c, 25%);
+//   }
+//   .tro-elephant, .tro-rhinoceros, .tro-african-buffalo, .tro-lion, .tro-leopard {
+//     background: darken(#fcbd7c, 25%);
+
+//     &:hover, &.clicked {
+//       background: darken(#fcbd7c, 45%);
+//       border: 2px solid @df-middle-gray;
+//     }
+//   }
+// }
 
 [data-filter=pai] {
-  .selected {
-    background: lighten(#57375c, 15%);
-  }
-  [class*=-elephant], [class*=-rhinoceros], [class*=-tiger], [class*=-lion], [class*=-leopard], [class*=-cheetah], [class*=-marine-turtle], [class*=-shark], [class*=-ray], [class*=-pangolin] {
+  // .selected {
+  //   background: lighten(#57375c, 15%);
+  // }
+  [class*="-elephant "], [class*="-rhinoceros "], [class*="-tiger "], [class*="-lion "], [class*="-leopard "], [class*="-cheetah "], [class*="-marine-turtle "], [class*="-shark "], [class*="-ray "], [class*="-pangolin "],
+  [class$=-elephant], [class$=-rhinoceros], [class$=-tiger], [class$=-lion], [class$=-leopard], [class$=-cheetah], [class$=-marine-turtle], [class$=-shark], [class$=-ray], [class$=-pangolin] {
     background: lighten(#57375c, 15%);
 
-    &:hover {
-      background: darken(#57375c, 10%);
-    }
+    // &:hover, &.clicked {
+    //   background: darken(#57375c, 5%);
+    //   border: 2px solid @df-middle-gray;
+    // }
   }
 }

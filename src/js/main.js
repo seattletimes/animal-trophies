@@ -34,15 +34,22 @@ var init = function(e) {
 
   qsa(".toggle-box .toggle").forEach(e => e.addEventListener("click", onToggle));
 
+
+  var setDetails = function(month, index) {
+    var shipment = data[month].shipments[index];
+    details.innerHTML = dialog(shipment);
+  };
+
   //select month
   var setMonth = function(month) {
     focus.innerHTML = template({ [month]: data[month] });
-    details.innerHTML = "Each square to the left represents a single shipment. Click or tap to see its contents.";
+    setDetails(month, 0);
+    // "Each square to the left represents a single shipment. Click or tap to see its contents.";
   }
   var onMonth = function() {
-    var focused = document.querySelector(".focused");
-    if (focused) focused.classList.remove("focused");
-    this.classList.add("focused");
+    var selected = document.querySelector(".month-group.selected");
+    if (selected) selected.classList.remove("selected");
+    this.classList.add("selected");
     var month = this.getAttribute("data-month");
     if (!month) return;
     setMonth(month);
@@ -56,9 +63,12 @@ var init = function(e) {
   focus.addEventListener("click", function(e) {
     var month = e.target.getAttribute("data-month");
     var index = e.target.getAttribute("data-index");
-    if (!month || !index) return;
-    var shipment = data[month].shipments[index];
-    details.innerHTML = dialog(shipment);
+    if (month === null || index === null) return;
+    setDetails(month, index);
+
+    var clicked = document.querySelector(".focus .box.clicked");
+    if (clicked) clicked.classList.remove("clicked");
+    e.target.classList.add("clicked");
   });
 
 };

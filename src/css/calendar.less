@@ -38,7 +38,7 @@
     display: inline-block;
     opacity: .6;
 
-    &.focused, &:hover {
+    &.selected, &:hover {
       color: white;
       opacity: 1;
       background: darken(@gray, 10%);
@@ -73,7 +73,7 @@
   }
 
   .month-name {
-    font-size: 15px;
+    font-size: 16px;
     display: inline-block;
 
     &.short {
@@ -108,6 +108,7 @@
     margin: 1px;
     cursor: pointer;
     position: relative;
+    // opacity: .6;
 
     .tooltip {
       border-bottom: 3px solid black;
@@ -122,9 +123,13 @@
       display: none;
     }
 
-    &:hover {
-      background: @gray;
+    &:hover, &.clicked {
+      // opacity: 1;
+      border: 2px solid @df-charcoal;
+      // background: @gray;
+    }
 
+    &:hover {
       .tooltip {
         display: block;
       }

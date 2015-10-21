@@ -6,7 +6,7 @@
         "month": "1",
         "day": "2",
         "date": "1/2/14",
-        "combined": "foo-elephant tro-elephant tus-elephant",
+        "combined": "foo-elephant endangered tro-elephant endangered tus-elephant endangered",
         "components": [
           {
             "control_number": 2014396346,
@@ -50,7 +50,7 @@
         "month": "1",
         "day": "2",
         "date": "1/2/14",
-        "combined": "tro-zebra tro-giraffe tro-dikdik tro-gemsbok",
+        "combined": "tro-zebra endangered tro-giraffe tro-dikdik tro-gemsbok",
         "components": [
           {
             "control_number": 2014396390,
@@ -126,7 +126,7 @@
         "month": "1",
         "day": "2",
         "date": "1/2/14",
-        "combined": "tro-duiker tro-blesbok",
+        "combined": "tro-duiker tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014396426,
@@ -238,7 +238,7 @@
         "month": "1",
         "day": "2",
         "date": "1/2/14",
-        "combined": "tro-antelope tro-african-buffalo tro-hartebeest",
+        "combined": "tro-antelope endangered tro-african-buffalo tro-hartebeest",
         "components": [
           {
             "control_number": 2014396423,
@@ -374,7 +374,7 @@
         "month": "1",
         "day": "6",
         "date": "1/6/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014397655,
@@ -438,7 +438,7 @@
         "month": "1",
         "day": "6",
         "date": "1/6/14",
-        "combined": "mea-elk mea-possum mea-kangaroo",
+        "combined": "mea-elk endangered endangered endangered endangered mea-possum endangered mea-kangaroo endangered endangered endangered endangered endangered",
         "components": [
           {
             "control_number": 2014397742,
@@ -566,7 +566,7 @@
         "month": "1",
         "day": "7",
         "date": "1/7/14",
-        "combined": "ski-zebra tro-gemsbok tro-duiker tro-eland tro-kudu tro-waterbuck tro-warthog tro-hartebeest tro-blesbok",
+        "combined": "ski-zebra tro-gemsbok tro-duiker tro-eland tro-kudu tro-waterbuck tro-warthog tro-hartebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014398136,
@@ -682,7 +682,7 @@
         "month": "1",
         "day": "7",
         "date": "1/7/14",
-        "combined": "tro-warthog tro-zebra tro-gemsbok tro-wildebeest tro-blesbok",
+        "combined": "tro-warthog tro-zebra tro-gemsbok tro-wildebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014398307,
@@ -870,7 +870,7 @@
         "month": "1",
         "day": "8",
         "date": "1/8/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014398709,
@@ -1138,7 +1138,7 @@
         "month": "1",
         "day": "9",
         "date": "1/9/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered liv-invertebrates endangered",
         "components": [
           {
             "control_number": 2014399267,
@@ -1350,7 +1350,7 @@
         "month": "1",
         "day": "10",
         "date": "1/10/14",
-        "combined": "liv-coral liv-fish liv-crustacean",
+        "combined": "liv-coral endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered liv-fish endangered endangered liv-crustacean endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered",
         "components": [
           {
             "control_number": 2014400343,
@@ -1626,7 +1626,7 @@
         "month": "1",
         "day": "13",
         "date": "1/13/14",
-        "combined": "sku-elephant tus-elephant",
+        "combined": "sku-elephant endangered tus-elephant endangered endangered",
         "components": [
           {
             "control_number": 2014401073,
@@ -1658,7 +1658,7 @@
         "month": "1",
         "day": "13",
         "date": "1/13/14",
-        "combined": "ear-elephant hap-elephant lpl-impala lpl-elephant lps-elephant sho-elephant tai-elephant tus-warthog",
+        "combined": "ear-elephant endangered hap-elephant endangered lpl-impala lpl-elephant endangered endangered lps-elephant endangered sho-elephant endangered tai-elephant endangered tus-warthog",
         "components": [
           {
             "control_number": 2014401081,
@@ -1822,7 +1822,7 @@
         "month": "1",
         "day": "13",
         "date": "1/13/14",
-        "combined": "tus-hippopotamus",
+        "combined": "tus-hippopotamus endangered",
         "components": [
           {
             "control_number": 2014401196,
@@ -1970,7 +1970,7 @@
         "month": "1",
         "day": "13",
         "date": "1/13/14",
-        "combined": "bod-ostrich",
+        "combined": "bod-ostrich endangered",
         "components": [
           {
             "control_number": 2014400998,
@@ -2762,7 +2762,7 @@
         "month": "1",
         "day": "21",
         "date": "1/21/14",
-        "combined": "lps-deer lps-bison",
+        "combined": "lps-deer lps-bison endangered",
         "components": [
           {
             "control_number": 2014405686,
@@ -2794,7 +2794,7 @@
         "month": "1",
         "day": "21",
         "date": "1/21/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014405742,
@@ -2814,7 +2814,7 @@
         "month": "1",
         "day": "21",
         "date": "1/21/14",
-        "combined": "lps-bison lps-deer",
+        "combined": "lps-bison endangered lps-deer",
         "components": [
           {
             "control_number": 2014405744,
@@ -2914,7 +2914,7 @@
         "month": "1",
         "day": "21",
         "date": "1/21/14",
-        "combined": "tro-nyala tro-lechwe tro-waterbuck tro-warthog",
+        "combined": "tro-nyala tro-lechwe endangered tro-waterbuck tro-warthog",
         "components": [
           {
             "control_number": 2014405771,
@@ -3074,7 +3074,7 @@
         "month": "1",
         "day": "21",
         "date": "1/21/14",
-        "combined": "tro-blesbok tro-waterbuck tro-warthog tro-kudu tro-impala tro-gemsbok tro-eland tro-wildebeest tro-jackal tro-baboon",
+        "combined": "tro-blesbok endangered tro-waterbuck tro-warthog tro-kudu tro-impala tro-gemsbok tro-eland tro-wildebeest tro-jackal tro-baboon endangered",
         "components": [
           {
             "control_number": 2014405808,
@@ -3202,7 +3202,7 @@
         "month": "1",
         "day": "21",
         "date": "1/21/14",
-        "combined": "cla-bear",
+        "combined": "cla-bear endangered endangered",
         "components": [
           {
             "control_number": 2014405815,
@@ -3306,7 +3306,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "tro-lechwe tro-eland",
+        "combined": "tro-lechwe endangered tro-eland",
         "components": [
           {
             "control_number": 2014406392,
@@ -3338,7 +3338,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "tro-warthog tro-hartebeest tro-steenbok tro-wildebeest tro-blesbok tro-eland tro-impala tro-kudu tro-zebra",
+        "combined": "tro-warthog tro-hartebeest tro-steenbok tro-wildebeest tro-blesbok endangered tro-eland tro-impala tro-kudu tro-zebra",
         "components": [
           {
             "control_number": 2014406396,
@@ -3454,7 +3454,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "tro-wildebeest tro-gemsbok tro-impala tro-warthog tro-waterbuck tro-blesbok tro-monkey tro-baboon",
+        "combined": "tro-wildebeest tro-gemsbok tro-impala tro-warthog tro-waterbuck tro-blesbok endangered tro-monkey endangered tro-baboon endangered",
         "components": [
           {
             "control_number": 2014406402,
@@ -3766,7 +3766,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "mea-elk",
+        "combined": "mea-elk endangered",
         "components": [
           {
             "control_number": 2014406424,
@@ -3786,7 +3786,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "fea-pheasant fea-ostrich spr-mussel",
+        "combined": "fea-pheasant fea-ostrich endangered spr-mussel",
         "components": [
           {
             "control_number": 2014406429,
@@ -3850,7 +3850,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "liv-fish",
+        "combined": "liv-fish endangered",
         "components": [
           {
             "control_number": 2014406518,
@@ -3902,7 +3902,7 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "bod-sand-dollar bod-starfish spr-fish",
+        "combined": "bod-sand-dollar bod-starfish spr-fish endangered",
         "components": [
           {
             "control_number": 2014406385,
@@ -4094,7 +4094,7 @@
         "month": "1",
         "day": "23",
         "date": "1/23/14",
-        "combined": "cla-bear",
+        "combined": "cla-bear endangered",
         "components": [
           {
             "control_number": 2014407198,
@@ -4114,7 +4114,7 @@
         "month": "1",
         "day": "23",
         "date": "1/23/14",
-        "combined": "ski-wolf sku-wolf",
+        "combined": "ski-wolf endangered endangered sku-wolf endangered endangered",
         "components": [
           {
             "control_number": 2014407278,
@@ -4146,7 +4146,7 @@
         "month": "1",
         "day": "23",
         "date": "1/23/14",
-        "combined": "tro-warthog tro-lion tro-bushbuck tro-nyala",
+        "combined": "tro-warthog tro-lion endangered tro-bushbuck tro-nyala endangered",
         "components": [
           {
             "control_number": 2014406788,
@@ -4410,7 +4410,7 @@
         "month": "1",
         "day": "27",
         "date": "1/27/14",
-        "combined": "tro-hartebeest tro-wildebeest tro-impala tro-gemsbok tro-eland tro-zebra tro-blesbok tro-springbok tro-kudu tro-waterbuck",
+        "combined": "tro-hartebeest tro-wildebeest tro-impala tro-gemsbok tro-eland tro-zebra tro-blesbok endangered tro-springbok tro-kudu tro-waterbuck",
         "components": [
           {
             "control_number": 2014409387,
@@ -4678,7 +4678,7 @@
         "month": "1",
         "day": "27",
         "date": "1/27/14",
-        "combined": "skp-hyaena skp-zebra sku-springbok sku-hyaena sku-kudu sku-wildebeest tus-warthog",
+        "combined": "skp-hyaena skp-zebra endangered sku-springbok sku-hyaena sku-kudu sku-wildebeest tus-warthog",
         "components": [
           {
             "control_number": 2014570813,
@@ -4842,7 +4842,7 @@
         "month": "1",
         "day": "28",
         "date": "1/28/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014410300,
@@ -4902,7 +4902,7 @@
         "month": "1",
         "day": "28",
         "date": "1/28/14",
-        "combined": "ski-bison",
+        "combined": "ski-bison endangered",
         "components": [
           {
             "control_number": 2014410482,
@@ -5038,7 +5038,7 @@
         "month": "1",
         "day": "29",
         "date": "1/29/14",
-        "combined": "tro-ibex tro-chamois",
+        "combined": "tro-ibex tro-chamois endangered",
         "components": [
           {
             "control_number": 2014411333,
@@ -5511,7 +5511,7 @@
         "month": "2",
         "day": "3",
         "date": "2/3/14",
-        "combined": "spe-buzzard",
+        "combined": "spe-buzzard endangered",
         "components": [
           {
             "control_number": 2014414132,
@@ -5531,7 +5531,7 @@
         "month": "2",
         "day": "3",
         "date": "2/3/14",
-        "combined": "tro-warthog tro-blesbok tro-wildebeest tro-gemsbok tro-waterbuck",
+        "combined": "tro-warthog tro-blesbok endangered tro-wildebeest tro-gemsbok tro-waterbuck",
         "components": [
           {
             "control_number": 2014413482,
@@ -5679,7 +5679,7 @@
         "month": "2",
         "day": "4",
         "date": "2/4/14",
-        "combined": "tro-zebra tro-springbok tro-gemsbok tro-kudu tro-blesbok tro-impala tro-wildebeest",
+        "combined": "tro-zebra tro-springbok tro-gemsbok tro-kudu tro-blesbok endangered tro-impala tro-wildebeest",
         "components": [
           {
             "control_number": 2014414193,
@@ -5823,7 +5823,7 @@
         "month": "2",
         "day": "5",
         "date": "2/5/14",
-        "combined": "lps-elephant",
+        "combined": "lps-elephant endangered",
         "components": [
           {
             "control_number": 2014418048,
@@ -5843,7 +5843,7 @@
         "month": "2",
         "day": "5",
         "date": "2/5/14",
-        "combined": "lps-elephant",
+        "combined": "lps-elephant endangered",
         "components": [
           {
             "control_number": 2014418026,
@@ -5863,7 +5863,7 @@
         "month": "2",
         "day": "5",
         "date": "2/5/14",
-        "combined": "liv-chinchilla",
+        "combined": "liv-chinchilla endangered",
         "components": [
           {
             "control_number": 2014570837,
@@ -5883,7 +5883,7 @@
         "month": "2",
         "day": "6",
         "date": "2/6/14",
-        "combined": "liv-fish liv-invertebrates liv-coral roc-coral",
+        "combined": "liv-fish endangered liv-invertebrates liv-coral endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered roc-coral",
         "components": [
           {
             "control_number": 2014415260,
@@ -6107,7 +6107,7 @@
         "month": "2",
         "day": "6",
         "date": "2/6/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014415222,
@@ -6139,7 +6139,7 @@
         "month": "2",
         "day": "6",
         "date": "2/6/14",
-        "combined": "med-elk",
+        "combined": "med-elk endangered",
         "components": [
           {
             "control_number": 2014414965,
@@ -6267,7 +6267,7 @@
         "month": "2",
         "day": "6",
         "date": "2/6/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered endangered liv-invertebrates",
         "components": [
           {
             "control_number": 2014415256,
@@ -6331,7 +6331,7 @@
         "month": "2",
         "day": "7",
         "date": "2/7/14",
-        "combined": "tro-cougar tro-sheep tro-blackbuck",
+        "combined": "tro-cougar endangered tro-sheep tro-blackbuck",
         "components": [
           {
             "control_number": 2014416159,
@@ -6375,7 +6375,7 @@
         "month": "2",
         "day": "7",
         "date": "2/7/14",
-        "combined": "tro-boar tro-deer tro-blackbuck tro-elk",
+        "combined": "tro-boar tro-deer endangered tro-blackbuck tro-elk endangered",
         "components": [
           {
             "control_number": 2014416150,
@@ -6431,7 +6431,7 @@
         "month": "2",
         "day": "7",
         "date": "2/7/14",
-        "combined": "tro-kudu tro-zebra tro-waterbuck tro-warthog tro-hartebeest tro-impala tro-gemsbok tro-wildebeest tro-blesbok tro-jackal tro-caracal tro-baboon",
+        "combined": "tro-kudu tro-zebra tro-waterbuck tro-warthog tro-hartebeest tro-impala tro-gemsbok tro-wildebeest tro-blesbok endangered tro-jackal tro-caracal endangered tro-baboon endangered",
         "components": [
           {
             "control_number": 2014415908,
@@ -6783,7 +6783,7 @@
         "month": "2",
         "day": "10",
         "date": "2/10/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014417025,
@@ -6903,7 +6903,7 @@
         "month": "2",
         "day": "11",
         "date": "2/11/14",
-        "combined": "skp-elephant",
+        "combined": "skp-elephant endangered",
         "components": [
           {
             "control_number": 2014417802,
@@ -6923,7 +6923,7 @@
         "month": "2",
         "day": "11",
         "date": "2/11/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014417882,
@@ -6975,7 +6975,7 @@
         "month": "2",
         "day": "11",
         "date": "2/11/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014417977,
@@ -7007,7 +7007,7 @@
         "month": "2",
         "day": "11",
         "date": "2/11/14",
-        "combined": "tro-jackal tro-wildebeest tro-impala tro-gemsbok tro-kudu tro-blesbok tro-warthog tro-lion",
+        "combined": "tro-jackal tro-wildebeest tro-impala tro-gemsbok tro-kudu tro-blesbok endangered tro-warthog tro-lion endangered",
         "components": [
           {
             "control_number": 2014417981,
@@ -7191,7 +7191,7 @@
         "month": "2",
         "day": "11",
         "date": "2/11/14",
-        "combined": "tro-impala tro-monkey",
+        "combined": "tro-impala tro-monkey endangered",
         "components": [
           {
             "control_number": 2014417789,
@@ -7291,7 +7291,7 @@
         "month": "2",
         "day": "12",
         "date": "2/12/14",
-        "combined": "tro-blackbuck tro-boar tro-deer tro-chital tro-elk tro-buffalo",
+        "combined": "tro-blackbuck tro-boar tro-deer endangered tro-chital tro-elk endangered tro-buffalo",
         "components": [
           {
             "control_number": 2014418587,
@@ -7391,7 +7391,7 @@
         "month": "2",
         "day": "12",
         "date": "2/12/14",
-        "combined": "mea-elk mea-possum mea-kangaroo",
+        "combined": "mea-elk endangered endangered endangered endangered endangered endangered endangered mea-possum endangered endangered endangered endangered endangered mea-kangaroo endangered endangered",
         "components": [
           {
             "control_number": 2014418606,
@@ -7635,7 +7635,7 @@
         "month": "2",
         "day": "13",
         "date": "2/13/14",
-        "combined": "tro-boar tro-elk tro-chamois",
+        "combined": "tro-boar tro-elk endangered tro-chamois",
         "components": [
           {
             "control_number": 2014419153,
@@ -7679,7 +7679,7 @@
         "month": "2",
         "day": "13",
         "date": "2/13/14",
-        "combined": "tro-gemsbok tro-giraffe tro-rhebok tro-steenbok tro-duiker tro-reedbuck tro-blesbok tro-warthog tro-kudu tro-hartebeest tro-eland tro-porcupine tro-springbok",
+        "combined": "tro-gemsbok tro-giraffe tro-rhebok tro-steenbok tro-duiker tro-reedbuck tro-blesbok endangered tro-warthog tro-kudu tro-hartebeest tro-eland tro-porcupine tro-springbok",
         "components": [
           {
             "control_number": 2014419199,
@@ -7895,7 +7895,7 @@
         "month": "2",
         "day": "13",
         "date": "2/13/14",
-        "combined": "tro-blesbok tro-waterbuck tro-warthog tro-hartebeest tro-nyala tro-kudu tro-impala tro-eland tro-bushbuck",
+        "combined": "tro-blesbok endangered tro-waterbuck tro-warthog tro-hartebeest tro-nyala tro-kudu tro-impala tro-eland tro-bushbuck",
         "components": [
           {
             "control_number": 2014419137,
@@ -8275,7 +8275,7 @@
         "month": "2",
         "day": "14",
         "date": "2/14/14",
-        "combined": "hor-deer hor-elk hor-moose tro-teal tro-pintail",
+        "combined": "hor-deer hor-elk endangered hor-moose tro-teal tro-pintail",
         "components": [
           {
             "control_number": 2014419651,
@@ -8407,7 +8407,7 @@
         "month": "2",
         "day": "14",
         "date": "2/14/14",
-        "combined": "tro-zebra tro-gemsbok tro-impala tro-hartebeest tro-kudu tro-jackal tro-springbok tro-blesbok tro-eland tro-wildebeest",
+        "combined": "tro-zebra tro-gemsbok tro-impala tro-hartebeest tro-kudu tro-jackal tro-springbok tro-blesbok endangered tro-eland tro-wildebeest",
         "components": [
           {
             "control_number": 2014419925,
@@ -8535,7 +8535,7 @@
         "month": "2",
         "day": "14",
         "date": "2/14/14",
-        "combined": "tro-kudu tro-lion",
+        "combined": "tro-kudu tro-lion endangered",
         "components": [
           {
             "control_number": 2014419931,
@@ -8567,7 +8567,7 @@
         "month": "2",
         "day": "14",
         "date": "2/14/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014419626,
@@ -8763,7 +8763,7 @@
         "month": "2",
         "day": "18",
         "date": "2/18/14",
-        "combined": "liv-fish liv-coral liv-sponge liv-octopus liv-anemone liv-crustacean",
+        "combined": "liv-fish endangered liv-coral liv-sponge liv-octopus liv-anemone endangered liv-crustacean",
         "components": [
           {
             "control_number": 2014420555,
@@ -8867,7 +8867,7 @@
         "month": "2",
         "day": "18",
         "date": "2/18/14",
-        "combined": "liv-macaque",
+        "combined": "liv-macaque endangered",
         "components": [
           {
             "control_number": 2014420803,
@@ -8887,7 +8887,7 @@
         "month": "2",
         "day": "18",
         "date": "2/18/14",
-        "combined": "liv-macaque",
+        "combined": "liv-macaque endangered",
         "components": [
           {
             "control_number": 2014420804,
@@ -9099,7 +9099,7 @@
         "month": "2",
         "day": "19",
         "date": "2/19/14",
-        "combined": "tro-hartebeest tro-warthog tro-gemsbok tro-springbok tro-impala tro-zebra tro-wildebeest tro-kudu tro-blesbok",
+        "combined": "tro-hartebeest tro-warthog tro-gemsbok tro-springbok tro-impala tro-zebra endangered tro-wildebeest tro-kudu tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014421733,
@@ -9227,7 +9227,7 @@
         "month": "2",
         "day": "19",
         "date": "2/19/14",
-        "combined": "tro-dikdik tro-impala tro-kudu tro-gemsbok tro-ostrich tro-zebra tro-springbok tro-warthog tro-baboon tro-wildebeest tro-steenbok",
+        "combined": "tro-dikdik tro-impala tro-kudu tro-gemsbok tro-ostrich endangered tro-zebra endangered tro-springbok tro-warthog tro-baboon endangered tro-wildebeest tro-steenbok",
         "components": [
           {
             "control_number": 2014421727,
@@ -9367,7 +9367,7 @@
         "month": "2",
         "day": "19",
         "date": "2/19/14",
-        "combined": "tro-impala tro-boar tro-duiker tro-african-buffalo tro-giraffe tro-gemsbok tro-blesbok tro-kudu tro-warthog",
+        "combined": "tro-impala tro-boar tro-duiker tro-african-buffalo tro-giraffe tro-gemsbok tro-blesbok endangered tro-kudu tro-warthog",
         "components": [
           {
             "control_number": 2014421716,
@@ -9715,7 +9715,7 @@
         "month": "2",
         "day": "21",
         "date": "2/21/14",
-        "combined": "tro-ostrich tro-baboon tro-eland tro-kudu tro-hartebeest tro-springbok tro-wildebeest",
+        "combined": "tro-ostrich endangered tro-baboon endangered tro-eland tro-kudu tro-hartebeest tro-springbok tro-wildebeest",
         "components": [
           {
             "control_number": 2014423269,
@@ -9807,7 +9807,7 @@
         "month": "2",
         "day": "21",
         "date": "2/21/14",
-        "combined": "tro-impala tro-lion tro-springbok tro-gemsbok tro-blesbok tro-kudu",
+        "combined": "tro-impala tro-lion endangered tro-springbok tro-gemsbok tro-blesbok endangered tro-kudu",
         "components": [
           {
             "control_number": 2014423067,
@@ -10043,7 +10043,7 @@
         "month": "2",
         "day": "24",
         "date": "2/24/14",
-        "combined": "tro-warthog tro-zebra tro-kudu tro-gemsbok tro-springbok tro-klipspringer",
+        "combined": "tro-warthog tro-zebra endangered tro-kudu tro-gemsbok tro-springbok tro-klipspringer",
         "components": [
           {
             "control_number": 2014423925,
@@ -10231,7 +10231,7 @@
         "month": "2",
         "day": "25",
         "date": "2/25/14",
-        "combined": "liv-fish",
+        "combined": "liv-fish endangered",
         "components": [
           {
             "control_number": 2014424696,
@@ -10263,7 +10263,7 @@
         "month": "2",
         "day": "25",
         "date": "2/25/14",
-        "combined": "mea-elk",
+        "combined": "mea-elk endangered",
         "components": [
           {
             "control_number": 2014424472,
@@ -10283,7 +10283,7 @@
         "month": "2",
         "day": "25",
         "date": "2/25/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014424537,
@@ -10323,7 +10323,7 @@
         "month": "2",
         "day": "26",
         "date": "2/26/14",
-        "combined": "bod-starfish bod-sand-dollar spr-fish",
+        "combined": "bod-starfish bod-sand-dollar spr-fish endangered",
         "components": [
           {
             "control_number": 2014425377,
@@ -10367,7 +10367,7 @@
         "month": "2",
         "day": "26",
         "date": "2/26/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014425548,
@@ -10399,7 +10399,7 @@
         "month": "2",
         "day": "26",
         "date": "2/26/14",
-        "combined": "liv-leopard-cat",
+        "combined": "liv-leopard-cat endangered endangered",
         "components": [
           {
             "control_number": 2014425588,
@@ -10459,7 +10459,7 @@
         "month": "2",
         "day": "26",
         "date": "2/26/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014425376,
@@ -10547,7 +10547,7 @@
         "month": "2",
         "day": "27",
         "date": "2/27/14",
-        "combined": "hor-gemsbok tro-zebra tro-gemsbok tro-steenbok tro-warthog tro-kudu tro-impala tro-blesbok",
+        "combined": "hor-gemsbok tro-zebra endangered tro-gemsbok tro-steenbok tro-warthog tro-kudu tro-impala tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014426205,
@@ -10731,7 +10731,7 @@
         "month": "2",
         "day": "27",
         "date": "2/27/14",
-        "combined": "liv-python",
+        "combined": "liv-python endangered",
         "components": [
           {
             "control_number": 2014426198,
@@ -10795,7 +10795,7 @@
         "month": "2",
         "day": "27",
         "date": "2/27/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered liv-invertebrates endangered",
         "components": [
           {
             "control_number": 2014426204,
@@ -10859,7 +10859,7 @@
         "month": "2",
         "day": "28",
         "date": "2/28/14",
-        "combined": "tro-blesbok",
+        "combined": "tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014426724,
@@ -10879,7 +10879,7 @@
         "month": "2",
         "day": "28",
         "date": "2/28/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014426566,
@@ -11072,7 +11072,7 @@
         "month": "3",
         "day": "3",
         "date": "3/3/14",
-        "combined": "ski-wolf",
+        "combined": "ski-wolf endangered",
         "components": [
           {
             "control_number": 2014427593,
@@ -11092,7 +11092,7 @@
         "month": "3",
         "day": "3",
         "date": "3/3/14",
-        "combined": "tro-wolf",
+        "combined": "tro-wolf endangered",
         "components": [
           {
             "control_number": 2014427602,
@@ -11112,7 +11112,7 @@
         "month": "3",
         "day": "4",
         "date": "3/4/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered endangered",
         "components": [
           {
             "control_number": 2014428360,
@@ -11132,7 +11132,7 @@
         "month": "3",
         "day": "4",
         "date": "3/4/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014428058,
@@ -11192,7 +11192,7 @@
         "month": "3",
         "day": "4",
         "date": "3/4/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014428504,
@@ -11320,7 +11320,7 @@
         "month": "3",
         "day": "5",
         "date": "3/5/14",
-        "combined": "tro-impala tro-hartebeest tro-wildebeest tro-springbok tro-gemsbok tro-kudu tro-zebra tro-warthog",
+        "combined": "tro-impala tro-hartebeest tro-wildebeest tro-springbok tro-gemsbok tro-kudu tro-zebra endangered tro-warthog",
         "components": [
           {
             "control_number": 2014429083,
@@ -11448,7 +11448,7 @@
         "month": "3",
         "day": "5",
         "date": "3/5/14",
-        "combined": "tro-badger tro-leopard",
+        "combined": "tro-badger tro-leopard endangered",
         "components": [
           {
             "control_number": 2014429088,
@@ -11624,7 +11624,7 @@
         "month": "3",
         "day": "6",
         "date": "3/6/14",
-        "combined": "med-cobra med-bushmaster med-rattlesnake",
+        "combined": "med-cobra endangered med-bushmaster med-rattlesnake",
         "components": [
           {
             "control_number": 2014429790,
@@ -11848,7 +11848,7 @@
         "month": "3",
         "day": "7",
         "date": "3/7/14",
-        "combined": "tro-kudu tro-impala tro-zebra tro-wildebeest tro-warthog tro-hartebeest tro-waterbuck tro-ostrich tro-gemsbok",
+        "combined": "tro-kudu tro-impala tro-zebra endangered tro-wildebeest tro-warthog tro-hartebeest tro-waterbuck tro-ostrich endangered tro-gemsbok",
         "components": [
           {
             "control_number": 2014430688,
@@ -12008,7 +12008,7 @@
         "month": "3",
         "day": "7",
         "date": "3/7/14",
-        "combined": "tro-impala tro-warthog tro-zebra tro-eland tro-springbok tro-waterbuck tro-wildebeest",
+        "combined": "tro-impala tro-warthog tro-zebra endangered tro-eland tro-springbok tro-waterbuck tro-wildebeest",
         "components": [
           {
             "control_number": 2014430690,
@@ -12284,7 +12284,7 @@
         "month": "3",
         "day": "10",
         "date": "3/10/14",
-        "combined": "tro-buffalo tro-elk tro-rusa",
+        "combined": "tro-buffalo tro-elk endangered tro-rusa",
         "components": [
           {
             "control_number": 2014431490,
@@ -12328,7 +12328,7 @@
         "month": "3",
         "day": "10",
         "date": "3/10/14",
-        "combined": "ski-bear sku-bear",
+        "combined": "ski-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014431521,
@@ -12480,7 +12480,7 @@
         "month": "3",
         "day": "11",
         "date": "3/11/14",
-        "combined": "tro-hartebeest tro-antelope tro-oribi tro-zebra tro-african-buffalo",
+        "combined": "tro-hartebeest tro-antelope endangered tro-oribi tro-zebra tro-african-buffalo",
         "components": [
           {
             "control_number": 2014432110,
@@ -12728,7 +12728,7 @@
         "month": "3",
         "day": "12",
         "date": "3/12/14",
-        "combined": "ski-bear sku-bear",
+        "combined": "ski-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014432817,
@@ -12820,7 +12820,7 @@
         "month": "3",
         "day": "12",
         "date": "3/12/14",
-        "combined": "mea-elk mea-possum",
+        "combined": "mea-elk endangered endangered endangered endangered endangered endangered mea-possum",
         "components": [
           {
             "control_number": 2014432721,
@@ -12852,7 +12852,7 @@
         "month": "3",
         "day": "12",
         "date": "3/12/14",
-        "combined": "ski-bear sku-bear",
+        "combined": "ski-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014432823,
@@ -12904,7 +12904,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "tro-monkey",
+        "combined": "tro-monkey endangered",
         "components": [
           {
             "control_number": 2014433833,
@@ -12924,7 +12924,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "tro-zebra tro-baboon tro-jackal tro-blesbok tro-wildebeest tro-gemsbok tro-impala tro-warthog",
+        "combined": "tro-zebra tro-baboon endangered tro-jackal tro-blesbok endangered tro-wildebeest tro-gemsbok tro-impala tro-warthog",
         "components": [
           {
             "control_number": 2014433646,
@@ -13028,7 +13028,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "tro-zebra tro-blesbok tro-eland tro-gemsbok tro-impala tro-kudu tro-warthog",
+        "combined": "tro-zebra tro-blesbok endangered tro-eland tro-gemsbok tro-impala tro-kudu tro-warthog",
         "components": [
           {
             "control_number": 2014433651,
@@ -13164,7 +13164,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "ski-kudu sku-kudu tro-wildebeest tro-gemsbok tro-tsessebe tro-blesbok tro-hartebeest tro-nyala tro-eland tro-reedbuck tro-impala tro-waterbuck tro-warthog tro-crocodile tro-kudu tro-african-buffalo",
+        "combined": "ski-kudu sku-kudu tro-wildebeest tro-gemsbok tro-tsessebe tro-blesbok endangered tro-hartebeest tro-nyala tro-eland tro-reedbuck endangered tro-impala tro-waterbuck tro-warthog tro-crocodile endangered tro-kudu tro-african-buffalo",
         "components": [
           {
             "control_number": 2014433668,
@@ -13388,7 +13388,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "liv-coral liv-sponge liv-crustacean liv-fish",
+        "combined": "liv-coral endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered liv-sponge liv-crustacean endangered endangered liv-fish endangered endangered",
         "components": [
           {
             "control_number": 2014433787,
@@ -13564,7 +13564,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "ski-impala ski-giraffe tro-jackal tro-kudu tro-monkey tro-impala tro-zebra tro-waterbuck tro-blesbok tro-african-buffalo tro-crocodile tro-reedbuck tro-wildebeest tro-nyala tro-lion tro-gemsbok tro-eland tus-warthog",
+        "combined": "ski-impala ski-giraffe tro-jackal tro-kudu tro-monkey endangered tro-impala tro-zebra tro-waterbuck tro-blesbok endangered tro-african-buffalo tro-crocodile endangered tro-reedbuck tro-wildebeest tro-nyala tro-lion endangered tro-gemsbok tro-eland tus-warthog",
         "components": [
           {
             "control_number": 2014433814,
@@ -13788,7 +13788,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "tro-african-buffalo tro-warthog tro-crocodile tro-leopard tro-bushbuck",
+        "combined": "tro-african-buffalo tro-warthog tro-crocodile endangered tro-leopard endangered tro-bushbuck",
         "components": [
           {
             "control_number": 2014433815,
@@ -13908,7 +13908,7 @@
         "month": "3",
         "day": "13",
         "date": "3/13/14",
-        "combined": "tro-duiker tro-porcupine tro-monkey tro-lion",
+        "combined": "tro-duiker tro-porcupine tro-monkey endangered tro-lion endangered",
         "components": [
           {
             "control_number": 2014433841,
@@ -14112,7 +14112,7 @@
         "month": "3",
         "day": "14",
         "date": "3/14/14",
-        "combined": "liv-python",
+        "combined": "liv-python endangered endangered",
         "components": [
           {
             "control_number": 2014434284,
@@ -14616,7 +14616,7 @@
         "month": "3",
         "day": "17",
         "date": "3/17/14",
-        "combined": "tro-bushbuck tro-lion tro-wildebeest tro-african-buffalo tro-impala tro-kudu tro-gemsbok tro-nyala tro-warthog tro-zebra",
+        "combined": "tro-bushbuck tro-lion endangered tro-wildebeest tro-african-buffalo tro-impala tro-kudu tro-gemsbok tro-nyala tro-warthog tro-zebra",
         "components": [
           {
             "control_number": 2014435098,
@@ -14820,7 +14820,7 @@
         "month": "3",
         "day": "17",
         "date": "3/17/14",
-        "combined": "tro-antelope tro-zebra tro-kudu tro-springbok",
+        "combined": "tro-antelope tro-zebra endangered tro-kudu tro-springbok",
         "components": [
           {
             "control_number": 2014435104,
@@ -15104,7 +15104,7 @@
         "month": "3",
         "day": "17",
         "date": "3/17/14",
-        "combined": "tro-wildebeest tro-warthog tro-impala tro-blesbok tro-bushbuck",
+        "combined": "tro-wildebeest tro-warthog tro-impala tro-blesbok endangered tro-bushbuck",
         "components": [
           {
             "control_number": 2014435116,
@@ -15172,7 +15172,7 @@
         "month": "3",
         "day": "17",
         "date": "3/17/14",
-        "combined": "tro-eland tro-kudu tro-waterbuck tro-zebra tro-wildebeest tro-ostrich tro-hartebeest",
+        "combined": "tro-eland tro-kudu tro-waterbuck tro-zebra tro-wildebeest tro-ostrich endangered tro-hartebeest",
         "components": [
           {
             "control_number": 2014435119,
@@ -15296,7 +15296,7 @@
         "month": "3",
         "day": "17",
         "date": "3/17/14",
-        "combined": "bod-barnacle bod-sand-dollar bod-urchin spr-fish spr-shell",
+        "combined": "bod-barnacle bod-sand-dollar bod-urchin spr-fish endangered spr-shell",
         "components": [
           {
             "control_number": 2014435194,
@@ -15452,7 +15452,7 @@
         "month": "3",
         "day": "17",
         "date": "3/17/14",
-        "combined": "cav-sturgeon",
+        "combined": "cav-sturgeon endangered",
         "components": [
           {
             "control_number": 2014435990,
@@ -15528,7 +15528,7 @@
         "month": "3",
         "day": "18",
         "date": "3/18/14",
-        "combined": "tro-grysbok tro-lion tro-leopard tro-crocodile tro-baboon tro-african-buffalo tro-kudu tro-impala",
+        "combined": "tro-grysbok tro-lion endangered tro-leopard endangered tro-crocodile endangered tro-baboon endangered tro-african-buffalo tro-kudu tro-impala",
         "components": [
           {
             "control_number": 2014435615,
@@ -15884,7 +15884,7 @@
         "month": "3",
         "day": "19",
         "date": "3/19/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014436513,
@@ -16136,7 +16136,7 @@
         "month": "3",
         "day": "24",
         "date": "3/24/14",
-        "combined": "tro-bushbuck tro-african-buffalo tro-puku tro-hartebeest tro-impala tro-hippopotamus tro-warthog",
+        "combined": "tro-bushbuck tro-african-buffalo tro-puku tro-hartebeest tro-impala tro-hippopotamus endangered tro-warthog",
         "components": [
           {
             "control_number": 2014438656,
@@ -16268,7 +16268,7 @@
         "month": "3",
         "day": "24",
         "date": "3/24/14",
-        "combined": "ski-sheep ski-goat ski-bear",
+        "combined": "ski-sheep endangered ski-goat ski-bear endangered",
         "components": [
           {
             "control_number": 2014438896,
@@ -16364,7 +16364,7 @@
         "month": "3",
         "day": "24",
         "date": "3/24/14",
-        "combined": "tro-wildebeest tro-hartebeest tro-waterbuck tro-gemsbok tro-eland tro-warthog tro-kudu tro-zebra tro-springbok tro-blesbok tro-impala",
+        "combined": "tro-wildebeest tro-hartebeest tro-waterbuck tro-gemsbok tro-eland tro-warthog tro-kudu tro-zebra tro-springbok tro-blesbok endangered tro-impala",
         "components": [
           {
             "control_number": 2014438780,
@@ -16584,7 +16584,7 @@
         "month": "3",
         "day": "25",
         "date": "3/25/14",
-        "combined": "foo-ostrich",
+        "combined": "foo-ostrich endangered",
         "components": [
           {
             "control_number": 2014439336,
@@ -16624,7 +16624,7 @@
         "month": "3",
         "day": "25",
         "date": "3/25/14",
-        "combined": "tro-warthog tro-kudu tro-zebra tro-wildebeest tro-impala tro-blesbok",
+        "combined": "tro-warthog tro-kudu tro-zebra tro-wildebeest tro-impala tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014439342,
@@ -16772,7 +16772,7 @@
         "month": "3",
         "day": "25",
         "date": "3/25/14",
-        "combined": "tro-gemsbok tro-wildebeest tro-hartebeest tro-springbok tro-eland tro-impala tro-kudu tro-ostrich tro-warthog tro-blesbok",
+        "combined": "tro-gemsbok tro-wildebeest tro-hartebeest tro-springbok tro-eland tro-impala tro-kudu tro-ostrich endangered tro-warthog tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014439335,
@@ -17016,7 +17016,7 @@
         "month": "3",
         "day": "25",
         "date": "3/25/14",
-        "combined": "tro-wildebeest tro-blesbok",
+        "combined": "tro-wildebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014439542,
@@ -17048,7 +17048,7 @@
         "month": "3",
         "day": "25",
         "date": "3/25/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014439330,
@@ -17208,7 +17208,7 @@
         "month": "3",
         "day": "26",
         "date": "3/26/14",
-        "combined": "tro-impala tro-wildebeest tro-nyala tro-springbok tro-warthog tro-duiker tro-hartebeest tro-blesbok",
+        "combined": "tro-impala tro-wildebeest tro-nyala tro-springbok tro-warthog tro-duiker tro-hartebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014440253,
@@ -17312,7 +17312,7 @@
         "month": "3",
         "day": "26",
         "date": "3/26/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014440307,
@@ -17444,7 +17444,7 @@
         "month": "3",
         "day": "26",
         "date": "3/26/14",
-        "combined": "tro-gemsbok tro-hartebeest tro-springbok tro-zebra tro-klipspringer",
+        "combined": "tro-gemsbok tro-hartebeest tro-springbok tro-zebra endangered tro-klipspringer",
         "components": [
           {
             "control_number": 2014440458,
@@ -17532,7 +17532,7 @@
         "month": "3",
         "day": "26",
         "date": "3/26/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014440240,
@@ -17592,7 +17592,7 @@
         "month": "3",
         "day": "27",
         "date": "3/27/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014441066,
@@ -17824,7 +17824,7 @@
         "month": "3",
         "day": "28",
         "date": "3/28/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014441423,
@@ -17876,7 +17876,7 @@
         "month": "3",
         "day": "31",
         "date": "3/31/14",
-        "combined": "tro-zebra tro-warthog tro-hartebeest tro-kudu tro-blesbok tro-impala tro-wildebeest",
+        "combined": "tro-zebra tro-warthog tro-hartebeest tro-kudu tro-blesbok endangered tro-impala tro-wildebeest",
         "components": [
           {
             "control_number": 2014442427,
@@ -18032,7 +18032,7 @@
         "month": "3",
         "day": "31",
         "date": "3/31/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014442341,
@@ -18052,7 +18052,7 @@
         "month": "3",
         "day": "31",
         "date": "3/31/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014442347,
@@ -18072,7 +18072,7 @@
         "month": "3",
         "day": "31",
         "date": "3/31/14",
-        "combined": "tro-impala tro-wildebeest tro-bush-pig tro-caracal tro-eland tro-gemsbok tro-kudu tro-warthog tro-waterbuck",
+        "combined": "tro-impala tro-wildebeest tro-bush-pig tro-caracal endangered tro-eland tro-gemsbok tro-kudu tro-warthog tro-waterbuck",
         "components": [
           {
             "control_number": 2014442350,
@@ -18625,7 +18625,7 @@
         "month": "4",
         "day": "1",
         "date": "4/1/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered endangered liv-invertebrates",
         "components": [
           {
             "control_number": 2014443565,
@@ -18669,7 +18669,7 @@
         "month": "4",
         "day": "1",
         "date": "4/1/14",
-        "combined": "tro-kudu tro-gemsbok tro-warthog tro-wildebeest tro-zebra",
+        "combined": "tro-kudu tro-gemsbok tro-warthog tro-wildebeest tro-zebra endangered",
         "components": [
           {
             "control_number": 2014443587,
@@ -18737,7 +18737,7 @@
         "month": "4",
         "day": "1",
         "date": "4/1/14",
-        "combined": "tro-warthog tro-zebra tro-gemsbok tro-hartebeest tro-wildebeest",
+        "combined": "tro-warthog tro-zebra endangered tro-gemsbok tro-hartebeest tro-wildebeest",
         "components": [
           {
             "control_number": 2014443590,
@@ -18805,7 +18805,7 @@
         "month": "4",
         "day": "1",
         "date": "4/1/14",
-        "combined": "tro-wildebeest tro-waterbuck tro-antelope tro-blesbok tro-impala tro-kudu tro-gemsbok tro-hartebeest tro-springbok tro-steenbok tro-warthog",
+        "combined": "tro-wildebeest tro-waterbuck tro-antelope endangered tro-blesbok endangered tro-impala tro-kudu tro-gemsbok tro-hartebeest tro-springbok tro-steenbok tro-warthog",
         "components": [
           {
             "control_number": 2014443592,
@@ -18945,7 +18945,7 @@
         "month": "4",
         "day": "1",
         "date": "4/1/14",
-        "combined": "tro-antelope",
+        "combined": "tro-antelope endangered",
         "components": [
           {
             "control_number": 2014443593,
@@ -18965,7 +18965,7 @@
         "month": "4",
         "day": "1",
         "date": "4/1/14",
-        "combined": "tro-baboon tro-african-buffalo tro-steenbok",
+        "combined": "tro-baboon endangered tro-african-buffalo tro-steenbok",
         "components": [
           {
             "control_number": 2014443599,
@@ -19213,7 +19213,7 @@
         "month": "4",
         "day": "2",
         "date": "4/2/14",
-        "combined": "lps-bison lps-deer",
+        "combined": "lps-bison endangered lps-deer",
         "components": [
           {
             "control_number": 2014444248,
@@ -19401,7 +19401,7 @@
         "month": "4",
         "day": "3",
         "date": "4/3/14",
-        "combined": "tro-elephant",
+        "combined": "tro-elephant endangered",
         "components": [
           {
             "control_number": 2014445137,
@@ -19789,7 +19789,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-blesbok tro-reedbuck tro-klipspringer tro-springbok",
+        "combined": "tro-blesbok endangered tro-reedbuck tro-klipspringer tro-springbok",
         "components": [
           {
             "control_number": 2014447582,
@@ -19857,7 +19857,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-impala tro-warthog tro-monkey tro-zebra tro-wildebeest tro-nyala",
+        "combined": "tro-impala tro-warthog tro-monkey endangered tro-zebra tro-wildebeest tro-nyala",
         "components": [
           {
             "control_number": 2014447576,
@@ -19937,7 +19937,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-springbok tro-gemsbok tro-nyala tro-hartebeest tro-african-buffalo tro-sheep tro-monkey tro-zebra",
+        "combined": "tro-springbok tro-gemsbok tro-nyala tro-hartebeest tro-african-buffalo tro-sheep endangered tro-monkey endangered tro-zebra",
         "components": [
           {
             "control_number": 2014447586,
@@ -20041,7 +20041,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-blesbok tro-wildebeest tro-gemsbok tro-hartebeest tro-warthog",
+        "combined": "tro-blesbok endangered tro-wildebeest tro-gemsbok tro-hartebeest tro-warthog",
         "components": [
           {
             "control_number": 2014447589,
@@ -20109,7 +20109,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-blesbok tro-impala tro-warthog",
+        "combined": "tro-blesbok endangered tro-impala tro-warthog",
         "components": [
           {
             "control_number": 2014447592,
@@ -20185,7 +20185,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-hartebeest tro-warthog tro-blesbok tro-nyala tro-impala tro-wildebeest tro-gemsbok",
+        "combined": "tro-hartebeest tro-warthog tro-blesbok endangered tro-nyala tro-impala tro-wildebeest tro-gemsbok",
         "components": [
           {
             "control_number": 2014447569,
@@ -20277,7 +20277,7 @@
         "month": "4",
         "day": "8",
         "date": "4/8/14",
-        "combined": "tro-wildebeest tro-baboon tro-giraffe tro-kudu tro-african-buffalo tro-hartebeest tro-bushbuck tro-duiker tro-zebra tro-warthog tro-reedbuck",
+        "combined": "tro-wildebeest tro-baboon endangered tro-giraffe tro-kudu tro-african-buffalo tro-hartebeest tro-bushbuck tro-duiker tro-zebra tro-warthog tro-reedbuck",
         "components": [
           {
             "control_number": 2014447584,
@@ -20801,7 +20801,7 @@
         "month": "4",
         "day": "11",
         "date": "4/11/14",
-        "combined": "lps-deer lps-bison",
+        "combined": "lps-deer lps-bison endangered",
         "components": [
           {
             "control_number": 2014449180,
@@ -20865,7 +20865,7 @@
         "month": "4",
         "day": "11",
         "date": "4/11/14",
-        "combined": "liv-fish liv-coral liv-invertebrates roc-coral",
+        "combined": "liv-fish endangered liv-coral endangered endangered endangered endangered endangered liv-invertebrates endangered endangered endangered endangered endangered endangered endangered endangered endangered roc-coral",
         "components": [
           {
             "control_number": 2014449269,
@@ -21101,7 +21101,7 @@
         "month": "4",
         "day": "11",
         "date": "4/11/14",
-        "combined": "tro-elk tro-sheep",
+        "combined": "tro-elk endangered tro-sheep",
         "components": [
           {
             "control_number": 2014449325,
@@ -21217,7 +21217,7 @@
         "month": "4",
         "day": "11",
         "date": "4/11/14",
-        "combined": "tro-elk tro-chamois tro-deer",
+        "combined": "tro-elk endangered tro-chamois tro-deer endangered",
         "components": [
           {
             "control_number": 2014571156,
@@ -21401,7 +21401,7 @@
         "month": "4",
         "day": "14",
         "date": "4/14/14",
-        "combined": "boc-deer fea-flicker fea-ducks,geese skp-elk",
+        "combined": "boc-deer fea-flicker fea-ducks,geese skp-elk endangered",
         "components": [
           {
             "control_number": 2014450162,
@@ -21457,7 +21457,7 @@
         "month": "4",
         "day": "14",
         "date": "4/14/14",
-        "combined": "tro-wildebeest tro-warthog tro-impala tro-bushbuck tro-reedbuck tro-springbok tro-waterbuck tro-gemsbok tro-blesbok tro-hartebeest",
+        "combined": "tro-wildebeest tro-warthog tro-impala tro-bushbuck tro-reedbuck tro-springbok tro-waterbuck tro-gemsbok tro-blesbok endangered tro-hartebeest",
         "components": [
           {
             "control_number": 2014449954,
@@ -21769,7 +21769,7 @@
         "month": "4",
         "day": "15",
         "date": "4/15/14",
-        "combined": "ski-wolf sku-wolf",
+        "combined": "ski-wolf endangered sku-wolf endangered",
         "components": [
           {
             "control_number": 2014450854,
@@ -21881,7 +21881,7 @@
         "month": "4",
         "day": "15",
         "date": "4/15/14",
-        "combined": "boc-elephant ear-elephant foo-elephant lps-elephant skp-elephant",
+        "combined": "boc-elephant endangered ear-elephant endangered foo-elephant endangered lps-elephant endangered skp-elephant endangered",
         "components": [
           {
             "control_number": 2014450980,
@@ -21949,7 +21949,7 @@
         "month": "4",
         "day": "15",
         "date": "4/15/14",
-        "combined": "tro-elephant",
+        "combined": "tro-elephant endangered",
         "components": [
           {
             "control_number": 2014450996,
@@ -22065,7 +22065,7 @@
         "month": "4",
         "day": "15",
         "date": "4/15/14",
-        "combined": "med-viper med-deer",
+        "combined": "med-viper med-deer endangered",
         "components": [
           {
             "control_number": 2014451630,
@@ -22197,7 +22197,7 @@
         "month": "4",
         "day": "16",
         "date": "4/16/14",
-        "combined": "tro-elk tro-tahr",
+        "combined": "tro-elk endangered tro-tahr",
         "components": [
           {
             "control_number": 2014451591,
@@ -22229,7 +22229,7 @@
         "month": "4",
         "day": "16",
         "date": "4/16/14",
-        "combined": "tro-gemsbok tro-warthog tro-kudu tro-bushbuck tro-duiker tro-impala tro-springbok tro-blesbok tro-zebra",
+        "combined": "tro-gemsbok tro-warthog tro-kudu tro-bushbuck tro-duiker tro-impala tro-springbok tro-blesbok endangered tro-zebra",
         "components": [
           {
             "control_number": 2014451597,
@@ -22405,7 +22405,7 @@
         "month": "4",
         "day": "16",
         "date": "4/16/14",
-        "combined": "ski-wolf sku-wolf",
+        "combined": "ski-wolf endangered sku-wolf endangered",
         "components": [
           {
             "control_number": 2014451494,
@@ -22437,7 +22437,7 @@
         "month": "4",
         "day": "16",
         "date": "4/16/14",
-        "combined": "tro-sheep tro-shelduck tro-elk tro-swamphen tro-chamois",
+        "combined": "tro-sheep tro-shelduck tro-elk endangered tro-swamphen tro-chamois",
         "components": [
           {
             "control_number": 2014451516,
@@ -22505,7 +22505,7 @@
         "month": "4",
         "day": "17",
         "date": "4/17/14",
-        "combined": "fea-turkey fea-mallard fea-ostrich skp-muskrat skp-deer skp-elk skp-squirrel",
+        "combined": "fea-turkey fea-mallard fea-ostrich endangered skp-muskrat skp-deer skp-elk endangered skp-squirrel",
         "components": [
           {
             "control_number": 2014456184,
@@ -22753,7 +22753,7 @@
         "month": "4",
         "day": "21",
         "date": "4/21/14",
-        "combined": "tro-zebra tro-springbok tro-kudu tro-waterbuck tro-lion tro-lechwe",
+        "combined": "tro-zebra endangered tro-springbok tro-kudu tro-waterbuck tro-lion endangered endangered tro-lechwe endangered",
         "components": [
           {
             "control_number": 2014453559,
@@ -22853,7 +22853,7 @@
         "month": "4",
         "day": "21",
         "date": "4/21/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014453473,
@@ -22913,7 +22913,7 @@
         "month": "4",
         "day": "21",
         "date": "4/21/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014453562,
@@ -23021,7 +23021,7 @@
         "month": "4",
         "day": "22",
         "date": "4/22/14",
-        "combined": "mea-elk mea-possum",
+        "combined": "mea-elk endangered endangered endangered mea-possum endangered endangered",
         "components": [
           {
             "control_number": 2014454193,
@@ -23197,7 +23197,7 @@
         "month": "4",
         "day": "22",
         "date": "4/22/14",
-        "combined": "tro-blesbok tro-zebra tro-impala tro-wildebeest tro-hartebeest",
+        "combined": "tro-blesbok endangered tro-zebra tro-impala tro-wildebeest tro-hartebeest",
         "components": [
           {
             "control_number": 2014453856,
@@ -23277,7 +23277,7 @@
         "month": "4",
         "day": "23",
         "date": "4/23/14",
-        "combined": "tro-deer tro-sheep tro-elk",
+        "combined": "tro-deer endangered tro-sheep tro-elk endangered",
         "components": [
           {
             "control_number": 2014454935,
@@ -23721,7 +23721,7 @@
         "month": "4",
         "day": "24",
         "date": "4/24/14",
-        "combined": "ski-wolf ski-wolverine",
+        "combined": "ski-wolf endangered ski-wolverine",
         "components": [
           {
             "control_number": 2014455716,
@@ -23753,7 +23753,7 @@
         "month": "4",
         "day": "24",
         "date": "4/24/14",
-        "combined": "tro-blesbok tro-wildebeest tro-zebra tro-springbok tro-steenbok tro-impala",
+        "combined": "tro-blesbok endangered tro-wildebeest tro-zebra tro-springbok tro-steenbok tro-impala",
         "components": [
           {
             "control_number": 2014455724,
@@ -23853,7 +23853,7 @@
         "month": "4",
         "day": "24",
         "date": "4/24/14",
-        "combined": "lps-bison lps-deer",
+        "combined": "lps-bison endangered lps-deer",
         "components": [
           {
             "control_number": 2014455289,
@@ -24169,7 +24169,7 @@
         "month": "4",
         "day": "25",
         "date": "4/25/14",
-        "combined": "tro-kudu tro-springbok tro-bushbuck tro-blesbok tro-warthog tro-impala tro-reedbuck tro-caracal tro-hartebeest",
+        "combined": "tro-kudu tro-springbok tro-bushbuck tro-blesbok endangered tro-warthog tro-impala tro-reedbuck tro-caracal endangered tro-hartebeest",
         "components": [
           {
             "control_number": 2014456301,
@@ -24385,7 +24385,7 @@
         "month": "4",
         "day": "28",
         "date": "4/28/14",
-        "combined": "fea-mallard fea-pheasant fea-ostrich",
+        "combined": "fea-mallard fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014456760,
@@ -24493,7 +24493,7 @@
         "month": "4",
         "day": "28",
         "date": "4/28/14",
-        "combined": "spe-macaque",
+        "combined": "spe-macaque endangered",
         "components": [
           {
             "control_number": 2014457071,
@@ -24593,7 +24593,7 @@
         "month": "4",
         "day": "29",
         "date": "4/29/14",
-        "combined": "liv-boa",
+        "combined": "liv-boa endangered",
         "components": [
           {
             "control_number": 2014458341,
@@ -24781,7 +24781,7 @@
         "month": "4",
         "day": "30",
         "date": "4/30/14",
-        "combined": "tro-impala tro-baboon tro-african-buffalo tro-bushbuck",
+        "combined": "tro-impala tro-baboon endangered tro-african-buffalo tro-bushbuck",
         "components": [
           {
             "control_number": 2014458393,
@@ -24914,7 +24914,7 @@
         "month": "5",
         "day": "1",
         "date": "5/1/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered endangered liv-invertebrates",
         "components": [
           {
             "control_number": 2014459227,
@@ -24978,7 +24978,7 @@
         "month": "5",
         "day": "1",
         "date": "5/1/14",
-        "combined": "cav-sturgeon",
+        "combined": "cav-sturgeon endangered",
         "components": [
           {
             "control_number": 2014460543,
@@ -25038,7 +25038,7 @@
         "month": "5",
         "day": "2",
         "date": "5/2/14",
-        "combined": "lps-bison lps-deer",
+        "combined": "lps-bison endangered lps-deer",
         "components": [
           {
             "control_number": 2014459718,
@@ -25138,7 +25138,7 @@
         "month": "5",
         "day": "5",
         "date": "5/5/14",
-        "combined": "bod-starfish cpr-coral spr-fish spr-cerith",
+        "combined": "bod-starfish cpr-coral spr-fish endangered spr-cerith",
         "components": [
           {
             "control_number": 2014460453,
@@ -25550,7 +25550,7 @@
         "month": "5",
         "day": "7",
         "date": "5/7/14",
-        "combined": "tro-reedbuck tro-wildebeest tro-blesbok tro-springbok tro-zebra tro-kudu",
+        "combined": "tro-reedbuck tro-wildebeest tro-blesbok endangered tro-springbok tro-zebra tro-kudu",
         "components": [
           {
             "control_number": 2014462080,
@@ -25662,7 +25662,7 @@
         "month": "5",
         "day": "7",
         "date": "5/7/14",
-        "combined": "tro-blesbok tro-wildebeest tro-kudu tro-impala tro-springbok tro-gemsbok",
+        "combined": "tro-blesbok endangered tro-wildebeest tro-kudu tro-impala tro-springbok tro-gemsbok",
         "components": [
           {
             "control_number": 2014462084,
@@ -25742,7 +25742,7 @@
         "month": "5",
         "day": "7",
         "date": "5/7/14",
-        "combined": "tro-antelope",
+        "combined": "tro-antelope endangered",
         "components": [
           {
             "control_number": 2014462085,
@@ -25794,7 +25794,7 @@
         "month": "5",
         "day": "7",
         "date": "5/7/14",
-        "combined": "bod-starfish spr-fish",
+        "combined": "bod-starfish spr-fish endangered",
         "components": [
           {
             "control_number": 2014462054,
@@ -25958,7 +25958,7 @@
         "month": "5",
         "day": "8",
         "date": "5/8/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014463118,
@@ -26438,7 +26438,7 @@
         "month": "5",
         "day": "12",
         "date": "5/12/14",
-        "combined": "tro-badger tro-wildebeest tro-warthog tro-nyala tro-monkey tro-impala tro-kudu tro-gemsbok",
+        "combined": "tro-badger tro-wildebeest tro-warthog tro-nyala tro-monkey endangered tro-impala tro-kudu tro-gemsbok",
         "components": [
           {
             "control_number": 2014464542,
@@ -26626,7 +26626,7 @@
         "month": "5",
         "day": "13",
         "date": "5/13/14",
-        "combined": "tro-gemsbok tro-blesbok tro-nyala tro-antelope tro-impala tro-eland tro-kudu tro-warthog",
+        "combined": "tro-gemsbok tro-blesbok endangered tro-nyala tro-antelope endangered tro-impala tro-eland tro-kudu tro-warthog",
         "components": [
           {
             "control_number": 2014465344,
@@ -26730,7 +26730,7 @@
         "month": "5",
         "day": "13",
         "date": "5/13/14",
-        "combined": "tro-lion tro-zebra",
+        "combined": "tro-lion endangered tro-zebra",
         "components": [
           {
             "control_number": 2014465335,
@@ -26898,7 +26898,7 @@
         "month": "5",
         "day": "14",
         "date": "5/14/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014466200,
@@ -27210,7 +27210,7 @@
         "month": "5",
         "day": "16",
         "date": "5/16/14",
-        "combined": "tro-nyala tro-eland tro-lion",
+        "combined": "tro-nyala tro-eland tro-lion endangered",
         "components": [
           {
             "control_number": 2014467659,
@@ -27254,7 +27254,7 @@
         "month": "5",
         "day": "16",
         "date": "5/16/14",
-        "combined": "tro-elk tro-tahr",
+        "combined": "tro-elk endangered tro-tahr",
         "components": [
           {
             "control_number": 2014467638,
@@ -27366,7 +27366,7 @@
         "month": "5",
         "day": "19",
         "date": "5/19/14",
-        "combined": "sku-wildcat tro-nyala tro-eland tro-springbok",
+        "combined": "sku-wildcat endangered tro-nyala tro-eland tro-springbok",
         "components": [
           {
             "control_number": 2014468339,
@@ -27422,7 +27422,7 @@
         "month": "5",
         "day": "19",
         "date": "5/19/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014468346,
@@ -27638,7 +27638,7 @@
         "month": "5",
         "day": "21",
         "date": "5/21/14",
-        "combined": "foo-elephant skp-elephant tai-elephant tro-impala tus-elephant",
+        "combined": "foo-elephant endangered skp-elephant endangered endangered tai-elephant endangered tro-impala tus-elephant endangered",
         "components": [
           {
             "control_number": 2014469695,
@@ -27746,7 +27746,7 @@
         "month": "5",
         "day": "22",
         "date": "5/22/14",
-        "combined": "hai-elk hai-deer",
+        "combined": "hai-elk endangered hai-deer",
         "components": [
           {
             "control_number": 2014470067,
@@ -27778,7 +27778,7 @@
         "month": "5",
         "day": "22",
         "date": "5/22/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014470312,
@@ -27810,7 +27810,7 @@
         "month": "5",
         "day": "22",
         "date": "5/22/14",
-        "combined": "tro-zebra tro-blesbok tro-impala tro-steenbok",
+        "combined": "tro-zebra endangered tro-blesbok endangered tro-impala tro-steenbok",
         "components": [
           {
             "control_number": 2014470328,
@@ -27866,7 +27866,7 @@
         "month": "5",
         "day": "22",
         "date": "5/22/14",
-        "combined": "tro-kudu tro-impala tro-blesbok tro-wildebeest tro-gemsbok tro-warthog tro-steenbok",
+        "combined": "tro-kudu tro-impala tro-blesbok endangered tro-wildebeest tro-gemsbok tro-warthog tro-steenbok",
         "components": [
           {
             "control_number": 2014470338,
@@ -28534,7 +28534,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "tro-impala tro-blesbok tro-kudu tro-duiker tro-warthog",
+        "combined": "tro-impala tro-blesbok endangered tro-kudu tro-duiker tro-warthog",
         "components": [
           {
             "control_number": 2014472672,
@@ -28602,7 +28602,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "tro-impala tro-african-buffalo tro-baboon tro-waterbuck tro-warthog tro-kudu",
+        "combined": "tro-impala tro-african-buffalo tro-baboon endangered tro-waterbuck tro-warthog tro-kudu",
         "components": [
           {
             "control_number": 2014472680,
@@ -28682,7 +28682,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014472798,
@@ -28714,7 +28714,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "ski-bear",
+        "combined": "ski-bear endangered",
         "components": [
           {
             "control_number": 2014472803,
@@ -28734,7 +28734,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014472804,
@@ -28754,7 +28754,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014472806,
@@ -28826,7 +28826,7 @@
         "month": "5",
         "day": "28",
         "date": "5/28/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014571183,
@@ -28866,7 +28866,7 @@
         "month": "5",
         "day": "29",
         "date": "5/29/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014473531,
@@ -28886,7 +28886,7 @@
         "month": "5",
         "day": "29",
         "date": "5/29/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014473518,
@@ -28906,7 +28906,7 @@
         "month": "5",
         "day": "29",
         "date": "5/29/14",
-        "combined": "tro-gemsbok tro-blesbok tro-impala tro-kudu tro-zebra tro-springbok",
+        "combined": "tro-gemsbok tro-blesbok endangered tro-impala tro-kudu tro-zebra tro-springbok",
         "components": [
           {
             "control_number": 2014473194,
@@ -29046,7 +29046,7 @@
         "month": "5",
         "day": "30",
         "date": "5/30/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014571164,
@@ -29066,7 +29066,7 @@
         "month": "5",
         "day": "30",
         "date": "5/30/14",
-        "combined": "tro-lion tro-antelope tro-wildebeest tro-zebra",
+        "combined": "tro-lion endangered tro-antelope endangered tro-wildebeest tro-zebra",
         "components": [
           {
             "control_number": 2014571184,
@@ -29843,7 +29843,7 @@
         "month": "6",
         "day": "4",
         "date": "6/4/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014476458,
@@ -29863,7 +29863,7 @@
         "month": "6",
         "day": "4",
         "date": "6/4/14",
-        "combined": "tro-warthog tro-springbok tro-kudu tro-gemsbok tro-bushbuck tro-deer tro-reedbuck tro-impala tro-blesbok tro-wildebeest",
+        "combined": "tro-warthog tro-springbok tro-kudu tro-gemsbok tro-bushbuck tro-deer endangered tro-reedbuck tro-impala tro-blesbok endangered tro-wildebeest",
         "components": [
           {
             "control_number": 2014476492,
@@ -30011,7 +30011,7 @@
         "month": "6",
         "day": "5",
         "date": "6/5/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered liv-invertebrates endangered",
         "components": [
           {
             "control_number": 2014477375,
@@ -30179,7 +30179,7 @@
         "month": "6",
         "day": "5",
         "date": "6/5/14",
-        "combined": "tro-gemsbok tro-hartebeest tro-blesbok tro-wildebeest tro-nyala tro-springbok",
+        "combined": "tro-gemsbok tro-hartebeest tro-blesbok endangered tro-wildebeest tro-nyala tro-springbok",
         "components": [
           {
             "control_number": 2014477303,
@@ -30259,7 +30259,7 @@
         "month": "6",
         "day": "5",
         "date": "6/5/14",
-        "combined": "cav-sturgeon",
+        "combined": "cav-sturgeon endangered",
         "components": [
           {
             "control_number": 2014477311,
@@ -30371,7 +30371,7 @@
         "month": "6",
         "day": "5",
         "date": "6/5/14",
-        "combined": "tro-tahr tro-elk tro-sheep",
+        "combined": "tro-tahr tro-elk endangered tro-sheep",
         "components": [
           {
             "control_number": 2014477354,
@@ -30415,7 +30415,7 @@
         "month": "6",
         "day": "5",
         "date": "6/5/14",
-        "combined": "liv-coral liv-fish liv-invertebrates roc-coral",
+        "combined": "liv-coral endangered endangered liv-fish endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered liv-invertebrates endangered endangered endangered endangered roc-coral",
         "components": [
           {
             "control_number": 2014477371,
@@ -30675,7 +30675,7 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "tro-elk tro-sheep tro-chamois tro-tahr tro-deer",
+        "combined": "tro-elk endangered tro-sheep tro-chamois tro-tahr tro-deer endangered",
         "components": [
           {
             "control_number": 2014477793,
@@ -30743,7 +30743,7 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "hor-elk",
+        "combined": "hor-elk endangered",
         "components": [
           {
             "control_number": 2014477795,
@@ -30783,7 +30783,7 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "tro-elk tro-tahr tro-chamois tro-deer tro-sheep",
+        "combined": "tro-elk endangered tro-tahr tro-chamois tro-deer endangered tro-sheep",
         "components": [
           {
             "control_number": 2014477842,
@@ -30851,7 +30851,7 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014477780,
@@ -30983,7 +30983,7 @@
         "month": "6",
         "day": "9",
         "date": "6/9/14",
-        "combined": "tro-waterbuck tro-gemsbok tro-kudu tro-springbok tro-blesbok tro-zebra",
+        "combined": "tro-waterbuck tro-gemsbok tro-kudu tro-springbok tro-blesbok endangered tro-zebra",
         "components": [
           {
             "control_number": 2014478713,
@@ -31255,7 +31255,7 @@
         "month": "6",
         "day": "9",
         "date": "6/9/14",
-        "combined": "tro-zebra tro-hartebeest tro-blesbok tro-wildebeest tro-kudu tro-warthog tro-gemsbok",
+        "combined": "tro-zebra tro-hartebeest tro-blesbok endangered tro-wildebeest tro-kudu tro-warthog tro-gemsbok",
         "components": [
           {
             "control_number": 2014478674,
@@ -31359,7 +31359,7 @@
         "month": "6",
         "day": "9",
         "date": "6/9/14",
-        "combined": "tro-impala tro-warthog tro-hartebeest tro-zebra tro-steenbok tro-kudu tro-wildebeest tro-blesbok tro-gemsbok tro-springbok",
+        "combined": "tro-impala tro-warthog tro-hartebeest tro-zebra tro-steenbok tro-kudu tro-wildebeest tro-blesbok endangered tro-gemsbok tro-springbok",
         "components": [
           {
             "control_number": 2014478662,
@@ -31791,7 +31791,7 @@
         "month": "6",
         "day": "10",
         "date": "6/10/14",
-        "combined": "tro-impala tro-blesbok tro-kudu tro-steenbok tro-gemsbok tro-waterbuck tro-wildebeest tro-zebra",
+        "combined": "tro-impala tro-blesbok endangered tro-kudu tro-steenbok tro-gemsbok tro-waterbuck tro-wildebeest tro-zebra endangered",
         "components": [
           {
             "control_number": 2014479565,
@@ -31907,7 +31907,7 @@
         "month": "6",
         "day": "10",
         "date": "6/10/14",
-        "combined": "tro-hartebeest tro-kudu tro-impala tro-wildebeest tro-zebra tro-gemsbok",
+        "combined": "tro-hartebeest tro-kudu tro-impala tro-wildebeest tro-zebra endangered tro-gemsbok",
         "components": [
           {
             "control_number": 2014479551,
@@ -31999,7 +31999,7 @@
         "month": "6",
         "day": "10",
         "date": "6/10/14",
-        "combined": "tro-waterbuck tro-gemsbok tro-wildebeest tro-eland tro-springbok tro-blesbok tro-steenbok tro-zebra tro-hartebeest tro-impala",
+        "combined": "tro-waterbuck tro-gemsbok tro-wildebeest tro-eland tro-springbok tro-blesbok endangered tro-steenbok tro-zebra endangered tro-hartebeest tro-impala",
         "components": [
           {
             "control_number": 2014479532,
@@ -32171,7 +32171,7 @@
         "month": "6",
         "day": "11",
         "date": "6/11/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014480154,
@@ -32203,7 +32203,7 @@
         "month": "6",
         "day": "11",
         "date": "6/11/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014480163,
@@ -32223,7 +32223,7 @@
         "month": "6",
         "day": "11",
         "date": "6/11/14",
-        "combined": "mea-elk",
+        "combined": "mea-elk endangered",
         "components": [
           {
             "control_number": 2014480212,
@@ -32427,7 +32427,7 @@
         "month": "6",
         "day": "11",
         "date": "6/11/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014480148,
@@ -32571,7 +32571,7 @@
         "month": "6",
         "day": "12",
         "date": "6/12/14",
-        "combined": "tro-gemsbok tro-klipspringer tro-baboon",
+        "combined": "tro-gemsbok tro-klipspringer tro-baboon endangered",
         "components": [
           {
             "control_number": 2014480841,
@@ -32635,7 +32635,7 @@
         "month": "6",
         "day": "13",
         "date": "6/13/14",
-        "combined": "tro-chamois tro-tahr tro-deer tro-elk tro-sheep",
+        "combined": "tro-chamois tro-tahr tro-deer endangered tro-elk endangered tro-sheep",
         "components": [
           {
             "control_number": 2014481304,
@@ -33479,7 +33479,7 @@
         "month": "6",
         "day": "23",
         "date": "6/23/14",
-        "combined": "ski-wolf sku-wolf",
+        "combined": "ski-wolf endangered sku-wolf endangered",
         "components": [
           {
             "control_number": 2014485536,
@@ -33619,7 +33619,7 @@
         "month": "6",
         "day": "23",
         "date": "6/23/14",
-        "combined": "tro-springbok tro-wildebeest tro-zebra tro-gemsbok tro-hartebeest",
+        "combined": "tro-springbok tro-wildebeest tro-zebra endangered tro-gemsbok tro-hartebeest",
         "components": [
           {
             "control_number": 2014485866,
@@ -33687,7 +33687,7 @@
         "month": "6",
         "day": "24",
         "date": "6/24/14",
-        "combined": "tro-blesbok tro-steenbok tro-springbok tro-impala tro-gemsbok tro-kudu",
+        "combined": "tro-blesbok endangered tro-steenbok tro-springbok tro-impala tro-gemsbok tro-kudu",
         "components": [
           {
             "control_number": 2014571175,
@@ -33767,7 +33767,7 @@
         "month": "6",
         "day": "24",
         "date": "6/24/14",
-        "combined": "tro-blesbok tro-gemsbok tro-impala tro-springbok",
+        "combined": "tro-blesbok endangered tro-gemsbok tro-impala tro-springbok",
         "components": [
           {
             "control_number": 2014571171,
@@ -33823,7 +33823,7 @@
         "month": "6",
         "day": "24",
         "date": "6/24/14",
-        "combined": "tro-blesbok tro-kudu tro-hartebeest",
+        "combined": "tro-blesbok endangered tro-kudu tro-hartebeest",
         "components": [
           {
             "control_number": 2014571169,
@@ -33935,7 +33935,7 @@
         "month": "6",
         "day": "24",
         "date": "6/24/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014486280,
@@ -33955,7 +33955,7 @@
         "month": "6",
         "day": "24",
         "date": "6/24/14",
-        "combined": "ext-cyclamen ext-aloe med-rattlesnake med-cobra med-bushmaster",
+        "combined": "ext-cyclamen ext-aloe endangered med-rattlesnake med-cobra endangered med-bushmaster",
         "components": [
           {
             "control_number": 2014486378,
@@ -34151,7 +34151,7 @@
         "month": "6",
         "day": "25",
         "date": "6/25/14",
-        "combined": "sho-bison",
+        "combined": "sho-bison endangered",
         "components": [
           {
             "control_number": 2014487086,
@@ -34171,7 +34171,7 @@
         "month": "6",
         "day": "25",
         "date": "6/25/14",
-        "combined": "mea-elk",
+        "combined": "mea-elk endangered",
         "components": [
           {
             "control_number": 2014487103,
@@ -34211,7 +34211,7 @@
         "month": "6",
         "day": "25",
         "date": "6/25/14",
-        "combined": "liv-parakeet liv-parrot liv-macaw",
+        "combined": "liv-parakeet endangered liv-parrot endangered liv-macaw endangered endangered endangered",
         "components": [
           {
             "control_number": 2014571195,
@@ -34399,7 +34399,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "tro-bear",
+        "combined": "tro-bear endangered",
         "components": [
           {
             "control_number": 2014487937,
@@ -34439,7 +34439,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "gar-deer-like-mammals gar-fish",
+        "combined": "gar-deer-like-mammals gar-fish endangered",
         "components": [
           {
             "control_number": 2014495455,
@@ -34471,7 +34471,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "tro-gemsbok tro-warthog tro-wildebeest tro-zebra tro-impala tro-kudu tro-blesbok",
+        "combined": "tro-gemsbok tro-warthog tro-wildebeest tro-zebra tro-impala tro-kudu tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014487786,
@@ -34563,7 +34563,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "tro-leopard tro-wildebeest tro-impala tro-kudu",
+        "combined": "tro-leopard endangered tro-wildebeest tro-impala tro-kudu",
         "components": [
           {
             "control_number": 2014488684,
@@ -34619,7 +34619,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "tro-kudu tro-eland tro-zebra tro-steenbok tro-springbok tro-gemsbok tro-hartebeest",
+        "combined": "tro-kudu tro-eland tro-zebra endangered tro-steenbok tro-springbok tro-gemsbok tro-hartebeest",
         "components": [
           {
             "control_number": 2014487772,
@@ -34711,7 +34711,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "ski-wolf",
+        "combined": "ski-wolf endangered",
         "components": [
           {
             "control_number": 2014487941,
@@ -34771,7 +34771,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "tro-caracal tro-blesbok tro-zebra tro-steenbok tro-hartebeest tro-nyala tro-kudu tro-gemsbok",
+        "combined": "tro-caracal endangered tro-blesbok endangered tro-zebra tro-steenbok tro-hartebeest tro-nyala tro-kudu tro-gemsbok",
         "components": [
           {
             "control_number": 2014487931,
@@ -34999,7 +34999,7 @@
         "month": "6",
         "day": "26",
         "date": "6/26/14",
-        "combined": "liv-macaque",
+        "combined": "liv-macaque endangered",
         "components": [
           {
             "control_number": 2014487793,
@@ -35159,7 +35159,7 @@
         "month": "6",
         "day": "27",
         "date": "6/27/14",
-        "combined": "fea-pheasant fea-mallard fea-ostrich",
+        "combined": "fea-pheasant fea-mallard fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014488627,
@@ -35363,7 +35363,7 @@
         "month": "6",
         "day": "30",
         "date": "6/30/14",
-        "combined": "sku-baboon tro-gemsbok tro-zebra tro-waterbuck tro-warthog tro-impala tro-kudu tro-bushbuck",
+        "combined": "sku-baboon endangered tro-gemsbok tro-zebra tro-waterbuck tro-warthog tro-impala tro-kudu tro-bushbuck",
         "components": [
           {
             "control_number": 2014489113,
@@ -35467,7 +35467,7 @@
         "month": "6",
         "day": "30",
         "date": "6/30/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014489085,
@@ -35487,7 +35487,7 @@
         "month": "6",
         "day": "30",
         "date": "6/30/14",
-        "combined": "liv-coral liv-anemone liv-crustacean liv-fish liv-lionfish",
+        "combined": "liv-coral endangered endangered endangered endangered endangered liv-anemone liv-crustacean liv-fish endangered liv-lionfish endangered endangered endangered endangered endangered endangered endangered endangered",
         "components": [
           {
             "control_number": 2014489209,
@@ -35720,7 +35720,7 @@
         "month": "7",
         "day": "1",
         "date": "7/1/14",
-        "combined": "ski-goat ski-bear ski-sheep",
+        "combined": "ski-goat ski-bear endangered ski-sheep endangered",
         "components": [
           {
             "control_number": 2014490244,
@@ -36352,7 +36352,7 @@
         "month": "7",
         "day": "3",
         "date": "7/3/14",
-        "combined": "ski-zebra tro-warthog tro-waterbuck tro-baboon tro-eland",
+        "combined": "ski-zebra tro-warthog tro-waterbuck tro-baboon endangered tro-eland",
         "components": [
           {
             "control_number": 2014491454,
@@ -36480,7 +36480,7 @@
         "month": "7",
         "day": "7",
         "date": "7/7/14",
-        "combined": "tro-zebra tro-eland tro-gemsbok tro-springbok",
+        "combined": "tro-zebra endangered tro-eland tro-gemsbok tro-springbok",
         "components": [
           {
             "control_number": 2014492603,
@@ -36536,7 +36536,7 @@
         "month": "7",
         "day": "7",
         "date": "7/7/14",
-        "combined": "sho-elk sho-bison",
+        "combined": "sho-elk sho-bison endangered",
         "components": [
           {
             "control_number": 2014492135,
@@ -36568,7 +36568,7 @@
         "month": "7",
         "day": "7",
         "date": "7/7/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014492140,
@@ -36652,7 +36652,7 @@
         "month": "7",
         "day": "8",
         "date": "7/8/14",
-        "combined": "tro-nyala tro-zebra tro-ostrich tro-kudu tro-gemsbok tro-african-buffalo tro-wildebeest tro-lion",
+        "combined": "tro-nyala tro-zebra tro-ostrich endangered tro-kudu tro-gemsbok tro-african-buffalo tro-wildebeest tro-lion endangered",
         "components": [
           {
             "control_number": 2014493400,
@@ -36788,7 +36788,7 @@
         "month": "7",
         "day": "8",
         "date": "7/8/14",
-        "combined": "tro-african-buffalo tro-eland tro-wildebeest tro-warthog tro-impala tro-zebra tro-hartebeest tro-gemsbok tro-blesbok tro-kudu",
+        "combined": "tro-african-buffalo tro-eland tro-wildebeest tro-warthog tro-impala tro-zebra tro-hartebeest tro-gemsbok tro-blesbok endangered tro-kudu",
         "components": [
           {
             "control_number": 2014492943,
@@ -36916,7 +36916,7 @@
         "month": "7",
         "day": "8",
         "date": "7/8/14",
-        "combined": "tro-nyala tro-springbok tro-blesbok tro-duiker tro-gemsbok",
+        "combined": "tro-nyala tro-springbok tro-blesbok endangered tro-duiker tro-gemsbok",
         "components": [
           {
             "control_number": 2014492957,
@@ -37076,7 +37076,7 @@
         "month": "7",
         "day": "8",
         "date": "7/8/14",
-        "combined": "lpl-gemsbok lpl-zebra lpl-ostrich lpl-african-buffalo",
+        "combined": "lpl-gemsbok lpl-zebra lpl-ostrich endangered lpl-african-buffalo",
         "components": [
           {
             "control_number": 2014493401,
@@ -37152,7 +37152,7 @@
         "month": "7",
         "day": "9",
         "date": "7/9/14",
-        "combined": "tro-deer tro-rusa tro-elk tro-buffalo",
+        "combined": "tro-deer endangered tro-rusa tro-elk endangered tro-buffalo",
         "components": [
           {
             "control_number": 2014494078,
@@ -37356,7 +37356,7 @@
         "month": "7",
         "day": "10",
         "date": "7/10/14",
-        "combined": "liv-invertebrates liv-fish liv-firefish liv-lionfish",
+        "combined": "liv-invertebrates liv-fish endangered liv-firefish liv-lionfish endangered",
         "components": [
           {
             "control_number": 2014494729,
@@ -37792,7 +37792,7 @@
         "month": "7",
         "day": "15",
         "date": "7/15/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014497226,
@@ -37868,7 +37868,7 @@
         "month": "7",
         "day": "16",
         "date": "7/16/14",
-        "combined": "tro-impala tro-gemsbok tro-reedbuck tro-quagga tro-wildebeest tro-blesbok",
+        "combined": "tro-impala tro-gemsbok tro-reedbuck tro-quagga tro-wildebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014498195,
@@ -38068,7 +38068,7 @@
         "month": "7",
         "day": "16",
         "date": "7/16/14",
-        "combined": "ski-zebra sku-baboon tro-blesbok tro-bushbuck tro-waterbuck tro-impala tro-kudu tro-gemsbok",
+        "combined": "ski-zebra sku-baboon endangered tro-blesbok endangered tro-bushbuck tro-waterbuck tro-impala tro-kudu tro-gemsbok",
         "components": [
           {
             "control_number": 2014497801,
@@ -38344,7 +38344,7 @@
         "month": "7",
         "day": "17",
         "date": "7/17/14",
-        "combined": "tro-elk tro-buffalo tro-deer tro-chital tro-blackbuck",
+        "combined": "tro-elk endangered tro-buffalo tro-deer endangered tro-chital tro-blackbuck",
         "components": [
           {
             "control_number": 2014498739,
@@ -38432,7 +38432,7 @@
         "month": "7",
         "day": "18",
         "date": "7/18/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014499250,
@@ -38672,7 +38672,7 @@
         "month": "7",
         "day": "21",
         "date": "7/21/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014500085,
@@ -39016,7 +39016,7 @@
         "month": "7",
         "day": "21",
         "date": "7/21/14",
-        "combined": "bod-starfish spr-fish",
+        "combined": "bod-starfish spr-fish endangered",
         "components": [
           {
             "control_number": 2014499999,
@@ -39128,7 +39128,7 @@
         "month": "7",
         "day": "21",
         "date": "7/21/14",
-        "combined": "tro-wildebeest tro-blesbok tro-impala tro-kudu tro-hartebeest",
+        "combined": "tro-wildebeest tro-blesbok endangered tro-impala tro-kudu tro-hartebeest",
         "components": [
           {
             "control_number": 2014500003,
@@ -39236,7 +39236,7 @@
         "month": "7",
         "day": "22",
         "date": "7/22/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014500933,
@@ -39256,7 +39256,7 @@
         "month": "7",
         "day": "22",
         "date": "7/22/14",
-        "combined": "tro-impala tro-blesbok tro-reedbuck tro-springbok tro-kudu tro-gemsbok",
+        "combined": "tro-impala tro-blesbok endangered tro-reedbuck tro-springbok tro-kudu tro-gemsbok",
         "components": [
           {
             "control_number": 2014500930,
@@ -39376,7 +39376,7 @@
         "month": "7",
         "day": "22",
         "date": "7/22/14",
-        "combined": "tro-waterbuck tro-ostrich tro-impala tro-hartebeest tro-bushbuck",
+        "combined": "tro-waterbuck tro-ostrich endangered tro-impala tro-hartebeest tro-bushbuck",
         "components": [
           {
             "control_number": 2014500921,
@@ -39444,7 +39444,7 @@
         "month": "7",
         "day": "22",
         "date": "7/22/14",
-        "combined": "tro-hartebeest tro-waterbuck tro-blesbok tro-impala tro-springbok",
+        "combined": "tro-hartebeest tro-waterbuck tro-blesbok endangered tro-impala tro-springbok",
         "components": [
           {
             "control_number": 2014500926,
@@ -39532,7 +39532,7 @@
         "month": "7",
         "day": "23",
         "date": "7/23/14",
-        "combined": "tro-elk tro-deer tro-chamois tro-tahr",
+        "combined": "tro-elk endangered tro-deer endangered tro-chamois tro-tahr",
         "components": [
           {
             "control_number": 2014501779,
@@ -39588,7 +39588,7 @@
         "month": "7",
         "day": "23",
         "date": "7/23/14",
-        "combined": "tro-deer tro-elk",
+        "combined": "tro-deer endangered tro-elk endangered",
         "components": [
           {
             "control_number": 2014501780,
@@ -39620,7 +39620,7 @@
         "month": "7",
         "day": "23",
         "date": "7/23/14",
-        "combined": "tro-deer tro-elk tro-sheep",
+        "combined": "tro-deer endangered tro-elk endangered tro-sheep",
         "components": [
           {
             "control_number": 2014501781,
@@ -39756,7 +39756,7 @@
         "month": "7",
         "day": "25",
         "date": "7/25/14",
-        "combined": "rug-wolf",
+        "combined": "rug-wolf endangered",
         "components": [
           {
             "control_number": 2014502980,
@@ -39776,7 +39776,7 @@
         "month": "7",
         "day": "25",
         "date": "7/25/14",
-        "combined": "ski-wolf ski-wolverine",
+        "combined": "ski-wolf endangered ski-wolverine",
         "components": [
           {
             "control_number": 2014502989,
@@ -39864,7 +39864,7 @@
         "month": "7",
         "day": "25",
         "date": "7/25/14",
-        "combined": "tro-bear",
+        "combined": "tro-bear endangered",
         "components": [
           {
             "control_number": 2014502975,
@@ -39972,7 +39972,7 @@
         "month": "7",
         "day": "28",
         "date": "7/28/14",
-        "combined": "tro-zebra tro-klipspringer tro-jackal tro-dikdik tro-wildebeest tro-steenbok tro-springbok tro-hartebeest tro-gemsbok tro-impala tro-blesbok",
+        "combined": "tro-zebra endangered tro-klipspringer tro-jackal tro-dikdik tro-wildebeest tro-steenbok tro-springbok tro-hartebeest tro-gemsbok tro-impala tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014503704,
@@ -40204,7 +40204,7 @@
         "month": "7",
         "day": "29",
         "date": "7/29/14",
-        "combined": "ivp-elephant",
+        "combined": "ivp-elephant endangered",
         "components": [
           {
             "control_number": 2014504369,
@@ -40468,7 +40468,7 @@
         "month": "7",
         "day": "31",
         "date": "7/31/14",
-        "combined": "tro-gemsbok tro-monitor tro-nyala tro-kudu tro-impala",
+        "combined": "tro-gemsbok tro-monitor endangered tro-nyala tro-kudu tro-impala",
         "components": [
           {
             "control_number": 2014505907,
@@ -40677,7 +40677,7 @@
         "month": "8",
         "day": "1",
         "date": "8/1/14",
-        "combined": "ski-zebra sku-warthog tro-wildebeest tro-blesbok tro-gemsbok tro-impala tro-kudu tro-hartebeest tro-steenbok tro-waterbuck",
+        "combined": "ski-zebra sku-warthog tro-wildebeest tro-blesbok endangered tro-gemsbok tro-impala tro-kudu tro-hartebeest tro-steenbok tro-waterbuck",
         "components": [
           {
             "control_number": 2014506723,
@@ -40945,7 +40945,7 @@
         "month": "8",
         "day": "1",
         "date": "8/1/14",
-        "combined": "cav-sturgeon",
+        "combined": "cav-sturgeon endangered",
         "components": [
           {
             "control_number": 2014506720,
@@ -41145,7 +41145,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "bod-starfish spr-fish",
+        "combined": "bod-starfish spr-fish endangered",
         "components": [
           {
             "control_number": 2014508078,
@@ -41177,7 +41177,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-deer tro-elk tro-tahr tro-chamois",
+        "combined": "tro-deer endangered tro-elk endangered tro-tahr tro-chamois",
         "components": [
           {
             "control_number": 2014508157,
@@ -41233,7 +41233,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-elk tro-deer",
+        "combined": "tro-elk endangered tro-deer endangered",
         "components": [
           {
             "control_number": 2014508221,
@@ -41265,7 +41265,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014508250,
@@ -41285,7 +41285,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014508253,
@@ -41325,7 +41325,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-warthog tro-porcupine tro-genet tro-steenbok tro-gemsbok tro-wildcat tro-springbok",
+        "combined": "tro-warthog tro-porcupine tro-genet tro-steenbok tro-gemsbok tro-wildcat endangered tro-springbok",
         "components": [
           {
             "control_number": 2014508028,
@@ -41417,7 +41417,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "lps-bison lps-deer",
+        "combined": "lps-bison endangered lps-deer",
         "components": [
           {
             "control_number": 2014508139,
@@ -41521,7 +41521,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014508152,
@@ -41541,7 +41541,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "tro-deer tro-boar tro-tahr tro-elk",
+        "combined": "tro-deer endangered tro-boar tro-tahr tro-elk endangered",
         "components": [
           {
             "control_number": 2014508155,
@@ -41737,7 +41737,7 @@
         "month": "8",
         "day": "6",
         "date": "8/6/14",
-        "combined": "tro-warthog tro-antelope",
+        "combined": "tro-warthog tro-antelope endangered",
         "components": [
           {
             "control_number": 2014508908,
@@ -41789,7 +41789,7 @@
         "month": "8",
         "day": "6",
         "date": "8/6/14",
-        "combined": "tro-blesbok tro-eland tro-impala tro-waterbuck",
+        "combined": "tro-blesbok endangered tro-eland tro-impala tro-waterbuck",
         "components": [
           {
             "control_number": 2014508883,
@@ -42025,7 +42025,7 @@
         "month": "8",
         "day": "7",
         "date": "8/7/14",
-        "combined": "skp-bear",
+        "combined": "skp-bear endangered",
         "components": [
           {
             "control_number": 2014510208,
@@ -42105,7 +42105,7 @@
         "month": "8",
         "day": "8",
         "date": "8/8/14",
-        "combined": "tro-sheep tro-chamois tro-deer tro-elk tro-tahr",
+        "combined": "tro-sheep tro-chamois tro-deer endangered tro-elk endangered tro-tahr",
         "components": [
           {
             "control_number": 2014510943,
@@ -42301,7 +42301,7 @@
         "month": "8",
         "day": "11",
         "date": "8/11/14",
-        "combined": "tro-porcupine tro-blesbok tro-wildebeest tro-rhebok tro-reedbuck tro-klipspringer tro-grysbok tro-bushbuck tro-lion tro-lechwe",
+        "combined": "tro-porcupine tro-blesbok endangered endangered tro-wildebeest tro-rhebok tro-reedbuck tro-klipspringer tro-grysbok tro-bushbuck tro-lion endangered tro-lechwe endangered",
         "components": [
           {
             "control_number": 2014511587,
@@ -42633,7 +42633,7 @@
         "month": "8",
         "day": "13",
         "date": "8/13/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014513391,
@@ -42713,7 +42713,7 @@
         "month": "8",
         "day": "14",
         "date": "8/14/14",
-        "combined": "ski-bear sku-bear",
+        "combined": "ski-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014514127,
@@ -42745,7 +42745,7 @@
         "month": "8",
         "day": "14",
         "date": "8/14/14",
-        "combined": "sku-bear",
+        "combined": "sku-bear endangered",
         "components": [
           {
             "control_number": 2014514117,
@@ -42949,7 +42949,7 @@
         "month": "8",
         "day": "15",
         "date": "8/15/14",
-        "combined": "tro-deer tro-elk",
+        "combined": "tro-deer endangered tro-elk endangered",
         "components": [
           {
             "control_number": 2014514707,
@@ -43041,7 +43041,7 @@
         "month": "8",
         "day": "15",
         "date": "8/15/14",
-        "combined": "tro-african-buffalo tro-elephant",
+        "combined": "tro-african-buffalo tro-elephant endangered",
         "components": [
           {
             "control_number": 2014514663,
@@ -43073,7 +43073,7 @@
         "month": "8",
         "day": "15",
         "date": "8/15/14",
-        "combined": "lpl-african-buffalo lpl-elephant lps-african-buffalo skp-elephant",
+        "combined": "lpl-african-buffalo lpl-elephant endangered lps-african-buffalo skp-elephant endangered",
         "components": [
           {
             "control_number": 2014514676,
@@ -43129,7 +43129,7 @@
         "month": "8",
         "day": "15",
         "date": "8/15/14",
-        "combined": "tro-kudu tro-crocodile tro-roller",
+        "combined": "tro-kudu tro-crocodile endangered tro-roller",
         "components": [
           {
             "control_number": 2014514692,
@@ -43397,7 +43397,7 @@
         "month": "8",
         "day": "18",
         "date": "8/18/14",
-        "combined": "sho-elk sho-bison",
+        "combined": "sho-elk sho-bison endangered",
         "components": [
           {
             "control_number": 2014515195,
@@ -44109,7 +44109,7 @@
         "month": "8",
         "day": "18",
         "date": "8/18/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014515556,
@@ -44261,7 +44261,7 @@
         "month": "8",
         "day": "21",
         "date": "8/21/14",
-        "combined": "hor-elk hor-deer tro-elk tro-deer",
+        "combined": "hor-elk endangered hor-deer endangered tro-elk endangered tro-deer endangered",
         "components": [
           {
             "control_number": 2014517474,
@@ -44417,7 +44417,7 @@
         "month": "8",
         "day": "21",
         "date": "8/21/14",
-        "combined": "cav-sturgeon",
+        "combined": "cav-sturgeon endangered",
         "components": [
           {
             "control_number": 2014517346,
@@ -44437,7 +44437,7 @@
         "month": "8",
         "day": "21",
         "date": "8/21/14",
-        "combined": "liv-fish liv-lionfish liv-firefish liv-invertebrates",
+        "combined": "liv-fish endangered liv-lionfish liv-firefish endangered liv-invertebrates",
         "components": [
           {
             "control_number": 2014517361,
@@ -44681,7 +44681,7 @@
         "month": "8",
         "day": "22",
         "date": "8/22/14",
-        "combined": "tro-hartebeest tro-kudu tro-impala tro-blesbok",
+        "combined": "tro-hartebeest tro-kudu tro-impala tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014518084,
@@ -45025,7 +45025,7 @@
         "month": "8",
         "day": "25",
         "date": "8/25/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014518887,
@@ -45269,7 +45269,7 @@
         "month": "8",
         "day": "26",
         "date": "8/26/14",
-        "combined": "sku-elk sku-sheep tro-deer",
+        "combined": "sku-elk endangered sku-sheep tro-deer endangered",
         "components": [
           {
             "control_number": 2014519561,
@@ -45313,7 +45313,7 @@
         "month": "8",
         "day": "26",
         "date": "8/26/14",
-        "combined": "tro-elk tro-boar",
+        "combined": "tro-elk endangered tro-boar",
         "components": [
           {
             "control_number": 2014519396,
@@ -45345,7 +45345,7 @@
         "month": "8",
         "day": "26",
         "date": "8/26/14",
-        "combined": "tro-sheep tro-deer tro-elk",
+        "combined": "tro-sheep tro-deer endangered tro-elk endangered",
         "components": [
           {
             "control_number": 2014519285,
@@ -45501,7 +45501,7 @@
         "month": "8",
         "day": "27",
         "date": "8/27/14",
-        "combined": "tro-kudu tro-wildebeest tro-blesbok tro-jackal tro-zebra tro-hartebeest tro-waterbuck",
+        "combined": "tro-kudu tro-wildebeest tro-blesbok endangered tro-jackal tro-zebra tro-hartebeest tro-waterbuck",
         "components": [
           {
             "control_number": 2014519989,
@@ -45781,7 +45781,7 @@
         "month": "8",
         "day": "27",
         "date": "8/27/14",
-        "combined": "tro-sheep tro-ibex",
+        "combined": "tro-sheep endangered tro-ibex",
         "components": [
           {
             "control_number": 2014519928,
@@ -46037,7 +46037,7 @@
         "month": "8",
         "day": "28",
         "date": "8/28/14",
-        "combined": "tro-impala tro-gemsbok tro-blesbok tro-springbok tro-reedbuck tro-wildebeest tro-kudu",
+        "combined": "tro-impala tro-gemsbok tro-blesbok endangered tro-springbok tro-reedbuck tro-wildebeest tro-kudu",
         "components": [
           {
             "control_number": 2014520886,
@@ -46129,7 +46129,7 @@
         "month": "8",
         "day": "28",
         "date": "8/28/14",
-        "combined": "hor-elk hor-deer",
+        "combined": "hor-elk endangered hor-deer endangered",
         "components": [
           {
             "control_number": 2014520898,
@@ -46181,7 +46181,7 @@
         "month": "8",
         "day": "28",
         "date": "8/28/14",
-        "combined": "liv-coral liv-fish liv-invertebrates roc-coral",
+        "combined": "liv-coral endangered endangered endangered endangered endangered endangered endangered endangered endangered liv-fish endangered liv-invertebrates endangered endangered endangered endangered endangered endangered endangered roc-coral",
         "components": [
           {
             "control_number": 2014520805,
@@ -46513,7 +46513,7 @@
         "month": "8",
         "day": "28",
         "date": "8/28/14",
-        "combined": "tro-zebra tro-hartebeest tro-warthog tro-baboon tro-wildebeest tro-nyala tro-impala tro-waterbuck tro-kudu tro-eland tro-blesbok",
+        "combined": "tro-zebra endangered tro-hartebeest tro-warthog tro-baboon endangered tro-wildebeest tro-nyala tro-impala tro-waterbuck tro-kudu tro-eland tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014520881,
@@ -46749,7 +46749,7 @@
         "month": "8",
         "day": "29",
         "date": "8/29/14",
-        "combined": "tro-tahr tro-deer tro-chamois",
+        "combined": "tro-tahr tro-deer endangered tro-chamois",
         "components": [
           {
             "control_number": 2014521350,
@@ -46793,7 +46793,7 @@
         "month": "8",
         "day": "29",
         "date": "8/29/14",
-        "combined": "tro-deer tro-tahr tro-sheep tro-elk",
+        "combined": "tro-deer endangered tro-tahr tro-sheep tro-elk endangered",
         "components": [
           {
             "control_number": 2014521348,
@@ -46849,7 +46849,7 @@
         "month": "8",
         "day": "29",
         "date": "8/29/14",
-        "combined": "tro-deer tro-elk",
+        "combined": "tro-deer endangered tro-elk endangered",
         "components": [
           {
             "control_number": 2014521344,
@@ -46920,7 +46920,7 @@
         "month": "8",
         "day": "29",
         "date": "8/29/14",
-        "combined": "tro-tahr tro-boar tro-wallaby tro-possum tro-deer tro-sheep",
+        "combined": "tro-tahr tro-boar tro-wallaby tro-possum tro-deer endangered tro-sheep",
         "components": [
           {
             "control_number": 2014521355,
@@ -47005,7 +47005,7 @@
         "month": "9",
         "day": "2",
         "date": "9/2/14",
-        "combined": "ext-fish",
+        "combined": "ext-fish endangered endangered",
         "components": [
           {
             "control_number": 2014522223,
@@ -47113,7 +47113,7 @@
         "month": "9",
         "day": "2",
         "date": "9/2/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014522234,
@@ -47153,7 +47153,7 @@
         "month": "9",
         "day": "2",
         "date": "9/2/14",
-        "combined": "hor-elk sku-wolf",
+        "combined": "hor-elk endangered sku-wolf endangered",
         "components": [
           {
             "control_number": 2014571200,
@@ -47245,7 +47245,7 @@
         "month": "9",
         "day": "3",
         "date": "9/3/14",
-        "combined": "sku-impala sku-blesbok sku-gemsbok sku-klipspringer sku-tsessebe",
+        "combined": "sku-impala sku-blesbok endangered sku-gemsbok sku-klipspringer sku-tsessebe",
         "components": [
           {
             "control_number": 2014523112,
@@ -47313,7 +47313,7 @@
         "month": "9",
         "day": "3",
         "date": "9/3/14",
-        "combined": "tro-zebra tro-duiker tro-blesbok tro-impala tro-warthog tro-nyala tro-kudu",
+        "combined": "tro-zebra tro-duiker tro-blesbok endangered tro-impala tro-warthog tro-nyala tro-kudu",
         "components": [
           {
             "control_number": 2014523323,
@@ -47425,7 +47425,7 @@
         "month": "9",
         "day": "4",
         "date": "9/4/14",
-        "combined": "tro-tahr tro-chamois tro-elk",
+        "combined": "tro-tahr tro-chamois tro-elk endangered",
         "components": [
           {
             "control_number": 2014523958,
@@ -47581,7 +47581,7 @@
         "month": "9",
         "day": "4",
         "date": "9/4/14",
-        "combined": "tro-lechwe tro-wildebeest tro-springbok tro-gemsbok",
+        "combined": "tro-lechwe endangered tro-wildebeest tro-springbok tro-gemsbok",
         "components": [
           {
             "control_number": 2014523973,
@@ -47701,7 +47701,7 @@
         "month": "9",
         "day": "5",
         "date": "9/5/14",
-        "combined": "mea-elk",
+        "combined": "mea-elk endangered",
         "components": [
           {
             "control_number": 2014525022,
@@ -47721,7 +47721,7 @@
         "month": "9",
         "day": "5",
         "date": "9/5/14",
-        "combined": "bod-starfish cpr-coral spr-cerith spr-fish",
+        "combined": "bod-starfish cpr-coral spr-cerith spr-fish endangered",
         "components": [
           {
             "control_number": 2014525018,
@@ -47817,7 +47817,7 @@
         "month": "9",
         "day": "8",
         "date": "9/8/14",
-        "combined": "ski-bear",
+        "combined": "ski-bear endangered",
         "components": [
           {
             "control_number": 2014525709,
@@ -47837,7 +47837,7 @@
         "month": "9",
         "day": "8",
         "date": "9/8/14",
-        "combined": "tro-warthog tro-springbok tro-hartebeest tro-gemsbok tro-eland tro-zebra tro-wildebeest",
+        "combined": "tro-warthog tro-springbok tro-hartebeest tro-gemsbok tro-eland tro-zebra endangered tro-wildebeest",
         "components": [
           {
             "control_number": 2014525722,
@@ -47941,7 +47941,7 @@
         "month": "9",
         "day": "8",
         "date": "9/8/14",
-        "combined": "fea-ostrich spr-whelk",
+        "combined": "fea-ostrich endangered spr-whelk",
         "components": [
           {
             "control_number": 2014525624,
@@ -48137,7 +48137,7 @@
         "month": "9",
         "day": "8",
         "date": "9/8/14",
-        "combined": "tro-nyala tro-african-buffalo tro-eland tro-bush-pig tro-bushbuck tro-antelope",
+        "combined": "tro-nyala tro-african-buffalo tro-eland tro-bush-pig tro-bushbuck tro-antelope endangered",
         "components": [
           {
             "control_number": 2014525687,
@@ -48217,7 +48217,7 @@
         "month": "9",
         "day": "8",
         "date": "9/8/14",
-        "combined": "lps-deer lps-bison",
+        "combined": "lps-deer lps-bison endangered",
         "components": [
           {
             "control_number": 2014525688,
@@ -48249,7 +48249,7 @@
         "month": "9",
         "day": "8",
         "date": "9/8/14",
-        "combined": "tro-wildebeest tro-springbok tro-blesbok",
+        "combined": "tro-wildebeest tro-springbok tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014525760,
@@ -48377,7 +48377,7 @@
         "month": "9",
         "day": "9",
         "date": "9/9/14",
-        "combined": "bod-starfish bod-sanddollar she-fish spr-fish",
+        "combined": "bod-starfish bod-sanddollar she-fish endangered spr-fish endangered",
         "components": [
           {
             "control_number": 2014526201,
@@ -48537,7 +48537,7 @@
         "month": "9",
         "day": "9",
         "date": "9/9/14",
-        "combined": "tro-lion",
+        "combined": "tro-lion endangered",
         "components": [
           {
             "control_number": 2014526422,
@@ -48557,7 +48557,7 @@
         "month": "9",
         "day": "9",
         "date": "9/9/14",
-        "combined": "tro-lion",
+        "combined": "tro-lion endangered",
         "components": [
           {
             "control_number": 2014526434,
@@ -48577,7 +48577,7 @@
         "month": "9",
         "day": "9",
         "date": "9/9/14",
-        "combined": "lpl-blesbok",
+        "combined": "lpl-blesbok endangered",
         "components": [
           {
             "control_number": 2014526439,
@@ -48793,7 +48793,7 @@
         "month": "9",
         "day": "10",
         "date": "9/10/14",
-        "combined": "ski-bear sku-bear",
+        "combined": "ski-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014527255,
@@ -48865,7 +48865,7 @@
         "month": "9",
         "day": "10",
         "date": "9/10/14",
-        "combined": "tro-kudu tro-giraffe tro-reedbuck tro-springbok tro-blesbok",
+        "combined": "tro-kudu tro-giraffe tro-reedbuck tro-springbok tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014571229,
@@ -48985,7 +48985,7 @@
         "month": "9",
         "day": "11",
         "date": "9/11/14",
-        "combined": "liv-x-domestic cat",
+        "combined": "liv-x-domestic cat endangered",
         "components": [
           {
             "control_number": 2014527997,
@@ -49005,7 +49005,7 @@
         "month": "9",
         "day": "11",
         "date": "9/11/14",
-        "combined": "lpl-elk lpl-alligator",
+        "combined": "lpl-elk lpl-alligator endangered",
         "components": [
           {
             "control_number": 2014527994,
@@ -49037,7 +49037,7 @@
         "month": "9",
         "day": "11",
         "date": "9/11/14",
-        "combined": "key-elephant",
+        "combined": "key-elephant endangered",
         "components": [
           {
             "control_number": 2014527922,
@@ -49221,7 +49221,7 @@
         "month": "9",
         "day": "15",
         "date": "9/15/14",
-        "combined": "tro-hartebeest tro-warthog tro-nyala tro-african-buffalo tro-springbok tro-crocodile",
+        "combined": "tro-hartebeest tro-warthog tro-nyala tro-african-buffalo tro-springbok tro-crocodile endangered",
         "components": [
           {
             "control_number": 2014529461,
@@ -49589,7 +49589,7 @@
         "month": "9",
         "day": "15",
         "date": "9/15/14",
-        "combined": "tro-kudu tro-impala tro-wildebeest tro-springbok tro-blesbok tro-gemsbok tro-waterbuck",
+        "combined": "tro-kudu tro-impala tro-wildebeest tro-springbok tro-blesbok endangered tro-gemsbok tro-waterbuck",
         "components": [
           {
             "control_number": 2014529447,
@@ -49693,7 +49693,7 @@
         "month": "9",
         "day": "15",
         "date": "9/15/14",
-        "combined": "tro-gemsbok tro-kudu tro-impala tro-blesbok tro-springbok tro-eland",
+        "combined": "tro-gemsbok tro-kudu tro-impala tro-blesbok endangered tro-springbok tro-eland",
         "components": [
           {
             "control_number": 2014529509,
@@ -49837,7 +49837,7 @@
         "month": "9",
         "day": "16",
         "date": "9/16/14",
-        "combined": "tro-argali",
+        "combined": "tro-argali endangered",
         "components": [
           {
             "control_number": 2015675487,
@@ -49973,7 +49973,7 @@
         "month": "9",
         "day": "17",
         "date": "9/17/14",
-        "combined": "tro-elk tro-chamois",
+        "combined": "tro-elk endangered tro-chamois",
         "components": [
           {
             "control_number": 2014530839,
@@ -50057,7 +50057,7 @@
         "month": "9",
         "day": "18",
         "date": "9/18/14",
-        "combined": "tro-impala tro-blesbok tro-wildebeest tro-kudu tro-warthog",
+        "combined": "tro-impala tro-blesbok endangered tro-wildebeest tro-kudu tro-warthog",
         "components": [
           {
             "control_number": 2014531702,
@@ -50189,7 +50189,7 @@
         "month": "9",
         "day": "18",
         "date": "9/18/14",
-        "combined": "cav-sturgeon spr-fish",
+        "combined": "cav-sturgeon endangered spr-fish endangered",
         "components": [
           {
             "control_number": 2014531481,
@@ -50241,7 +50241,7 @@
         "month": "9",
         "day": "18",
         "date": "9/18/14",
-        "combined": "liv-invertebrates liv-fish liv-lionfish",
+        "combined": "liv-invertebrates liv-fish endangered liv-lionfish endangered",
         "components": [
           {
             "control_number": 2014531653,
@@ -50317,7 +50317,7 @@
         "month": "9",
         "day": "19",
         "date": "9/19/14",
-        "combined": "tro-elk tro-sheep",
+        "combined": "tro-elk endangered tro-sheep",
         "components": [
           {
             "control_number": 2014532673,
@@ -50445,7 +50445,7 @@
         "month": "9",
         "day": "19",
         "date": "9/19/14",
-        "combined": "tro-elk tro-deer",
+        "combined": "tro-elk endangered tro-deer endangered",
         "components": [
           {
             "control_number": 2014532677,
@@ -50477,7 +50477,7 @@
         "month": "9",
         "day": "19",
         "date": "9/19/14",
-        "combined": "tro-waterbuck tro-kudu tro-impala tro-gemsbok tro-wildebeest tro-blesbok",
+        "combined": "tro-waterbuck tro-kudu tro-impala tro-gemsbok tro-wildebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014532534,
@@ -50589,7 +50589,7 @@
         "month": "9",
         "day": "19",
         "date": "9/19/14",
-        "combined": "sho-elk sho-bison",
+        "combined": "sho-elk sho-bison endangered",
         "components": [
           {
             "control_number": 2014532681,
@@ -50641,7 +50641,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "tro-caracal tro-hog tro-impala tro-springbok tro-baboon tro-blesbok tro-kudu tro-goat tro-antelope",
+        "combined": "tro-caracal endangered tro-hog tro-impala tro-springbok tro-baboon endangered tro-blesbok endangered tro-kudu tro-goat tro-antelope",
         "components": [
           {
             "control_number": 2014533337,
@@ -50789,7 +50789,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "tro-deer tro-elk tro-sheep tro-shelduck tro-chamois tro-tahr",
+        "combined": "tro-deer endangered tro-elk endangered tro-sheep tro-shelduck tro-chamois tro-tahr",
         "components": [
           {
             "control_number": 2014533088,
@@ -50869,7 +50869,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "tro-kudu tro-impala tro-warthog tro-giraffe tro-genet tro-gemsbok tro-wildebeest tro-monkey tro-civet tro-zebra",
+        "combined": "tro-kudu tro-impala tro-warthog tro-giraffe tro-genet tro-gemsbok tro-wildebeest tro-monkey endangered tro-civet tro-zebra",
         "components": [
           {
             "control_number": 2014533289,
@@ -51085,7 +51085,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "tro-warthog tro-monkey tro-blesbok tro-gemsbok tro-wildebeest tro-zebra tro-kudu",
+        "combined": "tro-warthog tro-monkey endangered tro-blesbok endangered tro-gemsbok tro-wildebeest tro-zebra tro-kudu",
         "components": [
           {
             "control_number": 2014533349,
@@ -51177,7 +51177,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "tro-african-buffalo tro-crocodile tro-bushbuck tro-reedbuck",
+        "combined": "tro-african-buffalo tro-crocodile endangered tro-bushbuck tro-reedbuck",
         "components": [
           {
             "control_number": 2014533441,
@@ -51233,7 +51233,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "tro-grysbok tro-hog tro-baboon tro-oribi tro-duiker tro-kudu tro-warthog",
+        "combined": "tro-grysbok tro-hog tro-baboon endangered tro-oribi tro-duiker tro-kudu tro-warthog",
         "components": [
           {
             "control_number": 2014533455,
@@ -51345,7 +51345,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "spr-ostrich spr-whelk",
+        "combined": "spr-ostrich endangered spr-whelk",
         "components": [
           {
             "control_number": 2014533071,
@@ -51597,7 +51597,7 @@
         "month": "9",
         "day": "24",
         "date": "9/24/14",
-        "combined": "sho-bison",
+        "combined": "sho-bison endangered",
         "components": [
           {
             "control_number": 2014534835,
@@ -51733,7 +51733,7 @@
         "month": "9",
         "day": "25",
         "date": "9/25/14",
-        "combined": "tro-ostrich tro-jackal tro-warthog tro-springbok tro-gemsbok tro-zebra tro-eland",
+        "combined": "tro-ostrich endangered tro-jackal tro-warthog tro-springbok tro-gemsbok tro-zebra endangered tro-eland",
         "components": [
           {
             "control_number": 2014535217,
@@ -51901,7 +51901,7 @@
         "month": "9",
         "day": "26",
         "date": "9/26/14",
-        "combined": "tro-crocodile",
+        "combined": "tro-crocodile endangered",
         "components": [
           {
             "control_number": 2014536055,
@@ -51961,7 +51961,7 @@
         "month": "9",
         "day": "26",
         "date": "9/26/14",
-        "combined": "liv-leopard-cat",
+        "combined": "liv-leopard-cat endangered",
         "components": [
           {
             "control_number": 2014536008,
@@ -52181,7 +52181,7 @@
         "month": "9",
         "day": "30",
         "date": "9/30/14",
-        "combined": "tro-gemsbok tro-blesbok tro-wildebeest tro-genet tro-impala tro-kudu tro-antelope tro-warthog tro-waterbuck",
+        "combined": "tro-gemsbok tro-blesbok endangered tro-wildebeest tro-genet tro-impala tro-kudu tro-antelope endangered tro-warthog tro-waterbuck",
         "components": [
           {
             "control_number": 2014538563,
@@ -52329,7 +52329,7 @@
         "month": "9",
         "day": "30",
         "date": "9/30/14",
-        "combined": "tro-crocodile tro-bushbuck tro-hartebeest tro-leopard tro-reedbuck tro-antelope tro-waterbuck",
+        "combined": "tro-crocodile endangered tro-bushbuck tro-hartebeest tro-leopard endangered tro-reedbuck tro-antelope endangered tro-waterbuck",
         "components": [
           {
             "control_number": 2014538602,
@@ -52441,7 +52441,7 @@
         "month": "9",
         "day": "30",
         "date": "9/30/14",
-        "combined": "fea-peafowl fea-pheasant fea-ostrich",
+        "combined": "fea-peafowl fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014538637,
@@ -52693,7 +52693,7 @@
         "month": "9",
         "day": "30",
         "date": "9/30/14",
-        "combined": "tro-gemsbok tro-deer tro-wildebeest",
+        "combined": "tro-gemsbok tro-deer endangered tro-wildebeest",
         "components": [
           {
             "control_number": 2014538204,
@@ -52793,7 +52793,7 @@
         "month": "9",
         "day": "30",
         "date": "9/30/14",
-        "combined": "tro-x-domestic cat tro-porcupine",
+        "combined": "tro-x-domestic cat endangered tro-porcupine",
         "components": [
           {
             "control_number": 2014538557,
@@ -52986,7 +52986,7 @@
         "month": "10",
         "day": "1",
         "date": "10/1/14",
-        "combined": "tro-elephant tro-african-buffalo tro-civet tro-eland tro-zebra tro-kudu tro-hyaena tro-waterbuck",
+        "combined": "tro-elephant endangered tro-african-buffalo tro-civet tro-eland tro-zebra tro-kudu tro-hyaena tro-waterbuck",
         "components": [
           {
             "control_number": 2014539825,
@@ -53142,7 +53142,7 @@
         "month": "10",
         "day": "2",
         "date": "10/2/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014540458,
@@ -53162,7 +53162,7 @@
         "month": "10",
         "day": "2",
         "date": "10/2/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014540457,
@@ -53794,7 +53794,7 @@
         "month": "10",
         "day": "6",
         "date": "10/6/14",
-        "combined": "ski-lynx ski-wolverine",
+        "combined": "ski-lynx endangered ski-wolverine",
         "components": [
           {
             "control_number": 2014541865,
@@ -53934,7 +53934,7 @@
         "month": "10",
         "day": "7",
         "date": "10/7/14",
-        "combined": "skp-leopard",
+        "combined": "skp-leopard endangered",
         "components": [
           {
             "control_number": 2014542700,
@@ -53954,7 +53954,7 @@
         "month": "10",
         "day": "8",
         "date": "10/8/14",
-        "combined": "tro-giraffe tro-impala tro-warthog tro-blesbok tro-hartebeest tro-gemsbok",
+        "combined": "tro-giraffe tro-impala tro-warthog tro-blesbok endangered tro-hartebeest tro-gemsbok",
         "components": [
           {
             "control_number": 2014543422,
@@ -54054,7 +54054,7 @@
         "month": "10",
         "day": "8",
         "date": "10/8/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014543325,
@@ -54214,7 +54214,7 @@
         "month": "10",
         "day": "9",
         "date": "10/9/14",
-        "combined": "liv-fish liv-lionfish liv-firefish liv-invertebrates",
+        "combined": "liv-fish endangered endangered liv-lionfish liv-firefish liv-invertebrates",
         "components": [
           {
             "control_number": 2014544477,
@@ -54446,7 +54446,7 @@
         "month": "10",
         "day": "10",
         "date": "10/10/14",
-        "combined": "tro-elk tro-deer",
+        "combined": "tro-elk endangered tro-deer",
         "components": [
           {
             "control_number": 2014544829,
@@ -54498,7 +54498,7 @@
         "month": "10",
         "day": "10",
         "date": "10/10/14",
-        "combined": "lps-bison lps-deer",
+        "combined": "lps-bison endangered lps-deer",
         "components": [
           {
             "control_number": 2014544799,
@@ -54550,7 +54550,7 @@
         "month": "10",
         "day": "10",
         "date": "10/10/14",
-        "combined": "liv-coral liv-fish liv-crustacean liv-lionfish liv-firefish liv-sponge",
+        "combined": "liv-coral endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered liv-fish liv-crustacean endangered liv-lionfish liv-firefish liv-sponge endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered",
         "components": [
           {
             "control_number": 2014544781,
@@ -55290,7 +55290,7 @@
         "month": "10",
         "day": "15",
         "date": "10/15/14",
-        "combined": "tro-impala tro-kudu tro-warthog tro-zebra tro-blesbok tro-wildebeest tro-gemsbok",
+        "combined": "tro-impala tro-kudu tro-warthog tro-zebra tro-blesbok endangered tro-wildebeest tro-gemsbok",
         "components": [
           {
             "control_number": 2014547086,
@@ -55382,7 +55382,7 @@
         "month": "10",
         "day": "15",
         "date": "10/15/14",
-        "combined": "rug-bear sku-bear",
+        "combined": "rug-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014546743,
@@ -55414,7 +55414,7 @@
         "month": "10",
         "day": "15",
         "date": "10/15/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014546759,
@@ -55502,7 +55502,7 @@
         "month": "10",
         "day": "15",
         "date": "10/15/14",
-        "combined": "tro-elk tro-tahr tro-chamois",
+        "combined": "tro-elk endangered tro-tahr tro-chamois",
         "components": [
           {
             "control_number": 2014546788,
@@ -55546,7 +55546,7 @@
         "month": "10",
         "day": "15",
         "date": "10/15/14",
-        "combined": "tro-tahr tro-rusa tro-deer",
+        "combined": "tro-tahr tro-rusa tro-deer endangered",
         "components": [
           {
             "control_number": 2014546857,
@@ -55610,7 +55610,7 @@
         "month": "10",
         "day": "16",
         "date": "10/16/14",
-        "combined": "tro-steenbok tro-blesbok tro-duiker tro-bushbuck tro-wildebeest tro-hartebeest tro-gemsbok tro-kudu tro-reedbuck tro-nyala tro-springbok",
+        "combined": "tro-steenbok tro-blesbok endangered tro-duiker tro-bushbuck tro-wildebeest tro-hartebeest tro-gemsbok tro-kudu tro-reedbuck tro-nyala tro-springbok",
         "components": [
           {
             "control_number": 2014547829,
@@ -55750,7 +55750,7 @@
         "month": "10",
         "day": "16",
         "date": "10/16/14",
-        "combined": "liv-coral liv-invertebrates liv-fish roc-coral",
+        "combined": "liv-coral endangered liv-invertebrates liv-fish endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered roc-coral",
         "components": [
           {
             "control_number": 2014547788,
@@ -56142,7 +56142,7 @@
         "month": "10",
         "day": "17",
         "date": "10/17/14",
-        "combined": "sho-elk sho-bison",
+        "combined": "sho-elk sho-bison endangered",
         "components": [
           {
             "control_number": 2014548417,
@@ -56450,7 +56450,7 @@
         "month": "10",
         "day": "17",
         "date": "10/17/14",
-        "combined": "med-tiger med-deer",
+        "combined": "med-tiger endangered med-deer",
         "components": [
           {
             "control_number": 2014559752,
@@ -56502,7 +56502,7 @@
         "month": "10",
         "day": "20",
         "date": "10/20/14",
-        "combined": "tro-boar tro-elk",
+        "combined": "tro-boar tro-elk endangered",
         "components": [
           {
             "control_number": 2014549341,
@@ -56574,7 +56574,7 @@
         "month": "10",
         "day": "20",
         "date": "10/20/14",
-        "combined": "tro-hartebeest tro-zebra tro-springbok tro-gemsbok tro-steenbok tro-wildebeest tro-kudu",
+        "combined": "tro-hartebeest tro-zebra endangered tro-springbok tro-gemsbok tro-steenbok tro-wildebeest tro-kudu",
         "components": [
           {
             "control_number": 2014549097,
@@ -56666,7 +56666,7 @@
         "month": "10",
         "day": "20",
         "date": "10/20/14",
-        "combined": "cav-sturgeon cav-sturgeon-hybrid",
+        "combined": "cav-sturgeon endangered cav-sturgeon-hybrid endangered",
         "components": [
           {
             "control_number": 2014549132,
@@ -56758,7 +56758,7 @@
         "month": "10",
         "day": "20",
         "date": "10/20/14",
-        "combined": "tro-blesbok tro-wildebeest tro-waterbuck tro-warthog tro-impala tro-gemsbok tro-bushbuck",
+        "combined": "tro-blesbok endangered tro-wildebeest tro-waterbuck tro-warthog tro-impala tro-gemsbok tro-bushbuck",
         "components": [
           {
             "control_number": 2014549179,
@@ -56870,7 +56870,7 @@
         "month": "10",
         "day": "21",
         "date": "10/21/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014549839,
@@ -56902,7 +56902,7 @@
         "month": "10",
         "day": "21",
         "date": "10/21/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014550019,
@@ -56942,7 +56942,7 @@
         "month": "10",
         "day": "21",
         "date": "10/21/14",
-        "combined": "ear-elephant foo-elephant skp-elephant tro-klipspringer tro-gerenuk tus-elephant",
+        "combined": "ear-elephant endangered foo-elephant endangered skp-elephant endangered tro-klipspringer tro-gerenuk tus-elephant endangered endangered",
         "components": [
           {
             "control_number": 2014550242,
@@ -57022,7 +57022,7 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "tro-tahr tro-goat tro-elk tro-sheep tro-deer",
+        "combined": "tro-tahr tro-goat tro-elk endangered tro-sheep tro-deer endangered",
         "components": [
           {
             "control_number": 2014550790,
@@ -57090,7 +57090,7 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "hor-elk",
+        "combined": "hor-elk endangered",
         "components": [
           {
             "control_number": 2014550792,
@@ -57218,7 +57218,7 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "tro-zebra tro-blesbok tro-eland tro-porcupine tro-baboon tro-wildebeest",
+        "combined": "tro-zebra tro-blesbok endangered tro-eland tro-porcupine tro-baboon endangered tro-wildebeest",
         "components": [
           {
             "control_number": 2014551095,
@@ -57318,7 +57318,7 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "tro-gemsbok tro-waterbuck tro-nyala tro-reedbuck tro-kudu tro-zebra tro-blesbok tro-impala tro-hartebeest tro-springbok tro-steenbok tro-warthog",
+        "combined": "tro-gemsbok tro-waterbuck tro-nyala tro-reedbuck tro-kudu tro-zebra endangered tro-blesbok endangered tro-impala tro-hartebeest tro-springbok tro-steenbok tro-warthog",
         "components": [
           {
             "control_number": 2014550746,
@@ -57742,7 +57742,7 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "tro-gemsbok tro-springbok tro-kudu tro-hartebeest tro-wildebeest tro-eland tro-blesbok tro-zebra",
+        "combined": "tro-gemsbok tro-springbok tro-kudu tro-hartebeest tro-wildebeest tro-eland tro-blesbok endangered tro-zebra",
         "components": [
           {
             "control_number": 2014550707,
@@ -57930,7 +57930,7 @@
         "month": "10",
         "day": "23",
         "date": "10/23/14",
-        "combined": "tro-hartebeest tro-wildebeest tro-impala tro-ostrich tro-warthog",
+        "combined": "tro-hartebeest tro-wildebeest tro-impala tro-ostrich endangered tro-warthog",
         "components": [
           {
             "control_number": 2014551647,
@@ -58062,7 +58062,7 @@
         "month": "10",
         "day": "23",
         "date": "10/23/14",
-        "combined": "pla-zebra pla-antelope pla-impala pla-wildebeest pla-giraffe pla-waterbuck pla-tsessebe",
+        "combined": "pla-zebra pla-antelope endangered pla-impala pla-wildebeest pla-giraffe pla-waterbuck pla-tsessebe",
         "components": [
           {
             "control_number": 2014552011,
@@ -58154,7 +58154,7 @@
         "month": "10",
         "day": "23",
         "date": "10/23/14",
-        "combined": "cla-bear",
+        "combined": "cla-bear endangered endangered",
         "components": [
           {
             "control_number": 2014551976,
@@ -58250,7 +58250,7 @@
         "month": "10",
         "day": "23",
         "date": "10/23/14",
-        "combined": "tro-waterbuck tro-zebra tro-gemsbok tro-impala tro-kudu tro-hare tro-steenbok tro-warthog tro-jackal tro-blesbok tro-wildebeest",
+        "combined": "tro-waterbuck tro-zebra tro-gemsbok tro-impala tro-kudu tro-hare tro-steenbok tro-warthog tro-jackal tro-blesbok endangered tro-wildebeest",
         "components": [
           {
             "control_number": 2014552029,
@@ -58562,7 +58562,7 @@
         "month": "10",
         "day": "24",
         "date": "10/24/14",
-        "combined": "sho-bison",
+        "combined": "sho-bison endangered",
         "components": [
           {
             "control_number": 2014553064,
@@ -58718,7 +58718,7 @@
         "month": "10",
         "day": "24",
         "date": "10/24/14",
-        "combined": "egg-ostrich hor-kudu ski-springbok tus-warthog",
+        "combined": "egg-ostrich endangered hor-kudu ski-springbok tus-warthog",
         "components": [
           {
             "control_number": 2014552654,
@@ -58814,7 +58814,7 @@
         "month": "10",
         "day": "27",
         "date": "10/27/14",
-        "combined": "spr-fish",
+        "combined": "spr-fish endangered",
         "components": [
           {
             "control_number": 2014553691,
@@ -59086,7 +59086,7 @@
         "month": "10",
         "day": "28",
         "date": "10/28/14",
-        "combined": "tro-steenbok tro-impala tro-waterbuck tro-gemsbok tro-duiker tro-bushbuck tro-warthog tro-wildebeest tro-blesbok",
+        "combined": "tro-steenbok tro-impala tro-waterbuck tro-gemsbok tro-duiker tro-bushbuck tro-warthog tro-wildebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014554678,
@@ -59202,7 +59202,7 @@
         "month": "10",
         "day": "28",
         "date": "10/28/14",
-        "combined": "ext-cyclamen ext-aloe med-cobra med-bushmaster",
+        "combined": "ext-cyclamen ext-aloe endangered med-cobra endangered med-bushmaster",
         "components": [
           {
             "control_number": 2014554799,
@@ -59722,7 +59722,7 @@
         "month": "10",
         "day": "30",
         "date": "10/30/14",
-        "combined": "lps-deer lps-bison",
+        "combined": "lps-deer lps-bison endangered",
         "components": [
           {
             "control_number": 2014556203,
@@ -59754,7 +59754,7 @@
         "month": "10",
         "day": "31",
         "date": "10/31/14",
-        "combined": "tro-sheep",
+        "combined": "tro-sheep endangered",
         "components": [
           {
             "control_number": 2014571262,
@@ -59946,7 +59946,7 @@
         "month": "10",
         "day": "31",
         "date": "10/31/14",
-        "combined": "med-elk",
+        "combined": "med-elk endangered",
         "components": [
           {
             "control_number": 2014571281,
@@ -60511,7 +60511,7 @@
         "month": "11",
         "day": "5",
         "date": "11/5/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014559495,
@@ -60599,7 +60599,7 @@
         "month": "11",
         "day": "5",
         "date": "11/5/14",
-        "combined": "tro-blesbok tro-impala tro-springbok tro-bushbuck tro-zebra tro-duiker tro-warthog",
+        "combined": "tro-blesbok endangered tro-impala tro-springbok tro-bushbuck tro-zebra tro-duiker tro-warthog",
         "components": [
           {
             "control_number": 2014559507,
@@ -60807,7 +60807,7 @@
         "month": "11",
         "day": "5",
         "date": "11/5/14",
-        "combined": "tro-elk tro-deer tro-chamois tro-tahr",
+        "combined": "tro-elk endangered tro-deer endangered tro-chamois tro-tahr",
         "components": [
           {
             "control_number": 2014559503,
@@ -60939,7 +60939,7 @@
         "month": "11",
         "day": "6",
         "date": "11/6/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered endangered liv-invertebrates",
         "components": [
           {
             "control_number": 2014560405,
@@ -61003,7 +61003,7 @@
         "month": "11",
         "day": "7",
         "date": "11/7/14",
-        "combined": "fea-ostrich spr-nassa spr-whelk",
+        "combined": "fea-ostrich endangered spr-nassa spr-whelk",
         "components": [
           {
             "control_number": 2014561131,
@@ -61167,7 +61167,7 @@
         "month": "11",
         "day": "10",
         "date": "11/10/14",
-        "combined": "tro-tahr tro-elk",
+        "combined": "tro-tahr tro-elk endangered",
         "components": [
           {
             "control_number": 2014562191,
@@ -61303,7 +61303,7 @@
         "month": "11",
         "day": "10",
         "date": "11/10/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014562225,
@@ -61571,7 +61571,7 @@
         "month": "11",
         "day": "12",
         "date": "11/12/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014562918,
@@ -61651,7 +61651,7 @@
         "month": "11",
         "day": "13",
         "date": "11/13/14",
-        "combined": "tro-gemsbok tro-zebra tro-waterbuck tro-dikdik tro-wildebeest tro-steenbok tro-springbok",
+        "combined": "tro-gemsbok tro-zebra endangered tro-waterbuck tro-dikdik tro-wildebeest tro-steenbok tro-springbok",
         "components": [
           {
             "control_number": 2014564180,
@@ -62051,7 +62051,7 @@
         "month": "11",
         "day": "13",
         "date": "11/13/14",
-        "combined": "tro-zebra",
+        "combined": "tro-zebra endangered",
         "components": [
           {
             "control_number": 2014564153,
@@ -62219,7 +62219,7 @@
         "month": "11",
         "day": "14",
         "date": "11/14/14",
-        "combined": "tro-chamois tro-elk tro-tahr",
+        "combined": "tro-chamois tro-elk endangered tro-tahr",
         "components": [
           {
             "control_number": 2014564947,
@@ -62283,7 +62283,7 @@
         "month": "11",
         "day": "14",
         "date": "11/14/14",
-        "combined": "tro-deer tro-tahr tro-elk",
+        "combined": "tro-deer endangered tro-tahr tro-elk endangered",
         "components": [
           {
             "control_number": 2014564646,
@@ -62327,7 +62327,7 @@
         "month": "11",
         "day": "14",
         "date": "11/14/14",
-        "combined": "tro-shapo tro-goat tro-bharal tro-ibex",
+        "combined": "tro-shapo endangered tro-goat tro-bharal tro-ibex",
         "components": [
           {
             "control_number": 2014564911,
@@ -62423,7 +62423,7 @@
         "month": "11",
         "day": "17",
         "date": "11/17/14",
-        "combined": "ski-sheep ski-goat ski-wolf ski-bear ski-elk",
+        "combined": "ski-sheep ski-goat ski-wolf endangered ski-bear endangered ski-elk endangered",
         "components": [
           {
             "control_number": 2014568146,
@@ -62703,7 +62703,7 @@
         "month": "11",
         "day": "18",
         "date": "11/18/14",
-        "combined": "tro-hartebeest tro-antelope tro-nyala tro-bush-pig tro-wildebeest tro-impala tro-eland",
+        "combined": "tro-hartebeest tro-antelope endangered tro-nyala tro-bush-pig tro-wildebeest tro-impala tro-eland",
         "components": [
           {
             "control_number": 2014566669,
@@ -63079,7 +63079,7 @@
         "month": "11",
         "day": "20",
         "date": "11/20/14",
-        "combined": "liv-leopard-cat",
+        "combined": "liv-leopard-cat endangered",
         "components": [
           {
             "control_number": 2015675549,
@@ -63299,7 +63299,7 @@
         "month": "11",
         "day": "21",
         "date": "11/21/14",
-        "combined": "tro-gemsbok tro-wildebeest tro-bushbuck tro-hog tro-blesbok tro-hartebeest tro-springbok tro-warthog tro-impala tro-eland tro-kudu tro-caracal tro-baboon",
+        "combined": "tro-gemsbok tro-wildebeest tro-bushbuck tro-hog tro-blesbok endangered tro-hartebeest tro-springbok tro-warthog tro-impala tro-eland tro-kudu tro-caracal endangered tro-baboon endangered",
         "components": [
           {
             "control_number": 2014569867,
@@ -63495,7 +63495,7 @@
         "month": "11",
         "day": "21",
         "date": "11/21/14",
-        "combined": "tro-gemsbok tro-baboon tro-wildebeest tro-bushbuck tro-duiker tro-eland tro-impala tro-kudu tro-nyala tro-warthog tro-waterbuck tro-zebra",
+        "combined": "tro-gemsbok tro-baboon endangered tro-wildebeest tro-bushbuck tro-duiker tro-eland tro-impala tro-kudu tro-nyala tro-warthog tro-waterbuck tro-zebra",
         "components": [
           {
             "control_number": 2014569881,
@@ -63727,7 +63727,7 @@
         "month": "11",
         "day": "21",
         "date": "11/21/14",
-        "combined": "sho-bison",
+        "combined": "sho-bison endangered",
         "components": [
           {
             "control_number": 2014569648,
@@ -63859,7 +63859,7 @@
         "month": "11",
         "day": "24",
         "date": "11/24/14",
-        "combined": "tro-kudu tro-warthog tro-duiker tro-springbok tro-blesbok tro-gemsbok tro-impala tro-wildebeest",
+        "combined": "tro-kudu tro-warthog tro-duiker tro-springbok tro-blesbok endangered tro-gemsbok tro-impala tro-wildebeest",
         "components": [
           {
             "control_number": 2014570806,
@@ -64019,7 +64019,7 @@
         "month": "11",
         "day": "24",
         "date": "11/24/14",
-        "combined": "sho-bison",
+        "combined": "sho-bison endangered",
         "components": [
           {
             "control_number": 2014570529,
@@ -64159,7 +64159,7 @@
         "month": "11",
         "day": "24",
         "date": "11/24/14",
-        "combined": "tro-impala tro-blesbok tro-jackal tro-eland tro-hartebeest tro-springbok tro-bushbuck tro-kudu",
+        "combined": "tro-impala tro-blesbok endangered tro-jackal tro-eland tro-hartebeest tro-springbok tro-bushbuck tro-kudu",
         "components": [
           {
             "control_number": 2014570796,
@@ -64387,7 +64387,7 @@
         "month": "11",
         "day": "25",
         "date": "11/25/14",
-        "combined": "tai-gemsbok tro-zebra tro-warthog tro-springbok tro-gemsbok tro-impala",
+        "combined": "tai-gemsbok tro-zebra endangered tro-warthog tro-springbok tro-gemsbok tro-impala",
         "components": [
           {
             "control_number": 2014571723,
@@ -64587,7 +64587,7 @@
         "month": "11",
         "day": "25",
         "date": "11/25/14",
-        "combined": "tro-springbok tro-zebra tro-impala tro-hartebeest tro-wildebeest",
+        "combined": "tro-springbok tro-zebra endangered tro-impala tro-hartebeest tro-wildebeest",
         "components": [
           {
             "control_number": 2014571797,
@@ -64955,7 +64955,7 @@
         "month": "11",
         "day": "25",
         "date": "11/25/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014571669,
@@ -65007,7 +65007,7 @@
         "month": "11",
         "day": "25",
         "date": "11/25/14",
-        "combined": "tro-impala tro-warthog tro-springbok tro-wildebeest tro-hartebeest tro-gemsbok tro-baboon tro-kudu tro-zebra",
+        "combined": "tro-impala tro-warthog tro-springbok tro-wildebeest tro-hartebeest tro-gemsbok tro-baboon endangered tro-kudu tro-zebra endangered",
         "components": [
           {
             "control_number": 2014571721,
@@ -65123,7 +65123,7 @@
         "month": "11",
         "day": "26",
         "date": "11/26/14",
-        "combined": "egg-ostrich fea-ostrich skp-impala skp-springbok skp-kudu skp-blesbok sku-impala sku-springbok tro-duiker",
+        "combined": "egg-ostrich endangered fea-ostrich endangered skp-impala skp-springbok skp-kudu skp-blesbok endangered sku-impala sku-springbok tro-duiker",
         "components": [
           {
             "control_number": 2014572793,
@@ -65271,7 +65271,7 @@
         "month": "11",
         "day": "26",
         "date": "11/26/14",
-        "combined": "tro-guineafowl tro-impala tro-warthog tro-caracal tro-springbok tro-tsessebe",
+        "combined": "tro-guineafowl tro-impala tro-warthog tro-caracal endangered tro-springbok tro-tsessebe",
         "components": [
           {
             "control_number": 2014572780,
@@ -65371,7 +65371,7 @@
         "month": "11",
         "day": "26",
         "date": "11/26/14",
-        "combined": "cav-sturgeon-hybrid",
+        "combined": "cav-sturgeon-hybrid endangered",
         "components": [
           {
             "control_number": 2014572427,
@@ -65431,7 +65431,7 @@
         "month": "11",
         "day": "28",
         "date": "11/28/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014572895,
@@ -65672,7 +65672,7 @@
         "month": "12",
         "day": "1",
         "date": "12/1/14",
-        "combined": "sku-bison",
+        "combined": "sku-bison endangered",
         "components": [
           {
             "control_number": 2014574282,
@@ -65932,7 +65932,7 @@
         "month": "12",
         "day": "2",
         "date": "12/2/14",
-        "combined": "tro-meerkat tro-kudu tro-mongoose tro-rhebok tro-caracal tro-monkey tro-hyrax tro-hare tro-genet tro-duiker tro-klipspringer",
+        "combined": "tro-meerkat tro-kudu tro-mongoose tro-rhebok tro-caracal endangered tro-monkey endangered tro-hyrax tro-hare tro-genet tro-duiker tro-klipspringer",
         "components": [
           {
             "control_number": 2014575288,
@@ -66212,7 +66212,7 @@
         "month": "12",
         "day": "2",
         "date": "12/2/14",
-        "combined": "tro-elephant",
+        "combined": "tro-elephant endangered",
         "components": [
           {
             "control_number": 2014575505,
@@ -66232,7 +66232,7 @@
         "month": "12",
         "day": "2",
         "date": "12/2/14",
-        "combined": "hap-elephant tro-hippopotamus tro-elephant tro-crocodile tro-eland tro-kudu tro-nyala tro-hartebeest tro-antelope tro-warthog",
+        "combined": "hap-elephant endangered tro-hippopotamus endangered tro-elephant endangered tro-crocodile endangered tro-eland tro-kudu tro-nyala tro-hartebeest tro-antelope endangered tro-warthog",
         "components": [
           {
             "control_number": 2014575344,
@@ -66360,7 +66360,7 @@
         "month": "12",
         "day": "2",
         "date": "12/2/14",
-        "combined": "tro-kudu tro-springbok tro-rhinoceros tro-baboon tro-jackal tro-blesbok tro-gemsbok tro-giraffe tro-impala",
+        "combined": "tro-kudu tro-springbok tro-rhinoceros endangered tro-baboon endangered tro-jackal tro-blesbok endangered tro-gemsbok tro-giraffe tro-impala",
         "components": [
           {
             "control_number": 2014575397,
@@ -66680,7 +66680,7 @@
         "month": "12",
         "day": "4",
         "date": "12/4/14",
-        "combined": "tro-kudu tro-klipspringer tro-wildebeest tro-steenbok tro-springbok tro-hartebeest tro-impala tro-eland tro-gemsbok tro-zebra",
+        "combined": "tro-kudu tro-klipspringer tro-wildebeest tro-steenbok tro-springbok tro-hartebeest tro-impala tro-eland tro-gemsbok tro-zebra endangered",
         "components": [
           {
             "control_number": 2014577488,
@@ -66976,7 +66976,7 @@
         "month": "12",
         "day": "4",
         "date": "12/4/14",
-        "combined": "liv-coral liv-fish liv-invertebrates roc-coral",
+        "combined": "liv-coral endangered endangered endangered endangered endangered liv-fish endangered liv-invertebrates endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered endangered roc-coral",
         "components": [
           {
             "control_number": 2014577364,
@@ -67236,7 +67236,7 @@
         "month": "12",
         "day": "4",
         "date": "12/4/14",
-        "combined": "liv-fish liv-invertebrates",
+        "combined": "liv-fish endangered liv-invertebrates endangered",
         "components": [
           {
             "control_number": 2014577357,
@@ -67300,7 +67300,7 @@
         "month": "12",
         "day": "5",
         "date": "12/5/14",
-        "combined": "sku-monkey sku-baboon",
+        "combined": "sku-monkey endangered sku-baboon endangered",
         "components": [
           {
             "control_number": 2014577896,
@@ -67552,7 +67552,7 @@
         "month": "12",
         "day": "5",
         "date": "12/5/14",
-        "combined": "tro-zebra tro-gemsbok tro-kudu tro-wildebeest",
+        "combined": "tro-zebra endangered tro-gemsbok tro-kudu tro-wildebeest",
         "components": [
           {
             "control_number": 2015675574,
@@ -67696,7 +67696,7 @@
         "month": "12",
         "day": "8",
         "date": "12/8/14",
-        "combined": "tro-elk tro-deer",
+        "combined": "tro-elk endangered tro-deer endangered",
         "components": [
           {
             "control_number": 2014578765,
@@ -67928,7 +67928,7 @@
         "month": "12",
         "day": "8",
         "date": "12/8/14",
-        "combined": "cla-bear",
+        "combined": "cla-bear endangered",
         "components": [
           {
             "control_number": 2014578954,
@@ -68156,7 +68156,7 @@
         "month": "12",
         "day": "9",
         "date": "12/9/14",
-        "combined": "liv-tortoise",
+        "combined": "liv-tortoise endangered",
         "components": [
           {
             "control_number": 2015594452,
@@ -68176,7 +68176,7 @@
         "month": "12",
         "day": "9",
         "date": "12/9/14",
-        "combined": "tro-steenbok tro-wildebeest tro-blesbok tro-hartebeest tro-springbok tro-zebra tro-warthog tro-kudu tro-impala tro-gemsbok",
+        "combined": "tro-steenbok tro-wildebeest tro-blesbok endangered tro-hartebeest tro-springbok tro-zebra tro-warthog tro-kudu tro-impala tro-gemsbok",
         "components": [
           {
             "control_number": 2014579573,
@@ -68316,7 +68316,7 @@
         "month": "12",
         "day": "9",
         "date": "12/9/14",
-        "combined": "tro-baboon tro-warthog tro-gemsbok tro-kudu",
+        "combined": "tro-baboon endangered tro-warthog tro-gemsbok tro-kudu",
         "components": [
           {
             "control_number": 2014579612,
@@ -68412,7 +68412,7 @@
         "month": "12",
         "day": "9",
         "date": "12/9/14",
-        "combined": "tro-jackal tro-baboon tro-warthog tro-gemsbok",
+        "combined": "tro-jackal tro-baboon endangered tro-warthog tro-gemsbok",
         "components": [
           {
             "control_number": 2014579983,
@@ -68588,7 +68588,7 @@
         "month": "12",
         "day": "9",
         "date": "12/9/14",
-        "combined": "tro-elephant",
+        "combined": "tro-elephant endangered",
         "components": [
           {
             "control_number": 2014579821,
@@ -68640,7 +68640,7 @@
         "month": "12",
         "day": "10",
         "date": "12/10/14",
-        "combined": "tro-blesbok tro-wildebeest tro-kudu tro-springbok tro-zebra tro-hartebeest tro-gemsbok tro-duiker tro-impala tro-jackal tro-warthog",
+        "combined": "tro-blesbok endangered tro-wildebeest tro-kudu tro-springbok tro-zebra tro-hartebeest tro-gemsbok tro-duiker tro-impala tro-jackal tro-warthog",
         "components": [
           {
             "control_number": 2014580887,
@@ -68792,7 +68792,7 @@
         "month": "12",
         "day": "10",
         "date": "12/10/14",
-        "combined": "tro-impala tro-kudu tro-wildebeest tro-blesbok tro-gemsbok tro-springbok tro-ostrich",
+        "combined": "tro-impala tro-kudu tro-wildebeest tro-blesbok endangered tro-gemsbok tro-springbok tro-ostrich endangered",
         "components": [
           {
             "control_number": 2014580639,
@@ -69068,7 +69068,7 @@
         "month": "12",
         "day": "11",
         "date": "12/11/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014581788,
@@ -69108,7 +69108,7 @@
         "month": "12",
         "day": "11",
         "date": "12/11/14",
-        "combined": "tro-bushbuck tro-antelope tro-tsessebe tro-lechwe tus-warthog",
+        "combined": "tro-bushbuck tro-antelope endangered tro-tsessebe tro-lechwe endangered tus-warthog",
         "components": [
           {
             "control_number": 2014581461,
@@ -69196,7 +69196,7 @@
         "month": "12",
         "day": "11",
         "date": "12/11/14",
-        "combined": "rug-bear",
+        "combined": "rug-bear endangered",
         "components": [
           {
             "control_number": 2014581669,
@@ -69216,7 +69216,7 @@
         "month": "12",
         "day": "12",
         "date": "12/12/14",
-        "combined": "tro-elephant tro-impala tro-crocodile",
+        "combined": "tro-elephant endangered tro-impala tro-crocodile endangered",
         "components": [
           {
             "control_number": 2014582247,
@@ -69260,7 +69260,7 @@
         "month": "12",
         "day": "12",
         "date": "12/12/14",
-        "combined": "tro-wildebeest tro-zebra tro-warthog tro-baboon tro-impala tro-giraffe tro-gemsbok",
+        "combined": "tro-wildebeest tro-zebra tro-warthog tro-baboon endangered tro-impala tro-giraffe tro-gemsbok",
         "components": [
           {
             "control_number": 2014582258,
@@ -69460,7 +69460,7 @@
         "month": "12",
         "day": "12",
         "date": "12/12/14",
-        "combined": "tro-baboon tro-warthog tro-impala tro-blesbok",
+        "combined": "tro-baboon endangered tro-warthog tro-impala tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014582375,
@@ -69616,7 +69616,7 @@
         "month": "12",
         "day": "12",
         "date": "12/12/14",
-        "combined": "tro-elk tro-sheep",
+        "combined": "tro-elk endangered tro-sheep",
         "components": [
           {
             "control_number": 2014582687,
@@ -69648,7 +69648,7 @@
         "month": "12",
         "day": "15",
         "date": "12/15/14",
-        "combined": "fea-pheasant fea-ostrich",
+        "combined": "fea-pheasant fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014583795,
@@ -69680,7 +69680,7 @@
         "month": "12",
         "day": "15",
         "date": "12/15/14",
-        "combined": "ski-bear sku-bear",
+        "combined": "ski-bear endangered sku-bear endangered",
         "components": [
           {
             "control_number": 2014583896,
@@ -69772,7 +69772,7 @@
         "month": "12",
         "day": "15",
         "date": "12/15/14",
-        "combined": "cav-sturgeon-hybrid",
+        "combined": "cav-sturgeon-hybrid endangered",
         "components": [
           {
             "control_number": 2014583546,
@@ -69792,7 +69792,7 @@
         "month": "12",
         "day": "15",
         "date": "12/15/14",
-        "combined": "hor-kudu tro-baboon",
+        "combined": "hor-kudu tro-baboon endangered",
         "components": [
           {
             "control_number": 2014583738,
@@ -70264,7 +70264,7 @@
         "month": "12",
         "day": "17",
         "date": "12/17/14",
-        "combined": "tro-antelope tro-african-buffalo tro-baboon",
+        "combined": "tro-antelope endangered tro-african-buffalo tro-baboon endangered",
         "components": [
           {
             "control_number": 2014586138,
@@ -70308,7 +70308,7 @@
         "month": "12",
         "day": "17",
         "date": "12/17/14",
-        "combined": "tro-impala tro-warthog tro-kudu tro-blesbok tro-jackal",
+        "combined": "tro-impala tro-warthog tro-kudu tro-blesbok endangered tro-jackal",
         "components": [
           {
             "control_number": 2014586131,
@@ -70452,7 +70452,7 @@
         "month": "12",
         "day": "18",
         "date": "12/18/14",
-        "combined": "tro-leopard tro-reedbuck tro-hippopotamus",
+        "combined": "tro-leopard endangered tro-reedbuck tro-hippopotamus endangered",
         "components": [
           {
             "control_number": 2014586823,
@@ -70496,7 +70496,7 @@
         "month": "12",
         "day": "18",
         "date": "12/18/14",
-        "combined": "tro-lion tro-african-buffalo tro-eland tro-kudu tro-zebra tro-antelope",
+        "combined": "tro-lion endangered tro-african-buffalo tro-eland tro-kudu tro-zebra tro-antelope endangered",
         "components": [
           {
             "control_number": 2014587267,
@@ -70996,7 +70996,7 @@
         "month": "12",
         "day": "19",
         "date": "12/19/14",
-        "combined": "tro-springbok tro-bushbuck tro-nyala tro-zebra tro-wildebeest tro-kudu tro-reedbuck tro-hartebeest tro-blesbok",
+        "combined": "tro-springbok tro-bushbuck tro-nyala tro-zebra tro-wildebeest tro-kudu tro-reedbuck tro-hartebeest tro-blesbok endangered",
         "components": [
           {
             "control_number": 2014587969,
@@ -71112,7 +71112,7 @@
         "month": "12",
         "day": "19",
         "date": "12/19/14",
-        "combined": "tro-kudu tro-zebra tro-blesbok tro-wildebeest tro-gemsbok tro-warthog",
+        "combined": "tro-kudu tro-zebra tro-blesbok endangered tro-wildebeest tro-gemsbok tro-warthog",
         "components": [
           {
             "control_number": 2014587961,
@@ -71356,7 +71356,7 @@
         "month": "12",
         "day": "22",
         "date": "12/22/14",
-        "combined": "lps-caiman lps-crocodile",
+        "combined": "lps-caiman endangered lps-crocodile endangered",
         "components": [
           {
             "control_number": 2015605446,
@@ -71388,7 +71388,7 @@
         "month": "12",
         "day": "22",
         "date": "12/22/14",
-        "combined": "tro-sheep tro-swan tro-shelduck tro-swamphen tro-wallaby tro-chamois tro-boar tro-deer tro-elk tro-tahr",
+        "combined": "tro-sheep tro-swan tro-shelduck tro-swamphen tro-wallaby tro-chamois tro-boar tro-deer endangered tro-elk endangered tro-tahr",
         "components": [
           {
             "control_number": 2014589341,
@@ -71516,7 +71516,7 @@
         "month": "12",
         "day": "22",
         "date": "12/22/14",
-        "combined": "tro-gemsbok tro-kudu tro-wildebeest tro-impala tro-blesbok tro-nyala tro-springbok",
+        "combined": "tro-gemsbok tro-kudu tro-wildebeest tro-impala tro-blesbok endangered tro-nyala tro-springbok",
         "components": [
           {
             "control_number": 2014589316,
@@ -71640,7 +71640,7 @@
         "month": "12",
         "day": "23",
         "date": "12/23/14",
-        "combined": "tro-lechwe tro-antelope tro-warthog tro-genet",
+        "combined": "tro-lechwe endangered tro-antelope endangered tro-warthog tro-genet",
         "components": [
           {
             "control_number": 2014589870,
@@ -71696,7 +71696,7 @@
         "month": "12",
         "day": "23",
         "date": "12/23/14",
-        "combined": "tro-elk",
+        "combined": "tro-elk endangered",
         "components": [
           {
             "control_number": 2014590019,
@@ -71756,7 +71756,7 @@
         "month": "12",
         "day": "24",
         "date": "12/24/14",
-        "combined": "ski-sheep ski-elk ski-goat",
+        "combined": "ski-sheep ski-elk endangered ski-goat",
         "components": [
           {
             "control_number": 2014590671,
@@ -71868,7 +71868,7 @@
         "month": "12",
         "day": "24",
         "date": "12/24/14",
-        "combined": "ski-bear ski-wolf",
+        "combined": "ski-bear endangered ski-wolf endangered",
         "components": [
           {
             "control_number": 2014590722,
@@ -71920,7 +71920,7 @@
         "month": "12",
         "day": "30",
         "date": "12/30/14",
-        "combined": "tro-gemsbok tro-zebra tro-wildebeest tro-springbok",
+        "combined": "tro-gemsbok tro-zebra endangered tro-wildebeest tro-springbok",
         "components": [
           {
             "control_number": 2014592453,
@@ -72220,7 +72220,7 @@
         "month": "12",
         "day": "30",
         "date": "12/30/14",
-        "combined": "tro-african-buffalo tro-antelope tro-hyaena",
+        "combined": "tro-african-buffalo tro-antelope endangered tro-hyaena",
         "components": [
           {
             "control_number": 2014592472,
@@ -72344,7 +72344,7 @@
         "month": "12",
         "day": "30",
         "date": "12/30/14",
-        "combined": "tro-leopard tro-springbok tro-impala tro-gemsbok tro-hartebeest",
+        "combined": "tro-leopard endangered tro-springbok tro-impala tro-gemsbok tro-hartebeest",
         "components": [
           {
             "control_number": 2014592106,
@@ -72444,7 +72444,7 @@
         "month": "12",
         "day": "31",
         "date": "12/31/14",
-        "combined": "ski-wolf sku-wolf",
+        "combined": "ski-wolf endangered sku-wolf endangered",
         "components": [
           {
             "control_number": 2014592922,
@@ -72476,7 +72476,7 @@
         "month": "12",
         "day": "31",
         "date": "12/31/14",
-        "combined": "fea-ostrich",
+        "combined": "fea-ostrich endangered",
         "components": [
           {
             "control_number": 2014592916,

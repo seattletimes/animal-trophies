@@ -119,6 +119,14 @@ module.exports = function(grunt) {
     grunt.task.requires("state");
     grunt.task.requires("csv");
 
+    var citesData = {};
+
+    grunt.data.csv.cites.forEach(function(row) {
+      var latin = row.Genus.toLowerCase() + row.Species.toLowerCase();
+      var endangered = (row.CurrentListing !== "III" && row.CurrentListing !== "NC");
+      citesData[latin] = endangered;
+    });
+
     var groupedData = {};
 
     grunt.data.csv.shipmentDetails.forEach(function(row) {
@@ -140,6 +148,13 @@ module.exports = function(grunt) {
       if (groupedData[row.control_number].combined.indexOf(combined) == -1) {
         groupedData[row.control_number].combined.push(combined);
       };
+
+      // add CITES status
+      var latin = row.genus.toLowerCase() + row.species.toLowerCase();
+      if (citesData[latin]) {
+        console.log(latin)
+        groupedData[row.control_number].combined.push("endangered");
+      }
 
       // add sub-shipment to shipment group
       row.categoryName = categoryLookup[row.category];

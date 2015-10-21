@@ -13,20 +13,39 @@
 
     <responsive-child class="outmost">
 
-      <div class="interactive" data-filter="trophies">
+      <div class="interactive" data-filter="protected">
 
         <div class="title">Legal wildlife shipments through Port of Seattle in 2014</div>
-        <div class="chatter">Wildlife entering the United States must be declared before it enters the country. Every shipment of wildlife through the Port of Seattle, by air and sea, is listed below. Each square represents a single shipment. Click or tap to see its contents.</div>
+        <div class="top chatter">Wildlife entering the United States must be declared before it enters the country. Every shipment of wildlife through the Port of Seattle, by air and sea, is listed below. Each square represents a single shipment. Click or tap to see its contents.</div>
 
         <div class="toggle-box">
           <label>Highlighted:</label>
           <div>
-            <div class="trophies toggle selected" data-set-filter="trophies"><i class="fa check fa-check"></i> Trophies</div>
-            <div class="pai toggle" data-set-filter="pai"><i class="fa check fa-check"></i> Initiative I-1401</div>
+            <div class="protected toggle selected" data-set-filter="protected">1</div>
+            <div class="trophies toggle" data-set-filter="trophies">2</div>
+            <div class="both toggle" data-set-filter="both">3</div>
+            <div class="initiative toggle" data-set-filter="initiative">4</div>
           </div>
+        </div>
 
-          <div>
-          </div>
+        <div class="chatter protected">
+          <strong>CITES Protected</strong><br>
+          Some animal species are protected by an international treaty called CITES. Animals fall into three "appendices." Represented are animals in danger of extinction and animals that could be in danger of extinction unless trade is controlled (CITES Appendices I & II). %% of shipments through the Port of Seattle contained at least one of these protected animals. 
+        </div>
+
+        <div class="chatter trophies">
+          <strong>Trophies</strong><br>
+          Last year, %% of shipments through the Port of Seattle contained at least one trophy animal.
+        </div>
+
+        <div class="chatter both">
+          <strong>Protected trophy animals</strong><br>
+          Of the trophy animals shipped through the Port of Seattle last year, %% were protected (CITES I & II).
+        </div>
+
+        <div class="chatter initiative">
+          <strong>Initiative I-1401</strong><br>
+          Voters will consider this November an initiative that would disallow the sale in most circumstances of the parts and products of ten animals: elephants, rhinos, lions, tigers, leopards, cheetahs, pangolins, marine turtles, sharks and rays. However, only some of these species are tracked by the U.S. Fish and Wildlife Service. %% of shipments through the Port of Seattle last year contained at least one of these animals.
         </div>
 
         <div class="calendar"></div>

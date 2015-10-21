@@ -8,8 +8,9 @@
     <div class="contents">
       <div class="swatch
         <% if (s.category == 'TRO') { %> trophy <% } %>
-        <% if (s.endangered) { %> endangered <% } %>
         <% if (s.protected) { %> protected <% } %>
+        <% if (s.category == 'TRO' && s.protected) { %> both <% } %>
+        <% if (s.initiative) { %> initiative <% } %>
       "></div>
       <div class="name">
         <% if (s.generic) { %>

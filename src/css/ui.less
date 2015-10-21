@@ -1,4 +1,5 @@
 .toggle-box {
+  text-align: center;
   padding-bottom: 10px;
 
   @media @mobile {
@@ -25,27 +26,12 @@
     width: 100px;
   }
 
-  &.trophies {
-    &.selected, &:hover {
-      background: darken(@yellow, 15%);
-    }
-  }
-
-  &.pai {
-    &.selected, &:hover {
-      background: darken(@red, 10%);
-    }
+  &.selected, &:hover {
+    background: darken(@gray, 30%);
   }
 
   .check {
     display: none;
-  }
-
-  &.selected {
-    .check {
-      padding-right: 2px;
-      display: inline-block;
-    }
   }
 
   &.selected, &:hover {

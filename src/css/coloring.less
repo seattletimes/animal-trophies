@@ -1,31 +1,65 @@
-[data-filter=trophies] {
-
-  .swatch.trophy, .swatch.endangered.trophy {
+[data-filter=protected] {
+  .swatch.protected {
     display: inline-block;
   }
 
-  [class*=-tro-], .trophy {
-    background: @yellow;
+  .chatter.protected {
+    display: block;
   }
 
-  [class*=endangered-tro-], .endangered.trophy {
-    background: darken(@yellow, 25%);
+  [class*=protected-], .swatch.protected {
+    background: darken(@yellow, 15%);
+  }
+
+  // [class*="-elephant "], [class*="-rhinoceros "], [class*="-tiger "], [class*="-lion "], [class*="-leopard "], [class*="-cheetah "], [class*="-marine-turtle "], [class*="-shark "], [class*="-ray "], [class*="-pangolin "],
+  // [class$=-elephant], [class$=-rhinoceros], [class$=-tiger], [class$=-lion], [class$=-leopard], [class$=-cheetah], [class$=-marine-turtle], [class$=-shark], [class$=-ray], [class$=-pangolin], .protected.endangered {
+  //   background: darken(@red, 10%);
+  // }
+
+}
+
+[data-filter=trophies] {
+  .swatch.trophy {
+    display: inline-block;
+  }
+
+  .chatter.trophies {
+    display: block;
+  }
+
+  [class*=-tro-], .swatch.trophy {
+    background: darken(@orange, 5%);
   }
 }
 
-[data-filter=pai] {
-
-  .swatch.endangered, .swatch.endangered.protected {
+[data-filter=both] {
+  .swatch.both, .swatch.trophy {
     display: inline-block;
   }
 
-  [class*=endangered-], .endangered {
-    background: lighten(@red, 20%);
+  .chatter.both {
+    display: block;
   }
 
-  [class*="-elephant "], [class*="-rhinoceros "], [class*="-tiger "], [class*="-lion "], [class*="-leopard "], [class*="-cheetah "], [class*="-marine-turtle "], [class*="-shark "], [class*="-ray "], [class*="-pangolin "],
-  [class$=-elephant], [class$=-rhinoceros], [class$=-tiger], [class$=-lion], [class$=-leopard], [class$=-cheetah], [class$=-marine-turtle], [class$=-shark], [class$=-ray], [class$=-pangolin], .protected.endangered {
-    background: darken(@red, 10%);
+  [class*=-tro-], .swatch.trophy {
+    background: lighten(@orange, 15%);
   }
 
+  [class*=protected-tro-], .swatch.both {
+    background: darken(@orange, 10%);
+  }
+}
+
+[data-filter=initiative] {
+  .swatch.initiative {
+    display: inline-block;
+  }
+
+  .chatter.initiative {
+    display: block;
+  }
+
+  [class*=-initiative], .swatch.initiative {
+    background: lighten(@purple, 15%);
+  }
 }

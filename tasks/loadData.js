@@ -14,6 +14,19 @@ var monthNames = [
   "December"
 ];
 
+var protectedLookup = [
+  "elephant",
+  "rhinoceros",
+  "tiger",
+  "lion",
+  "leopard",
+  "cheetah",
+  "marine-turtle",
+  "shark",
+  "ray",
+  "pangolin"
+];
+
 var countryLookup = require("../src/assets/countryLookup.json");
 
 var categoryLookup = {
@@ -140,25 +153,22 @@ module.exports = function(grunt) {
         components: [] 
       };
 
-      // add animal/category to shipment group
+      // add animal/category/CITES status to shipment group
       var category = row.category.toLowerCase().replace(" ", "-");
       var animal = row.generic.toLowerCase().replace(" ", "-");
+      var latin = row.genus.toLowerCase() + row.species.toLowerCase();
+      var endangered = citesData[latin] ? "endangered" : "";
       if (animal == "buffalo" && row.specific.toLowerCase() == "african") animal = "african-buffalo";
-      var combined = category + "-" + animal;
+      var combined = endangered + "-" + category + "-" + animal;
       if (groupedData[row.control_number].combined.indexOf(combined) == -1) {
         groupedData[row.control_number].combined.push(combined);
       };
 
-      // add CITES status
-      var latin = row.genus.toLowerCase() + row.species.toLowerCase();
-      if (citesData[latin]) {
-        console.log(latin)
-        groupedData[row.control_number].combined.push("endangered");
-      }
-
       // add sub-shipment to shipment group
       row.categoryName = categoryLookup[row.category];
       row.countryName = countryLookup[row.origin];
+      row.endangered = citesData[latin];
+      row.protected = protectedLookup.indexOf(animal) > -1;
       row.unit = row.unit.toLowerCase();
       delete row.species;
       delete row.genus;

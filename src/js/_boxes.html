@@ -3,7 +3,7 @@
   <div class="month">
     <span class="month-name short"><%= month.monthName.slice(0,3) %></span>
     <span class="month-name long"><%= month.monthName %>:</span> 
-    <span class="month-size"><%= month.shipments.length %> shipments</span>
+    <span class="month-size"><em><%= month.shipments.length %> shipments</em></span>
   </div>
   <% month.shipments.forEach(function(shipment, i) { %>
   <div class="box <%= shipment.combined %> <% if (i == 0) { %> clicked <% } %>" data-month="<%= m %>" data-index="<%= i %>">

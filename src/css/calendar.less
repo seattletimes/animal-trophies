@@ -18,7 +18,7 @@
 }
 
 .box {
-  background: lighten(@gray, 15%);
+  background: lighten(@gray, 18%);
   float: left;
 }
 
@@ -100,8 +100,6 @@
     }
   }
 
-  @import "details";
-
   .box {
     height: 16px;
     width: 20px;
@@ -124,9 +122,7 @@
     }
 
     &:hover, &.clicked {
-      // opacity: 1;
-      border: 2px solid @df-charcoal;
-      // background: @gray;
+      border: 3px solid @df-dark-gray;
     }
 
     &:hover {

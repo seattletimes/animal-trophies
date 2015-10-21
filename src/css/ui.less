@@ -1,5 +1,4 @@
 .toggle-box {
-  text-align: center;
   padding-bottom: 10px;
 
   @media @mobile {
@@ -28,24 +27,28 @@
 
   &.trophies {
     &.selected, &:hover {
-      background: darken(@big5-color, 25%);
+      background: darken(@yellow, 15%);
     }
   }
 
-  // &.bigfive {
-  //   &.selected, &:hover {
-  //     background: darken(@big5-color, 25%);
-  //   }
-  // }
-
   &.pai {
     &.selected, &:hover {
-      background: lighten(@pai-color, 15%);
+      background: darken(@red, 10%);
+    }
+  }
+
+  .check {
+    display: none;
+  }
+
+  &.selected {
+    .check {
+      padding-right: 2px;
+      display: inline-block;
     }
   }
 
   &.selected, &:hover {
     font-weight: bold;
-    // border: 1px solid @df-border-gray;
   }
 }

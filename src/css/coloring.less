@@ -1,56 +1,31 @@
 [data-filter=trophies] {
-  // .selected {
-  //   background: darken(#ed7162, 5%);
-  // }
 
-  [class*=tro-] {
-    background: darken(#fcbd7c, 5%);
-
-    // &:hover, &.clicked {
-    //   background: darken(#fcbd7c, 45%);
-    //   border: 2px solid @df-middle-gray;
-    // }
+  .swatch.trophy, .swatch.endangered.trophy {
+    display: inline-block;
   }
 
-  .tro-elephant, .tro-rhinoceros, .tro-african-buffalo, .tro-lion, .tro-leopard {
-    background: darken(#ed7162, 0%);
+  [class*=-tro-], .trophy {
+    background: @yellow;
+  }
 
-    // &:hover, &.clicked {
-    //   background: darken(#ed7162, 35%);
-    //   border: 2px solid @df-middle-gray;
-    // }
+  [class*=endangered-tro-], .endangered.trophy {
+    background: darken(@yellow, 25%);
   }
 }
 
-// [data-filter=bigfive] {
-//   .selected {
-//     background: darken(#fcbd7c, 25%);
-//   }
-//   .tro-elephant, .tro-rhinoceros, .tro-african-buffalo, .tro-lion, .tro-leopard {
-//     background: darken(#fcbd7c, 25%);
-
-//     &:hover, &.clicked {
-//       background: darken(#fcbd7c, 45%);
-//       border: 2px solid @df-middle-gray;
-//     }
-//   }
-// }
-
 [data-filter=pai] {
-  // .selected {
-  //   background: lighten(#57375c, 15%);
-  // }
 
-  .endangered {
-    background: #ed7162;
+  .swatch.endangered, .swatch.endangered.protected {
+    display: inline-block;
   }
+
+  [class*=endangered-], .endangered {
+    background: lighten(@red, 20%);
+  }
+
   [class*="-elephant "], [class*="-rhinoceros "], [class*="-tiger "], [class*="-lion "], [class*="-leopard "], [class*="-cheetah "], [class*="-marine-turtle "], [class*="-shark "], [class*="-ray "], [class*="-pangolin "],
-  [class$=-elephant], [class$=-rhinoceros], [class$=-tiger], [class$=-lion], [class$=-leopard], [class$=-cheetah], [class$=-marine-turtle], [class$=-shark], [class$=-ray], [class$=-pangolin] {
-    background: lighten(#57375c, 15%);
-
-    // &:hover, &.clicked {
-    //   background: darken(#57375c, 5%);
-    //   border: 2px solid @df-middle-gray;
-    // }
+  [class$=-elephant], [class$=-rhinoceros], [class$=-tiger], [class$=-lion], [class$=-leopard], [class$=-cheetah], [class$=-marine-turtle], [class$=-shark], [class$=-ray], [class$=-pangolin], .protected.endangered {
+    background: darken(@red, 10%);
   }
+
 }

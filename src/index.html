@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>[ng-cloak] {display: none;}</style>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <%= t.include("partials/_head.html") %>
   </head>
   <body ng-app="animal-shipments">
@@ -15,12 +16,17 @@
       <div class="interactive" data-filter="trophies">
 
         <div class="title">Legal wildlife shipments through Port of Seattle in 2014</div>
-        <div class="chatter">Wildlife entering the United States must be declared before it enters the country. The U.S. Fish and Wildlife Service is in charge of inspecting animal imports and keeps records of declarations. Every shipment of wildlife through the Port of Seattle, by air and sea, is listed below. Each square represents a single shipment. Click or tap to see its contents.</div>
+        <div class="chatter">Wildlife entering the United States must be declared before it enters the country. Every shipment of wildlife through the Port of Seattle, by air and sea, is listed below. Each square represents a single shipment. Click or tap to see its contents.</div>
 
         <div class="toggle-box">
           <label>Highlighted:</label>
-          <div class="trophies toggle selected" data-set-filter="trophies">Trophies</div>
-          <div class="pai toggle" data-set-filter="pai">Initiative 1401</div>
+          <div>
+            <div class="trophies toggle selected" data-set-filter="trophies"><i class="fa check fa-check"></i> Trophies</div>
+            <div class="pai toggle" data-set-filter="pai"><i class="fa check fa-check"></i> Initiative I-1401</div>
+          </div>
+
+          <div>
+          </div>
         </div>
 
         <div class="calendar"></div>
@@ -32,7 +38,7 @@
 
       </div>
 
-      <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
+      <div class="source"><em>Sources: U.S. Fish and Wildlife Service, CITES</em></div>
       <div class="credit">AUDREY CARLSEN AND THOMAS WILBURN / THE SEATTLE TIMES</div>
 
     </responsive-child>

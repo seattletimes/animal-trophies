@@ -9,14 +9,13 @@
   }
 }
 
-.toggle {
-  background: @df-border-gray;
+.toggle, .arrow {
+  // background: @df-border-gray;
   display: inline-block;
-  padding: 5px 10px 4px 10px;
-  color: white;
-  border-radius: 2px;
+  margin: -2px;
+  padding: 4px 11px;
+  // color: white;
   text-transform: uppercase;
-  font-size: 11px;
   cursor: pointer;
 
   @media @mobile {
@@ -27,14 +26,7 @@
   }
 
   &.selected, &:hover {
+    color: white;
     background: darken(@gray, 30%);
-  }
-
-  .check {
-    display: none;
-  }
-
-  &.selected, &:hover {
-    font-weight: bold;
   }
 }

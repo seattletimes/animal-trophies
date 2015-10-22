@@ -7,7 +7,7 @@
     display: block;
   }
 
-  [class*=protected-], .protected {
+  [class*=protected-], .swatch.protected, .toggle.protected {
     background: darken(@yellow, 15%);
   }
 }
@@ -21,7 +21,7 @@
     display: block;
   }
 
-  [class*=-tro-], .trophy {
+  [class*=-tro-], .swatch.trophy, .toggle.trophy {
     background: darken(@orange, 5%);
   }
 }
@@ -39,7 +39,7 @@
     background: lighten(@orange, 15%);
   }
 
-  [class*=protected-tro-], .both {
+  [class*=protected-tro-], .swatch.both, .toggle.both {
     background: darken(@orange, 10%);
   }
 }
@@ -53,11 +53,8 @@
     display: block;
   }
 
-  [class*=-initiative], .initiative {
+  [class*=-initiative], .swatch.initiative, .toggle.initiative {
     background: lighten(@purple, 15%);
   }
 }
 
-.chatter {
-  background: white !important;
-}

@@ -132,11 +132,14 @@ module.exports = function(grunt) {
     grunt.task.requires("state");
     grunt.task.requires("csv");
 
+    var specialCount = 0;
+    var count = 0;
+    var liveCount = 0;
     var citesData = {};
 
     grunt.data.csv.cites.forEach(function(row) {
       var latin = row.Genus.toLowerCase() + row.Species.toLowerCase();
-      var endangered = (row.CurrentListing !== "III" && row.CurrentListing !== "NC");
+      var endangered = row.CurrentListing.match(/(^|\W)I{1,2}($|\W)/);
       citesData[latin] = endangered;
     });
 
@@ -146,7 +149,7 @@ module.exports = function(grunt) {
 
       // create new shipment group
       if (!groupedData[row.control_number]) groupedData[row.control_number] = {
-        number: 
+        number: row.control_number,
         month: row.disp_date.split("/")[0],
         day: row.disp_date.split("/")[1],
         date: row.disp_date,
@@ -156,6 +159,12 @@ module.exports = function(grunt) {
 
       // add animal/category/CITES status to shipment group
       var category = row.category.toLowerCase().replace(" ", "-");
+      if (category == "tro" && citesData[row.genus.toLowerCase() + row.species.toLowerCase()]) { 
+        specialCount += 1
+      }
+      if (category == "tro") { 
+        count += 1
+      }
       var animal = row.generic.toLowerCase().replace(" ", "-");
       var latin = row.genus.toLowerCase() + row.species.toLowerCase();
       var protected = citesData[latin] ? "protected" : "";
@@ -225,6 +234,8 @@ module.exports = function(grunt) {
     keys.forEach(function(key) {
       sorted[key] = byMonth[key];
     });
+
+    console.log(specialCount, count, specialCount/count)
 
     grunt.file.write("src/assets/groupedData.json", JSON.stringify(sorted, null, 2));
   });

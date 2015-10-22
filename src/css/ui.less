@@ -1,6 +1,18 @@
+.explainer {
+  border: 1px solid @df-dark-gray;
+  border-top: none;
+  max-width: 630px;
+  margin: 25px auto;
+
+  .chatter {
+    padding: 15px;
+  }
+}
+
 .toggle-box {
   text-align: center;
-  padding: 10px 0;
+  padding: 2px 0;
+  background: @df-dark-gray;
 
   @media @mobile {
     label {
@@ -12,13 +24,15 @@
 .toggle, .arrow {
   display: inline-block;
   margin: -2px;
-  padding: 5px 15px;
+  padding: 6px 18px;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  color: white;
 
-  &.selected, &:hover {
+  &:hover {
     color: white;
+    font-weight: bold;
     background: darken(@gray, 30%);
   }
 }

@@ -7,15 +7,9 @@
     display: block;
   }
 
-  [class*=protected-], .swatch.protected {
+  [class*=protected-], .protected {
     background: darken(@yellow, 15%);
   }
-
-  // [class*="-elephant "], [class*="-rhinoceros "], [class*="-tiger "], [class*="-lion "], [class*="-leopard "], [class*="-cheetah "], [class*="-marine-turtle "], [class*="-shark "], [class*="-ray "], [class*="-pangolin "],
-  // [class$=-elephant], [class$=-rhinoceros], [class$=-tiger], [class$=-lion], [class$=-leopard], [class$=-cheetah], [class$=-marine-turtle], [class$=-shark], [class$=-ray], [class$=-pangolin], .protected.endangered {
-  //   background: darken(@red, 10%);
-  // }
-
 }
 
 [data-filter=trophies] {
@@ -27,7 +21,7 @@
     display: block;
   }
 
-  [class*=-tro-], .swatch.trophy {
+  [class*=-tro-], .trophy {
     background: darken(@orange, 5%);
   }
 }
@@ -45,7 +39,7 @@
     background: lighten(@orange, 15%);
   }
 
-  [class*=protected-tro-], .swatch.both {
+  [class*=protected-tro-], .both {
     background: darken(@orange, 10%);
   }
 }
@@ -59,7 +53,11 @@
     display: block;
   }
 
-  [class*=-initiative], .swatch.initiative {
+  [class*=-initiative], .initiative {
     background: lighten(@purple, 15%);
   }
+}
+
+.chatter {
+  background: white !important;
 }

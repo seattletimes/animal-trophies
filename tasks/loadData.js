@@ -145,7 +145,8 @@ module.exports = function(grunt) {
     grunt.data.csv.shipmentDetails.forEach(function(row) {
 
       // create new shipment group
-      if (!groupedData[row["control_number"]]) groupedData[row["control_number"]] = {
+      if (!groupedData[row.control_number]) groupedData[row.control_number] = {
+        number: 
         month: row.disp_date.split("/")[0],
         day: row.disp_date.split("/")[1],
         date: row.disp_date,

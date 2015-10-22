@@ -1,6 +1,6 @@
 .toggle-box {
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px 0;
 
   @media @mobile {
     label {
@@ -10,20 +10,12 @@
 }
 
 .toggle, .arrow {
-  // background: @df-border-gray;
   display: inline-block;
   margin: -2px;
-  padding: 4px 11px;
-  // color: white;
+  padding: 5px 15px;
+  font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
-
-  @media @mobile {
-    margin: auto;
-    margin-top: 5px;
-    padding: 8px 10px 6px 10px;
-    width: 100px;
-  }
 
   &.selected, &:hover {
     color: white;

@@ -23,17 +23,40 @@ var init = function(e) {
 
   calendar.innerHTML += template(data);;
 
-  //filtering
-  var interactive = document.querySelector(".interactive");
-  var onToggle = function() {
-    var filter = this.getAttribute("data-set-filter");
+  var toggleIndex = 1;
+  var toggleLookup = ["", "protected", "trophies", "both", "initiative"];
+
+  var changeToggle = function(filter) {
     interactive.setAttribute("data-filter", filter);
     document.querySelector(".toggle-box .toggle.selected").classList.remove("selected");
     this.classList.add("selected");
   };
 
+  //filtering
+  var interactive = document.querySelector(".interactive");
+  var onToggle = function() {
+    var filter = this.getAttribute("data-set-filter");
+    toggleIndex = toggleLookup.indexOf(filter);
+    changeToggle(filter);
+  };
+
   qsa(".toggle-box .toggle").forEach(e => e.addEventListener("click", onToggle));
 
+  document.querySelector(".right.arrow").addEventListener("click", function () {
+    if (toggleIndex < 4) {
+      toggleIndex += 1;
+      var filter = toggleLookup[toggleIndex];
+      changeToggle(filter);
+    }
+  });
+
+  document.querySelector(".left.arrow").addEventListener("click", function () {
+    if (toggleIndex > 1) {
+      toggleIndex -= 1;
+      var filter = toggleLookup[toggleIndex];
+      changeToggle(filter);
+    }
+  });
 
   var setDetails = function(month, index) {
     var shipment = data[month].shipments[index];

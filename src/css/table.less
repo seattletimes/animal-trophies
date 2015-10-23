@@ -20,18 +20,51 @@
     text-align: center;
   }
 
+  .tiles {
+    text-align: center;
+  }
+
   .tile {
     background: @df-off-white;
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     width: 630 / 5;
+    margin: 5px;
+    border: 1px solid @df-light-gray;
   }
 
   .silhouette {
     width: 80px;
     top: 0;
     left: 0;
+    margin-bottom: 10px;
+  }
+
+  .rank {
+    margin: auto;
+    font-size: 12px;
+    background: @df-border-gray;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 8px;
+  }
+
+  .number {
+    font-size: 14px;
+    padding-top: 2px;
+    color: @df-dark-gray;
   }
 
   .source {

@@ -19,7 +19,8 @@ module.exports = function(grunt) {
     var done = this.async();
 
     var seeds = {
-      "src/css/seed.less": "build/style.css"
+      "src/css/seed.less": "build/style.css",
+      "src/css/table.less": "build/table.css"
     };
 
     async.forEachOf(seeds, function(dest, src, c) {

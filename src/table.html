@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="table.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+      <table class="african-trophies">
+        <thead>
+          <tr>
+            <th class="placeholder">
+            <th class="label">Animal
+            <th class="placeholder">
+        </thead>
+        <tbody>
+        <% csv.africanTrophies.slice(0, 10).forEach(function(row, i) { %>
+        <% row.label = row.label[0] + row.label.substr(1).toLowerCase() %>
+          <tr>
+            <td>
+            <% if (i % 2) { %>
+              <img class="silhouette" src="./assets/<%= row.label.toLowerCase() %>.png">
+            <% } %>
+            <td class="label"><%= row.label %>
+            <td class="quantity"><%= t.formatNumber(row.qty) %>
+            <td>
+            <% if (!(i % 2)) { %>
+              <img class="silhouette" src="./assets/<%= row.label.toLowerCase() %>.png">
+            <% } %>
+        <% }) %>
+        </tbody>
+      </table>
+
+    </responsive-child>
+
+    <script src="table.js" async></script>
+  </body>
+</html>

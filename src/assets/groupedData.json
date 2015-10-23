@@ -514,12 +514,12 @@
         "month": "1",
         "day": "6",
         "date": "1/6/14",
-        "combined": "protected-mea-elk- -mea-possum- -mea-kangaroo-",
+        "combined": "protected-mea-deer- -mea-possum- -mea-kangaroo-",
         "components": [
           {
             "control_number": 2014397742,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 7210,
             "unit": "kg",
@@ -4336,12 +4336,12 @@
         "month": "1",
         "day": "22",
         "date": "1/22/14",
-        "combined": "protected-mea-elk-",
+        "combined": "protected-mea-deer-",
         "components": [
           {
             "control_number": 2014406424,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 16450,
             "unit": "kg",
@@ -7077,12 +7077,12 @@
         "month": "2",
         "day": "6",
         "date": "2/6/14",
-        "combined": "protected-med-elk-",
+        "combined": "protected-med-deer-",
         "components": [
           {
             "control_number": 2014414965,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MED",
             "qty": 40,
             "unit": "kg",
@@ -7347,7 +7347,7 @@
         "month": "2",
         "day": "7",
         "date": "2/7/14",
-        "combined": "-tro-boar- protected-tro-deer- -tro-blackbuck- protected-tro-elk-",
+        "combined": "-tro-boar- protected-tro-deer- -tro-blackbuck-",
         "components": [
           {
             "control_number": 2014416150,
@@ -7396,8 +7396,8 @@
           },
           {
             "control_number": 2014416150,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -8422,7 +8422,7 @@
         "month": "2",
         "day": "12",
         "date": "2/12/14",
-        "combined": "-tro-blackbuck- -tro-boar- protected-tro-deer- -tro-chital- protected-tro-elk- -tro-buffalo-",
+        "combined": "-tro-blackbuck- -tro-boar- protected-tro-deer- -tro-chital- -tro-buffalo-",
         "components": [
           {
             "control_number": 2014418587,
@@ -8484,8 +8484,8 @@
           },
           {
             "control_number": 2014418587,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 3,
             "unit": "no",
@@ -8542,12 +8542,12 @@
         "month": "2",
         "day": "12",
         "date": "2/12/14",
-        "combined": "protected-mea-elk- -mea-possum- -mea-kangaroo-",
+        "combined": "protected-mea-deer- -mea-possum- -mea-kangaroo-",
         "components": [
           {
             "control_number": 2014418606,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 6905,
             "unit": "kg",
@@ -8814,7 +8814,7 @@
         "month": "2",
         "day": "13",
         "date": "2/13/14",
-        "combined": "-tro-boar- protected-tro-elk- -tro-chamois-",
+        "combined": "-tro-boar- protected-tro-deer- -tro-chamois-",
         "components": [
           {
             "control_number": 2014419153,
@@ -8831,8 +8831,8 @@
           },
           {
             "control_number": 2014419153,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -9526,7 +9526,7 @@
         "month": "2",
         "day": "14",
         "date": "2/14/14",
-        "combined": "-hor-deer- protected-hor-elk- -hor-moose- -tro-teal- -tro-pintail-",
+        "combined": "-hor-deer- protected-hor-deer- -hor-moose- -tro-teal- -tro-pintail-",
         "components": [
           {
             "control_number": 2014419651,
@@ -9543,8 +9543,8 @@
           },
           {
             "control_number": 2014419651,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HOR",
             "qty": 20,
             "unit": "no",
@@ -11780,12 +11780,12 @@
         "month": "2",
         "day": "25",
         "date": "2/25/14",
-        "combined": "protected-mea-elk-",
+        "combined": "protected-mea-deer-",
         "components": [
           {
             "control_number": 2014424472,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 291,
             "unit": "kg",
@@ -14089,7 +14089,7 @@
         "month": "3",
         "day": "10",
         "date": "3/10/14",
-        "combined": "-tro-buffalo- protected-tro-elk- -tro-rusa-",
+        "combined": "-tro-buffalo- protected-tro-deer- -tro-rusa-",
         "components": [
           {
             "control_number": 2014431490,
@@ -14106,8 +14106,8 @@
           },
           {
             "control_number": 2014431490,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -14704,12 +14704,12 @@
         "month": "3",
         "day": "12",
         "date": "3/12/14",
-        "combined": "protected-mea-elk- -mea-possum-",
+        "combined": "protected-mea-deer- -mea-possum-",
         "components": [
           {
             "control_number": 2014432721,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 1295,
             "unit": "kg",
@@ -19559,12 +19559,12 @@
         "month": "3",
         "day": "25",
         "date": "3/25/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014439330,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -24186,12 +24186,12 @@
         "month": "4",
         "day": "11",
         "date": "4/11/14",
-        "combined": "protected-tro-elk- -tro-sheep-",
+        "combined": "protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014449325,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -24319,12 +24319,12 @@
         "month": "4",
         "day": "11",
         "date": "4/11/14",
-        "combined": "protected-tro-elk- -tro-chamois- protected-tro-deer-",
+        "combined": "protected-tro-deer- -tro-chamois-",
         "components": [
           {
             "control_number": 2014571156,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -24530,7 +24530,7 @@
         "month": "4",
         "day": "14",
         "date": "4/14/14",
-        "combined": "-boc-deer- -fea-flicker- -fea-ducks,geese- protected-skp-elk-",
+        "combined": "-boc-deer- -fea-flicker- -fea-ducks,geese- protected-skp-deer-",
         "components": [
           {
             "control_number": 2014450162,
@@ -24573,8 +24573,8 @@
           },
           {
             "control_number": 2014450162,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "SKP",
             "qty": 1,
             "unit": "no",
@@ -25454,12 +25454,12 @@
         "month": "4",
         "day": "16",
         "date": "4/16/14",
-        "combined": "protected-tro-elk- -tro-tahr-",
+        "combined": "protected-tro-deer- -tro-tahr-",
         "components": [
           {
             "control_number": 2014451591,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -25736,7 +25736,7 @@
         "month": "4",
         "day": "16",
         "date": "4/16/14",
-        "combined": "-tro-sheep- -tro-shelduck- protected-tro-elk- -tro-swamphen- -tro-chamois-",
+        "combined": "-tro-sheep- -tro-shelduck- protected-tro-deer- -tro-swamphen- -tro-chamois-",
         "components": [
           {
             "control_number": 2014451516,
@@ -25766,8 +25766,8 @@
           },
           {
             "control_number": 2014451516,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -25815,7 +25815,7 @@
         "month": "4",
         "day": "17",
         "date": "4/17/14",
-        "combined": "-fea-turkey- -fea-mallard- protected-fea-ostrich- -skp-muskrat- -skp-deer- protected-skp-elk- -skp-squirrel-",
+        "combined": "-fea-turkey- -fea-mallard- protected-fea-ostrich- -skp-muskrat- -skp-deer- protected-skp-deer- -skp-squirrel-",
         "components": [
           {
             "control_number": 2014456184,
@@ -25889,8 +25889,8 @@
           },
           {
             "control_number": 2014456184,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "SKP",
             "qty": 2,
             "unit": "no",
@@ -26414,12 +26414,12 @@
         "month": "4",
         "day": "22",
         "date": "4/22/14",
-        "combined": "protected-mea-elk- -mea-possum-",
+        "combined": "protected-mea-deer- -mea-possum-",
         "components": [
           {
             "control_number": 2014454193,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 5593,
             "unit": "kg",
@@ -26705,7 +26705,7 @@
         "month": "4",
         "day": "23",
         "date": "4/23/14",
-        "combined": "protected-tro-deer- -tro-sheep- protected-tro-elk-",
+        "combined": "protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014454935,
@@ -26740,8 +26740,8 @@
           },
           {
             "control_number": 2014454935,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -31161,12 +31161,12 @@
         "month": "5",
         "day": "16",
         "date": "5/16/14",
-        "combined": "protected-tro-elk- -tro-tahr-",
+        "combined": "protected-tro-deer- -tro-tahr-",
         "components": [
           {
             "control_number": 2014467638,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -31736,12 +31736,12 @@
         "month": "5",
         "day": "22",
         "date": "5/22/14",
-        "combined": "protected-hai-elk- -hai-deer-",
+        "combined": "protected-hai-deer- -hai-deer-",
         "components": [
           {
             "control_number": 2014470067,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HAI",
             "qty": 3000,
             "unit": "no",
@@ -34123,12 +34123,12 @@
         "month": "6",
         "day": "4",
         "date": "6/4/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014476458,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -34723,7 +34723,7 @@
         "month": "6",
         "day": "5",
         "date": "6/5/14",
-        "combined": "-tro-tahr- protected-tro-elk- -tro-sheep-",
+        "combined": "-tro-tahr- protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014477354,
@@ -34740,8 +34740,8 @@
           },
           {
             "control_number": 2014477354,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -35123,12 +35123,12 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "protected-tro-elk- -tro-sheep- -tro-chamois- -tro-tahr- protected-tro-deer-",
+        "combined": "protected-tro-deer- -tro-sheep- -tro-chamois- -tro-tahr-",
         "components": [
           {
             "control_number": 2014477793,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -35207,12 +35207,12 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "protected-hor-elk-",
+        "combined": "protected-hor-deer-",
         "components": [
           {
             "control_number": 2014477795,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HOR",
             "qty": 2,
             "unit": "no",
@@ -35256,12 +35256,12 @@
         "month": "6",
         "day": "6",
         "date": "6/6/14",
-        "combined": "protected-tro-elk- -tro-tahr- -tro-chamois- protected-tro-deer- -tro-sheep-",
+        "combined": "protected-tro-deer- -tro-tahr- -tro-chamois- -tro-sheep-",
         "components": [
           {
             "control_number": 2014477842,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -36894,12 +36894,12 @@
         "month": "6",
         "day": "11",
         "date": "6/11/14",
-        "combined": "protected-mea-elk-",
+        "combined": "protected-mea-deer-",
         "components": [
           {
             "control_number": 2014480212,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 3400,
             "unit": "kg",
@@ -37365,7 +37365,7 @@
         "month": "6",
         "day": "13",
         "date": "6/13/14",
-        "combined": "-tro-chamois- -tro-tahr- protected-tro-deer- protected-tro-elk- -tro-sheep-",
+        "combined": "-tro-chamois- -tro-tahr- protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014481304,
@@ -37413,8 +37413,8 @@
           },
           {
             "control_number": 2014481304,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -39105,12 +39105,12 @@
         "month": "6",
         "day": "25",
         "date": "6/25/14",
-        "combined": "protected-mea-elk-",
+        "combined": "protected-mea-deer-",
         "components": [
           {
             "control_number": 2014487103,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 1675,
             "unit": "kg",
@@ -42544,7 +42544,7 @@
         "month": "7",
         "day": "9",
         "date": "7/9/14",
-        "combined": "protected-tro-deer- -tro-rusa- protected-tro-elk- -tro-buffalo-",
+        "combined": "protected-tro-deer- -tro-rusa- -tro-buffalo-",
         "components": [
           {
             "control_number": 2014494078,
@@ -42579,8 +42579,8 @@
           },
           {
             "control_number": 2014494078,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -43877,12 +43877,12 @@
         "month": "7",
         "day": "17",
         "date": "7/17/14",
-        "combined": "protected-tro-elk- -tro-buffalo- protected-tro-deer- -tro-chital- -tro-blackbuck-",
+        "combined": "protected-tro-deer- -tro-buffalo- -tro-chital- -tro-blackbuck-",
         "components": [
           {
             "control_number": 2014498739,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -44253,12 +44253,12 @@
         "month": "7",
         "day": "21",
         "date": "7/21/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014500085,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -45223,12 +45223,12 @@
         "month": "7",
         "day": "23",
         "date": "7/23/14",
-        "combined": "protected-tro-elk- protected-tro-deer- -tro-chamois- -tro-tahr-",
+        "combined": "protected-tro-deer- -tro-chamois- -tro-tahr-",
         "components": [
           {
             "control_number": 2014501779,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -45294,7 +45294,7 @@
         "month": "7",
         "day": "23",
         "date": "7/23/14",
-        "combined": "protected-tro-deer- protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014501780,
@@ -45316,8 +45316,8 @@
           },
           {
             "control_number": 2014501780,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -45339,7 +45339,7 @@
         "month": "7",
         "day": "23",
         "date": "7/23/14",
-        "combined": "protected-tro-deer- protected-tro-elk- -tro-sheep-",
+        "combined": "protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014501781,
@@ -45361,8 +45361,8 @@
           },
           {
             "control_number": 2014501781,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -47098,7 +47098,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "protected-tro-deer- protected-tro-elk- -tro-tahr- -tro-chamois-",
+        "combined": "protected-tro-deer- -tro-tahr- -tro-chamois-",
         "components": [
           {
             "control_number": 2014508157,
@@ -47120,8 +47120,8 @@
           },
           {
             "control_number": 2014508157,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -47169,12 +47169,12 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "protected-tro-elk- protected-tro-deer-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014508221,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -47214,12 +47214,12 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014508250,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -47241,12 +47241,12 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014508253,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -47515,12 +47515,12 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014508152,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -47542,7 +47542,7 @@
         "month": "8",
         "day": "5",
         "date": "8/5/14",
-        "combined": "protected-tro-deer- -tro-boar- -tro-tahr- protected-tro-elk- -tro-deer-",
+        "combined": "protected-tro-deer- -tro-boar- -tro-tahr- -tro-deer-",
         "components": [
           {
             "control_number": 2014508155,
@@ -47590,10 +47590,10 @@
           },
           {
             "control_number": 2014508155,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
-            "qty": 2,
+            "qty": 4,
             "unit": "no",
             "origin": "NZ",
             "disp_date": "8/5/14",
@@ -47604,19 +47604,6 @@
               "",
               ""
             ],
-            "initiative": false
-          },
-          {
-            "control_number": 2014508155,
-            "specific": "",
-            "generic": "DEER",
-            "category": "TRO",
-            "qty": 2,
-            "unit": "no",
-            "origin": "NZ",
-            "disp_date": "8/5/14",
-            "categoryName": "Trophy",
-            "countryName": "New Zealand",
             "initiative": false
           }
         ]
@@ -48184,7 +48171,7 @@
         "month": "8",
         "day": "8",
         "date": "8/8/14",
-        "combined": "-tro-sheep- -tro-chamois- -tro-deer- protected-tro-deer- protected-tro-elk- -tro-tahr-",
+        "combined": "-tro-sheep- -tro-chamois- -tro-deer- protected-tro-deer- -tro-tahr-",
         "components": [
           {
             "control_number": 2014510943,
@@ -48245,8 +48232,8 @@
           },
           {
             "control_number": 2014510943,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -49154,7 +49141,7 @@
         "month": "8",
         "day": "15",
         "date": "8/15/14",
-        "combined": "protected-tro-deer- protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014514707,
@@ -49176,8 +49163,8 @@
           },
           {
             "control_number": 2014514707,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -50623,12 +50610,12 @@
         "month": "8",
         "day": "21",
         "date": "8/21/14",
-        "combined": "protected-hor-elk- protected-hor-deer- protected-tro-elk- protected-tro-deer-",
+        "combined": "protected-hor-deer- protected-tro-deer-",
         "components": [
           {
             "control_number": 2014517474,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HOR",
             "qty": 2,
             "unit": "no",
@@ -50663,8 +50650,8 @@
           },
           {
             "control_number": 2014517474,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -51486,12 +51473,12 @@
         "month": "8",
         "day": "25",
         "date": "8/25/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014518887,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -51759,12 +51746,12 @@
         "month": "8",
         "day": "26",
         "date": "8/26/14",
-        "combined": "protected-sku-elk- -sku-sheep- protected-tro-deer-",
+        "combined": "protected-sku-deer- -sku-sheep- protected-tro-deer-",
         "components": [
           {
             "control_number": 2014519561,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "SKU",
             "qty": 1,
             "unit": "no",
@@ -51817,12 +51804,12 @@
         "month": "8",
         "day": "26",
         "date": "8/26/14",
-        "combined": "protected-tro-elk- -tro-boar-",
+        "combined": "protected-tro-deer- -tro-boar-",
         "components": [
           {
             "control_number": 2014519396,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -51857,7 +51844,7 @@
         "month": "8",
         "day": "26",
         "date": "8/26/14",
-        "combined": "-tro-sheep- protected-tro-deer- protected-tro-elk-",
+        "combined": "-tro-sheep- protected-tro-deer-",
         "components": [
           {
             "control_number": 2014519285,
@@ -51892,8 +51879,8 @@
           },
           {
             "control_number": 2014519285,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -52738,12 +52725,12 @@
         "month": "8",
         "day": "28",
         "date": "8/28/14",
-        "combined": "protected-hor-elk- protected-hor-deer-",
+        "combined": "protected-hor-deer-",
         "components": [
           {
             "control_number": 2014520898,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HOR",
             "qty": 20,
             "unit": "no",
@@ -53552,7 +53539,7 @@
         "month": "8",
         "day": "29",
         "date": "8/29/14",
-        "combined": "protected-tro-deer- -tro-tahr- -tro-sheep- protected-tro-elk-",
+        "combined": "protected-tro-deer- -tro-tahr- -tro-sheep-",
         "components": [
           {
             "control_number": 2014521348,
@@ -53600,8 +53587,8 @@
           },
           {
             "control_number": 2014521348,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -53623,7 +53610,7 @@
         "month": "8",
         "day": "29",
         "date": "8/29/14",
-        "combined": "protected-tro-deer- protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014521344,
@@ -53645,8 +53632,8 @@
           },
           {
             "control_number": 2014521344,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -53926,12 +53913,12 @@
         "month": "9",
         "day": "2",
         "date": "9/2/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014522234,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -53975,12 +53962,12 @@
         "month": "9",
         "day": "2",
         "date": "9/2/14",
-        "combined": "protected-hor-elk- protected-sku-wolf-",
+        "combined": "protected-hor-deer- protected-sku-wolf-",
         "components": [
           {
             "control_number": 2014571200,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HOR",
             "qty": 9,
             "unit": "kg",
@@ -54292,7 +54279,7 @@
         "month": "9",
         "day": "4",
         "date": "9/4/14",
-        "combined": "-tro-tahr- -tro-chamois- protected-tro-elk-",
+        "combined": "-tro-tahr- -tro-chamois- protected-tro-deer-",
         "components": [
           {
             "control_number": 2014523958,
@@ -54322,8 +54309,8 @@
           },
           {
             "control_number": 2014523958,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -54603,12 +54590,12 @@
         "month": "9",
         "day": "5",
         "date": "9/5/14",
-        "combined": "protected-mea-elk-",
+        "combined": "protected-mea-deer-",
         "components": [
           {
             "control_number": 2014525022,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MEA",
             "qty": 12758,
             "unit": "kg",
@@ -57189,12 +57176,12 @@
         "month": "9",
         "day": "17",
         "date": "9/17/14",
-        "combined": "protected-tro-elk- -tro-chamois-",
+        "combined": "protected-tro-deer- -tro-chamois-",
         "components": [
           {
             "control_number": 2014530839,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -57582,12 +57569,12 @@
         "month": "9",
         "day": "19",
         "date": "9/19/14",
-        "combined": "protected-tro-elk- -tro-sheep-",
+        "combined": "protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014532673,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -57727,12 +57714,12 @@
         "month": "9",
         "day": "19",
         "date": "9/19/14",
-        "combined": "protected-tro-elk- protected-tro-deer-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014532677,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -58138,7 +58125,7 @@
         "month": "9",
         "day": "22",
         "date": "9/22/14",
-        "combined": "protected-tro-deer- protected-tro-elk- -tro-sheep- -tro-shelduck- -tro-chamois- -tro-tahr-",
+        "combined": "protected-tro-deer- -tro-sheep- -tro-shelduck- -tro-chamois- -tro-tahr-",
         "components": [
           {
             "control_number": 2014533088,
@@ -58160,8 +58147,8 @@
           },
           {
             "control_number": 2014533088,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -62280,12 +62267,12 @@
         "month": "10",
         "day": "10",
         "date": "10/10/14",
-        "combined": "protected-tro-elk- -tro-deer-",
+        "combined": "protected-tro-deer- -tro-deer-",
         "components": [
           {
             "control_number": 2014544829,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -63534,12 +63521,12 @@
         "month": "10",
         "day": "15",
         "date": "10/15/14",
-        "combined": "protected-tro-elk- -tro-tahr- -tro-chamois-",
+        "combined": "protected-tro-deer- -tro-tahr- -tro-chamois-",
         "components": [
           {
             "control_number": 2014546788,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -64703,7 +64690,7 @@
         "month": "10",
         "day": "20",
         "date": "10/20/14",
-        "combined": "-tro-boar- protected-tro-elk-",
+        "combined": "-tro-boar- protected-tro-deer-",
         "components": [
           {
             "control_number": 2014549341,
@@ -64720,8 +64707,8 @@
           },
           {
             "control_number": 2014549341,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 3,
             "unit": "no",
@@ -65322,7 +65309,7 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "-tro-tahr- -tro-goat- protected-tro-elk- -tro-sheep- protected-tro-deer-",
+        "combined": "-tro-tahr- -tro-goat- protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014550790,
@@ -65353,8 +65340,8 @@
           },
           {
             "control_number": 2014550790,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -65407,12 +65394,12 @@
         "month": "10",
         "day": "22",
         "date": "10/22/14",
-        "combined": "protected-hor-elk-",
+        "combined": "protected-hor-deer-",
         "components": [
           {
             "control_number": 2014550792,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "HOR",
             "qty": 4,
             "unit": "no",
@@ -68612,12 +68599,12 @@
         "month": "10",
         "day": "31",
         "date": "10/31/14",
-        "combined": "protected-med-elk-",
+        "combined": "protected-med-deer-",
         "components": [
           {
             "control_number": 2014571281,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "MED",
             "qty": 15,
             "unit": "kg",
@@ -69568,12 +69555,12 @@
         "month": "11",
         "day": "5",
         "date": "11/5/14",
-        "combined": "protected-tro-elk- protected-tro-deer- -tro-chamois- -tro-tahr-",
+        "combined": "protected-tro-deer- -tro-chamois- -tro-tahr-",
         "components": [
           {
             "control_number": 2014559503,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -69977,7 +69964,7 @@
         "month": "11",
         "day": "10",
         "date": "11/10/14",
-        "combined": "-tro-tahr- protected-tro-elk-",
+        "combined": "-tro-tahr- protected-tro-deer-",
         "components": [
           {
             "control_number": 2014562191,
@@ -69994,8 +69981,8 @@
           },
           {
             "control_number": 2014562191,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -71153,7 +71140,7 @@
         "month": "11",
         "day": "14",
         "date": "11/14/14",
-        "combined": "-tro-chamois- protected-tro-elk- -tro-tahr-",
+        "combined": "-tro-chamois- protected-tro-deer- -tro-tahr-",
         "components": [
           {
             "control_number": 2014564947,
@@ -71170,8 +71157,8 @@
           },
           {
             "control_number": 2014564947,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -71228,7 +71215,7 @@
         "month": "11",
         "day": "14",
         "date": "11/14/14",
-        "combined": "protected-tro-deer- -tro-tahr- protected-tro-elk-",
+        "combined": "protected-tro-deer- -tro-tahr-",
         "components": [
           {
             "control_number": 2014564646,
@@ -71263,8 +71250,8 @@
           },
           {
             "control_number": 2014564646,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -71400,7 +71387,7 @@
         "month": "11",
         "day": "17",
         "date": "11/17/14",
-        "combined": "-ski-sheep- -ski-goat- protected-ski-wolf- protected-ski-bear- -ski-elk- protected-ski-elk-",
+        "combined": "-ski-sheep- -ski-goat- protected-ski-wolf- protected-ski-bear- -ski-elk- protected-ski-deer-",
         "components": [
           {
             "control_number": 2014568146,
@@ -71479,8 +71466,8 @@
           },
           {
             "control_number": 2014568146,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "SKI",
             "qty": 3,
             "unit": "no",
@@ -77404,12 +77391,12 @@
         "month": "12",
         "day": "8",
         "date": "12/8/14",
-        "combined": "protected-tro-elk- protected-tro-deer-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014578765,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 6,
             "unit": "no",
@@ -79600,12 +79587,12 @@
         "month": "12",
         "day": "12",
         "date": "12/12/14",
-        "combined": "protected-tro-elk- -tro-sheep-",
+        "combined": "protected-tro-deer- -tro-sheep-",
         "components": [
           {
             "control_number": 2014582687,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -81622,7 +81609,7 @@
         "month": "12",
         "day": "22",
         "date": "12/22/14",
-        "combined": "-tro-sheep- -tro-swan- -tro-shelduck- -tro-swamphen- -tro-wallaby- -tro-chamois- -tro-boar- protected-tro-deer- protected-tro-elk- -tro-tahr-",
+        "combined": "-tro-sheep- -tro-swan- -tro-shelduck- -tro-swamphen- -tro-wallaby- -tro-chamois- -tro-boar- protected-tro-deer- -tro-tahr-",
         "components": [
           {
             "control_number": 2014589341,
@@ -81735,8 +81722,8 @@
           },
           {
             "control_number": 2014589341,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 1,
             "unit": "no",
@@ -81982,12 +81969,12 @@
         "month": "12",
         "day": "23",
         "date": "12/23/14",
-        "combined": "protected-tro-elk-",
+        "combined": "protected-tro-deer-",
         "components": [
           {
             "control_number": 2014590019,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "TRO",
             "qty": 2,
             "unit": "no",
@@ -82053,7 +82040,7 @@
         "month": "12",
         "day": "24",
         "date": "12/24/14",
-        "combined": "-ski-sheep- protected-ski-elk- -ski-elk- -ski-goat-",
+        "combined": "-ski-sheep- protected-ski-deer- -ski-elk- -ski-goat-",
         "components": [
           {
             "control_number": 2014590671,
@@ -82070,8 +82057,8 @@
           },
           {
             "control_number": 2014590671,
-            "specific": "",
-            "generic": "ELK",
+            "specific": "RED",
+            "generic": "DEER",
             "category": "SKI",
             "qty": 3,
             "unit": "no",

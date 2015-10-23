@@ -1,34 +1,46 @@
 @import "values";
 
-table.african-trophies {
+.african-trophies {
   font-family: @df-sans;
   max-width: 630px;
-  margin: auto;
+  border-top: 1px solid @df-border-gray;
+  border-bottom: 1px solid @df-border-gray;
+  margin: 20px 0;
+  padding: 20px 0;
 
-  tr {
-    border-bottom: 1px solid @df-light-gray;
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5px;
   }
 
-  th {
-    text-align: left;
+  .chatter {
+    padding-bottom: 15px;
+    text-align: center;
   }
 
-  td {
-    position: relative;
-    vertical-align: text-bottom;
-  }
-
-  .quantity {
-    text-align: right;
+  .tile {
+    background: @df-off-white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 630 / 5;
   }
 
   .silhouette {
     width: 80px;
-    // position: absolute;
     top: 0;
     left: 0;
-    // transform: translateX(-50%) translateY(-50%);
   }
 
+  .source {
+    padding-top: 20px;
+  }
+  .source, .credit {
+    font-size: 11.5px;
+    text-align: right;
+    color: @df-middle-gray;
+  }
 
 }

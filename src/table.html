@@ -8,31 +8,27 @@
   </head>
   <body>
 
-    <responsive-child>
-      <table class="african-trophies">
-        <thead>
-          <tr>
-            <th class="placeholder">
-            <th class="label">Animal
-            <th class="placeholder">
-        </thead>
-        <tbody>
-        <% csv.africanTrophies.slice(0, 10).forEach(function(row, i) { %>
+    <responsive-child class="african-trophies">
+
+     <div class="title">Top 10 African trophy animals</div>
+      <div class="chatter">2,214 African trophy animals were legally shipped through the Port of Seattle in 2014.
+        <br>These were the most popular:</div>
+
+      <% csv.africanTrophies.slice(0, 10).forEach(function(row, i) { %>
+
         <% row.label = row.label[0] + row.label.substr(1).toLowerCase() %>
-          <tr>
-            <td>
-            <% if (i % 2) { %>
-              <img class="silhouette" src="./assets/<%= row.label.toLowerCase() %>.png">
-            <% } %>
-            <td class="label"><%= row.label %>
-            <td class="quantity"><%= t.formatNumber(row.qty) %>
-            <td>
-            <% if (!(i % 2)) { %>
-              <img class="silhouette" src="./assets/<%= row.label.toLowerCase() %>.png">
-            <% } %>
-        <% }) %>
-        </tbody>
-      </table>
+
+        <div class="tile">
+          <img class="silhouette" src="./assets/<%= row.label.toLowerCase() %>.png">
+          <div><%= row.label %></div>
+          <div><%= t.formatNumber(row.qty) %></div>
+        </div>
+
+      <% }) %>
+
+      <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
+      <div class="credit">
+        Data analysis by EVAN BUSH and JUSTIN MAYO, Interactive by AUDREY CARLSEN / THE SEATTLE TIMES</div>
 
     </responsive-child>
 

@@ -94,9 +94,7 @@ var init = function(e) {
     e.target.classList.add("clicked");
   }
 
-  if (!window.navigator.userAgent.match(/i(phone|pad)/i)) {
-    focus.addEventListener("click", onClick);
-  }
+  focus.addEventListener("click", onClick);
   focus.addEventListener("touchstart", onClick);
 };
 

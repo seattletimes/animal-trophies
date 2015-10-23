@@ -83,7 +83,7 @@ var init = function(e) {
 
   //select shipment
 
-  focus.addEventListener("click", function(e) {
+  var onClick = function(e) {
     var month = e.target.getAttribute("data-month");
     var index = e.target.getAttribute("data-index");
     if (month === null || index === null) return;
@@ -92,8 +92,12 @@ var init = function(e) {
     var clicked = document.querySelector(".focus .box.clicked");
     if (clicked) clicked.classList.remove("clicked");
     e.target.classList.add("clicked");
-  });
+  }
 
+  if (!window.navigator.userAgent.match(/i(phone|pad)/i)) {
+    focus.addEventListener("click", onClick);
+  }
+  focus.addEventListener("touchstart", onClick);
 };
 
 var xhr = new XMLHttpRequest();

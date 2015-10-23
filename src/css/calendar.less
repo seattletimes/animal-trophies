@@ -26,6 +26,10 @@
 .legend {
   display: none;
 
+  .legend-label {
+    padding-top: 5px;
+  }
+
   .swatch {
     display: inline-block;
     width: 10px;
@@ -107,9 +111,10 @@
   .details {
     clear: both;
     .flex(1);
-    border-left: 1px solid @gray;
-    padding: 8px;
+    padding: 20px;
+    margin-left: 20px;
     overflow-y: auto;
+    background: lighten(@gray, 25%);
 
     @media @mobile {
       width: 100%;
@@ -128,15 +133,16 @@
     // opacity: .6;
 
     .tooltip {
-      border-bottom: 3px solid black;
-      background: white;
+      font-size: 14px;
+      border-bottom: 2px solid black;
+      background: lighten(@gray, 30%);
       position: absolute;
       bottom: calc(~"100% + 4px");
       left: 50%;
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
       white-space: nowrap;
-      padding: 4px;
+      padding: 3px 4px 2px 4px;
       display: none;
     }
 

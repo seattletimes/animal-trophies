@@ -3,22 +3,19 @@
 .details {
 
   .header {
-    text-transform: uppercase;
-    font-size: 12px;
-    background: @df-dark-gray;
-    color: white;
-    padding: 7px 15px 5px 15px;
+    font-size: 14px;  
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid darken(@gray, 30%);
 
-    .close {
-      float: right;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
+    .indicator {
+      padding-right: 3px;
     }
   }
 
   .components {
     // overflow-y: auto;
+    padding: 8px 10px;
     max-height: 400px;
     .display-flex();
     .flex-wrap(wrap);
@@ -29,19 +26,11 @@
   }
 
   .component {
-    border-right: 1px solid @df-light-gray;
     .flex(0 0 33%);
+    padding-bottom: 8px;
 
     @media @mobile {
       .flex(0 0 50%);
-    }
-
-    .contents {
-      padding: 10px;
-
-      @media @mobile {
-        padding: 4px;
-      }
     }
 
     .swatch {
@@ -54,14 +43,21 @@
     .name {
       display: inline;
       font-weight: bold;
-      text-transform: uppercase;
       font-size: 11px;
+    }
+
+    .uppercase {
+      text-transform: uppercase;
     }
 
     .category {
       font-weight: normal;
-      text-transform: lowercase;
+      font-size: 12px;
       font-style: italic;
+    }
+
+    .manifest {
+      font-size: 12px;
     }
   }
 }

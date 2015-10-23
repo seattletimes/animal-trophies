@@ -1,5 +1,7 @@
+
 <div class="header">
-  <div class="date"><%= data.date %> &mdash; Shipment #<%= data.number %></div>
+  <div class="date"><strong><i class="fa indicator fa-long-arrow-left"></i> Shipment #<%= data.number %></strong>  (<%= data.date %>)
+  </div>
 </div>
 
 <div class="components">
@@ -14,12 +16,12 @@
       "></div>
       <div class="name">
         <% if (s.generic) { %>
-        <span><%= s.specific %> <%= s.generic %> </span>
+        <span class="uppercase"><%= s.specific %> <%= s.generic %> </span>
         <% } else { %>
         <span>Unknown </span>
         <% } %>
         <% if (s.categoryName) { %>
-        <span class="category">(<%= s.categoryName %>)</span>
+        <div class="category"><%= s.categoryName %></div>
         <% } %>
       </div>
       <div class="manifest">

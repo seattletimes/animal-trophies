@@ -22,6 +22,16 @@
   float: left;
 }
 
+.legend {
+  display: none;
+
+  .swatch {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+  }
+}
+
 .calendar {
   position: relative;
   .display-flex();
@@ -70,6 +80,13 @@
 
   @media @mobile {
     display: block;
+  }
+
+  .legend {
+    display: block;
+    clear: both;
+    font-size: 12px;
+    padding-top: 5px;
   }
 
   .month-name {

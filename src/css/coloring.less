@@ -1,3 +1,11 @@
+.key {
+  display: none;
+}
+
+.swatch.none {
+  background: lighten(@gray, 10%);
+}
+
 [data-filter=protected] {
   .swatch.protected {
     display: inline-block;
@@ -14,6 +22,10 @@
   .toggle.protected {
     color: white;
     font-weight: bold;
+  }
+
+  .key.protected {
+    display: block;
   }
 }
 
@@ -33,6 +45,10 @@
   .toggle.trophy {
     color: white;
     font-weight: bold;
+  }
+
+  .key.trophy {
+    display: block;
   }
 }
 
@@ -57,6 +73,10 @@
     color: white;
     font-weight: bold;
   }
+
+  .key.both {
+    display: block;
+  }
 }
 
 [data-filter=initiative] {
@@ -75,6 +95,10 @@
   .toggle.initiative {
     color: white;
     font-weight: bold;
+  }
+
+  .key.initiative {
+    display: block;
   }
 }
 

@@ -10,6 +10,19 @@
 
     .indicator {
       padding-right: 3px;
+
+      &.left {
+        @media @mobile {
+          display: none;
+        }
+      }
+      &.up {
+        display: none;
+
+        @media @mobile {
+          display: inline-block;
+        }
+      }
     }
   }
 

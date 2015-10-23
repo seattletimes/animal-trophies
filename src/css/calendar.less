@@ -15,6 +15,10 @@
   &.long {
     display: none;
   }
+
+  @media @mobile {
+    font-size: 11px;
+  }
 }
 
 .box {
@@ -40,6 +44,7 @@
 
 .calendar {
   position: relative;
+  text-align: center;
   .display-flex();
 
   @media @mobile {
@@ -60,8 +65,9 @@
       background: darken(@gray, 10%);
     }
 
-    @media @mobile {
-      width: 100% / 4;
+    @media @tablet {
+      width: 100% / 7;
+      padding: 5px;
     }
 
     .month-size {
@@ -72,6 +78,11 @@
   .box {
     height: 4px;
     width: 4px;
+
+    @media @tablet {
+      height: 2px;
+      width: 2px;
+    }
   }
 
   .tooltip {
@@ -86,6 +97,7 @@
 
   @media @mobile {
     display: block;
+    padding: 8px 0;
   }
 
   .legend {
@@ -118,9 +130,11 @@
 
     @media @mobile {
       width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+      padding: 10px 5px;
       border-left: none;
       max-height: 300px;
-      background-image: linear-gradient(to bottom, white, white 250px, #EEE 300px)
     }
   }
 

@@ -1,3 +1,19 @@
+<div class="mobile legend">
+  <div class="legend-label"><em><strong>Shipment contains:</strong></em></div>
+  <div class="protected key"><div class="protected swatch"></div> Protected animals</div>
+  <div class="protected key"><div class="none swatch"></div> No protected animals</div>
+
+  <div class="trophy key"><div class="trophy swatch"></div> Trophy animals</div>
+  <div class="trophy key"><div class="none swatch"></div> No trophy animals</div>
+
+  <div class="both key"><div class="both swatch"></div> Protected trophy animals</div>
+  <div class="both key"><div class="trophy swatch"></div> Other trophy animals</div>
+  <div class="both key"><div class="none swatch"></div> No trophy animals</div>
+
+  <div class="initiative key"><div class="initiative swatch"></div> Animals included in I-1401</div>
+  <div class="initiative key"><div class="none swatch"></div> No animals included in I-1401</div>
+</div>
+
 <% for (var m in data) { var month = data[m];%>
   <div class="month-group <% if (m == 1) { %> selected <% } %>" data-month="<%= m %>">
     <div class="month">

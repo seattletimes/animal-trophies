@@ -13,6 +13,10 @@
     font-size: 24px;
     text-align: center;
     padding-bottom: 5px;
+
+    @media @mobile {
+      font-size: 22px;
+    }
   }
 
   .chatter {
@@ -29,22 +33,30 @@
     display: inline-block;
     text-align: center;
     padding: 15px;
+    padding-top: 0;
     width: 630 / 5;
     margin: 5px;
     border: 1px solid @df-light-gray;
+    position: relative;
+
+    @media @mobile {
+      padding-top: 0;
+    }
   }
 
   .silhouette {
     width: 80px;
     top: 0;
     left: 0;
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .rank {
+    position: relative;
+    top: 10px;
     margin: auto;
     font-size: 12px;
-    background: @df-border-gray;
+    background: @df-middle-gray;
     color: white;
     border-radius: 50%;
     width: 24px;
@@ -52,13 +64,22 @@
     line-height: 26px;
     display: inline-block;
     font-weight: bold;
+
+    @media @mobile {
+      left: 10px;
+      position: absolute;
+
+      &.Gemsbok, &.Warthog, &.Wildebeest, &.Zebra, &.Hartebeest {
+        right: 10px;
+        left: auto;
+      }
+    }
   }
 
   .name {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
-    padding-top: 8px;
   }
 
   .number {
@@ -68,7 +89,8 @@
   }
 
   .source {
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 2px;
   }
   .source, .credit {
     font-size: 11.5px;

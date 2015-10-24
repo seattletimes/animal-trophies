@@ -20,12 +20,14 @@
           <% row.label = row.label[0] + row.label.substr(1).toLowerCase() %>
 
           <div class="tile">
+            <div class="rank <%= row.label %>"><%= i + 1 %></div>
+
             <div>
               <img class="silhouette" src="./assets/<%= row.label.toLowerCase() %>.png">
             </div>
-            <div class="rank"><%= i + 1 %></div>
+            
             <div class="name"><%= row.label %></div>
-            <div class="number"><%= t.formatNumber(row.qty) %></div>
+            <div class="number"> <% if (i == 0) { %> Number: <% } %><%= t.formatNumber(row.qty) %></div>
           </div>
 
         <% }) %>
@@ -33,7 +35,7 @@
 
       <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
       <div class="credit">
-        Data analysis by EVAN BUSH and JUSTIN MAYO, Interactive by AUDREY CARLSEN / THE SEATTLE TIMES</div>
+        Data analysis by EVAN BUSH and JUSTIN MAYO, graphic by AUDREY CARLSEN / THE SEATTLE TIMES</div>
 
     </responsive-child>
 

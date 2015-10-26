@@ -11,65 +11,65 @@
   </head>
   <body ng-app="animal-shipments">
 
-    <responsive-child class="outmost">
+    <responsive-child>
+      <div class="outmost">
+        <div class="interactive" data-filter="protected">
 
-      <div class="interactive" data-filter="protected">
+          <div class="title">Wildlife shipped through Seattle</div>
+          <div class="top chatter">The killing of Cecil the lion in Africa last summer sparked worldwide outrage. But it’s common for Americans to hunt animals in foreign lands and ship them home. Last year, almost 500 shipments containing protected or endangered animals were sent legally through Seattle, and more than half of those included trophy animals.</div>
 
-        <div class="title">Wildlife shipped through Seattle</div>
-        <div class="top chatter">The killing of Cecil the lion in Africa last summer sparked worldwide outrage. But it’s common for Americans to hunt animals in foreign lands and ship them home. Last year, almost 500 shipments containing protected or endangered animals were sent through Seattle, and more than half of those included trophy animals.</div>
+          <div class="explainer">
+            <div class="toggle-box">
+              <div>
+                <div class="left arrow"><i class="fa fa-chevron-left"></i></div>
+                <div class="protected toggle selected" data-set-filter="protected">1</div>
+                <div class="trophy toggle" data-set-filter="trophies">2</div>
+                <div class="both toggle" data-set-filter="both">3</div>
+                <div class="initiative toggle" data-set-filter="initiative">4</div>
+                <div class="right arrow"><i class="fa fa-chevron-right"></i></div>
+              </div>
+            </div>
 
-        <div class="explainer">
-          <div class="toggle-box">
-            <div>
-              <div class="left arrow"><i class="fa fa-chevron-left"></i></div>
-              <div class="protected toggle selected" data-set-filter="protected">1</div>
-              <div class="trophy toggle" data-set-filter="trophies">2</div>
-              <div class="both toggle" data-set-filter="both">3</div>
-              <div class="initiative toggle" data-set-filter="initiative">4</div>
-              <div class="right arrow"><i class="fa fa-chevron-right"></i></div>
+            <div class="chatter protected">
+              <div class="subhed">Threatened by trade</div>
+              <p>An international treaty called CITES protects thousands of threatened animals and plants by regulating their trade.
+              <p>Last year, <strong>27%</strong> of wildlife shipments through the Port of Seattle included at least one animal considered to be in danger of extinction (<a target="_blank" href="http://checklist.cites.org/#/en/search/cites_appendices%5B%5D=I&output_layout=alphabetical&level_of_listing=0&show_synonyms=1&show_author=1&show_english=1&show_spanish=1&show_french=1&scientific_name=&page=1&per_page=20">CITES Appendix I</a>) or in danger of extinction if trade is not controlled (<a target="_blank" href="http://checklist.cites.org/#/en/search/cites_appendices%5B%5D=I&cites_appendices%5B%5D=II&output_layout=alphabetical&level_of_listing=0&show_synonyms=1&show_author=1&show_english=1&show_spanish=1&show_french=1&scientific_name=&page=1&per_page=20">CITES Appendix II</a>).
+            </div>
+
+            <div class="chatter trophies">
+              <div class="subhed">On display</div>
+              <p>Many wildlife shipments include animal parts and products, such as meat, leather or shell jewelry. However, other shipments include trophy animals &mdash; whole game animals hunted and intended for display.
+              <p>Last year, <strong>24%</strong> of wildlife shipments through the Port of Seattle contained at least one trophy animal. Most were hunted in Africa.
+              <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
+            </div>
+
+            <div class="chatter both">
+              <div class="subhed">Hunting the protected</div>
+              <p>Of the trophy animals shipped through the Port of Seattle last year, <strong>63%</strong> were protected by the CITES treaty and allowed to be legally imported with proper documentation.
+                <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
+            </div>
+
+            <div class="chatter initiative">
+              <div class="subhed">Proposed statewide legislation</div>
+              <p>This November, Washington voters will consider an initiative (I-1401) banning most sales of the following animals (including parts and products): elephants, rhinos, lions, tigers, leopards, cheetahs, pangolins, marine turtles, sharks and rays.
+              <p>Last year, <strong>4%</strong> of wildlife shipments through the Port of Seattle contained at least one of these animals.
+                <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
             </div>
           </div>
 
-          <div class="chatter protected">
-            <div class="subhed">Threatened by trade</div>
-            <p>An international treaty called CITES protects thousands of threatened animals and plants by regulating their trade.
-            <p>Last year, <strong>27%</strong> of wildlife shipments through the Port of Seattle included at least one animal considered to be in danger of extinction (<a target="_blank" href="http://checklist.cites.org/#/en/search/cites_appendices%5B%5D=I&output_layout=alphabetical&level_of_listing=0&show_synonyms=1&show_author=1&show_english=1&show_spanish=1&show_french=1&scientific_name=&page=1&per_page=20">CITES Appendix I</a>) or in danger of extinction if trade is not controlled (<a target="_blank" href="http://checklist.cites.org/#/en/search/cites_appendices%5B%5D=I&cites_appendices%5B%5D=II&output_layout=alphabetical&level_of_listing=0&show_synonyms=1&show_author=1&show_english=1&show_spanish=1&show_french=1&scientific_name=&page=1&per_page=20">CITES Appendix II</a>).
-              <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
-          </div>
+          <div class="instructions">Each circle represents a legal wildlife shipment imported through Seattle and approved by the U.S. Fish and Wildlife Service in 2014. Click a circle to see what was in that shipment:</div>
 
-          <div class="chatter trophies">
-            <div class="subhed">On display</div>
-            <p>Many wildlife shipments include animal parts and products, such as meat, leather or shell jewelry. However, other shipments include trophy animals &mdash; whole game animals hunted and intended for display.
-            <p>Last year, <strong>24%</strong> of wildlife shipments through the Port of Seattle contained at least one trophy animal. Most were hunted in Africa.
-            <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
-          </div>
+          <div class="calendar"></div>
 
-          <div class="chatter both">
-            <div class="subhed">Hunting the protected</div>
-            <p>Of the trophy animals shipped through the Port of Seattle last year, <strong>63%</strong> were protected by the CITES treaty. Only those with proper documentation are allowed to be legally imported.
-              <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
-          </div>
-
-          <div class="chatter initiative">
-            <div class="subhed">Proposed statewide legislation</div>
-            <p>This November, Washington voters will consider an initiative (I-1401) banning most sales of the following animals (including parts and products): elephants, rhinos, lions, tigers, leopards, cheetahs, pangolins, marine turtles, sharks and rays.
-            <p>Last year, <strong>4%</strong> of wildlife shipments through the Port of Seattle contained at least one of these animals.
-              <p class="mobile-note"><i class="fa fa-angle-double-down"></i> <em>Explore below</em>
+          <div class="focus">
+            <div class="boxes"></div>
+            <div class="details"></div>
           </div>
         </div>
 
-        <div class="instructions">Each circle represents a legal wildlife shipment imported through Seattle and approved by the U.S. Fish and Wildlife Service in 2014. Click a circle to see what was in that shipment:</div>
-
-        <div class="calendar"></div>
-
-        <div class="focus">
-          <div class="boxes"></div>
-          <div class="details"></div>
-        </div>
+        <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
+        <div class="credit">AUDREY CARLSEN and THOMAS WILBURN / THE SEATTLE TIMES</div>
       </div>
-
-      <div class="source"><em>Source: U.S. Fish and Wildlife Service</em></div>
-      <div class="credit">AUDREY CARLSEN and THOMAS WILBURN / THE SEATTLE TIMES</div>
 
     </responsive-child>
 
